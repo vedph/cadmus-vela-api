@@ -1,0 +1,1501 @@
+{
+  "facets": [
+    {
+      "id": "graffiti",
+      "label": "graffiti",
+      "description": "The graffiti facet.",
+      "colorKey": "EBD586",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.external-ids",
+          "name": "external IDs",
+          "description": "External identifiers.",
+          "isRequired": true,
+          "colorKey": "2F4F4F",
+          "groupKey": "general",
+          "sortKey": "a"
+        },
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "metadata",
+          "description": "Generic metadata.",
+          "colorKey": "8B4513",
+          "groupKey": "general",
+          "sortKey": "b"
+        },
+        {
+          "typeId": "it.vedph.geo.asserted-locations",
+          "name": "location",
+          "description": "Geographic location(s).",
+          "isRequired": true,
+          "colorKey": "006400",
+          "groupKey": "general",
+          "sortKey": "d"
+        },
+        {
+          "typeId": "it.vedph.historical-date",
+          "name": "date",
+          "description": "Date.",
+          "isRequired": true,
+          "colorKey": "000080",
+          "groupKey": "general",
+          "sortKey": "e"
+        },
+        {
+          "typeId": "it.vedph.epigraphy.support",
+          "name": "support",
+          "description": "Material support.",
+          "colorKey": "B03060",
+          "groupKey": "epigraphy",
+          "sortKey": "f"
+        },
+        {
+          "typeId": "it.vedph.epigraphy.writing",
+          "name": "writing",
+          "description": "Writing.",
+          "colorKey": "FA0000",
+          "groupKey": "epigraphy",
+          "sortKey": "g"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "name": "categories",
+          "description": "Item's categories.",
+          "isRequired": true,
+          "colorKey": "00CED1",
+          "groupKey": "classification",
+          "sortKey": "h"
+        },
+        {
+          "typeId": "it.vedph.index-keywords",
+          "name": "index keywords",
+          "description": "Item's index keywords.",
+          "colorKey": "FFA500",
+          "groupKey": "classification",
+          "sortKey": "i"
+        },
+        {
+          "typeId": "it.vedph.comment",
+          "name": "comment",
+          "description": "Comment.",
+          "colorKey": "FEFE00",
+          "groupKey": "comment",
+          "sortKey": "j"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A free text note.",
+          "colorKey": "00FE00",
+          "groupKey": "comment",
+          "sortKey": "k"
+        },
+        {
+          "typeId": "it.vedph.doc-references",
+          "name": "references",
+          "description": "Documental references.",
+          "colorKey": "00FA90",
+          "groupKey": "references",
+          "sortKey": "l"
+        },
+        {
+          "typeId": "it.vedph.bibliography",
+          "name": "bibliography",
+          "description": "Bibliography.",
+          "colorKey": "0000FE",
+          "groupKey": "references",
+          "sortKey": "m"
+        },
+        {
+          "typeId": "it.vedph.token-text",
+          "roleId": "base-text",
+          "name": "text",
+          "description": "Item's token-based text.",
+          "colorKey": "D8BFD8",
+          "groupKey": "text",
+          "sortKey": "n"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.comment",
+          "name": "comments",
+          "description": "Comments on text.",
+          "colorKey": "FE00FE",
+          "groupKey": "text",
+          "sortKey": "o"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.chronology",
+          "name": "chronology",
+          "description": "Chronological indications in text.",
+          "colorKey": "DDA0DD",
+          "groupKey": "text",
+          "sortKey": "t"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.apparatus",
+          "name": "apparatus",
+          "description": "Critical apparatus.",
+          "colorKey": "1E90FF",
+          "groupKey": "text",
+          "sortKey": "p"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.orthography",
+          "name": "orthography",
+          "description": "Standard orthography.",
+          "colorKey": "F0E68C",
+          "groupKey": "text",
+          "sortKey": "q"
+        },
+        {
+          "typeId": "it.vedph.token-text-layer",
+          "roleId": "fr.it.vedph.epigraphy.ligatures",
+          "name": "ligatures",
+          "description": "Ligatures.",
+          "colorKey": "E0C404",
+          "groupKey": "text",
+          "sortKey": "r"
+        }
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "id": 1,
+      "label": "warn",
+      "description": "The item has warnings.",
+      "colorKey": "FFD95C"
+    },
+    {
+      "id": 2,
+      "label": "complete",
+      "description": "The item is complete.",
+      "colorKey": "49D6CD"
+    },
+    {
+      "id": 4,
+      "label": "revised",
+      "description": "The item is revised.",
+      "colorKey": "49D697"
+    }
+  ],
+  "index": {
+    "writer": {
+      "id": "item-index-writer.mysql"
+    },
+    "reader": {
+      "id": "item-index-reader.mysql"
+    }
+  },
+  "graph": {
+    "repository": {
+      "id": "graph-repository.sql-my"
+    }
+  },
+  "thesauri": [
+    {
+      "id": "model-types@en",
+      "entries": [
+        {
+          "id": "it.vedph.bibliography",
+          "value": "bibliography"
+        },
+        {
+          "id": "it.vedph.categories",
+          "value": "categories"
+        },
+        {
+          "id": "it.vedph.comment",
+          "value": "comment"
+        },
+        {
+          "id": "it.vedph.doc-references",
+          "value": "references"
+        },
+        {
+          "id": "it.vedph.epigraphy.support",
+          "value": "epi support"
+        },
+        {
+          "id": "it.vedph.epigraphy.writing",
+          "value": "epi writing"
+        },
+        {
+          "id": "it.vedph.external-ids",
+          "value": "external IDs"
+        },
+        {
+          "id": "it.vedph.geo.asserted-toponyms",
+          "value": "toponyms"
+        },
+        {
+          "id": "it.vedph.geo.asserted-locations",
+          "value": "locations"
+        },
+        {
+          "id": "it.vedph.historical-date",
+          "value": "date"
+        },
+        {
+          "id": "it.vedph.index-keywords",
+          "value": "index keywords"
+        },
+        {
+          "id": "it.vedph.metadata",
+          "value": "metadata"
+        },
+        {
+          "id": "it.vedph.names",
+          "value": "names"
+        },
+        {
+          "id": "it.vedph.note",
+          "value": "note"
+        },
+        {
+          "id": "it.vedph.token-text",
+          "value": "text"
+        },
+        {
+          "id": "it.vedph.token-text-layer",
+          "value": "text layer"
+        },
+        {
+          "id": "fr.it.vedph.apparatus",
+          "value": "apparatus fr."
+        },
+        {
+          "id": "fr.it.vedph.comment",
+          "value": "comment fr."
+        },
+        {
+          "id": "fr.it.vedph.epigraphy.ligatures",
+          "value": "ligatures fr."
+        },
+        {
+          "id": "fr.it.vedph.orthography",
+          "value": "orthography fr."
+        }
+      ]
+    },
+    {
+      "id": "bibliography-author-roles@en",
+      "entries": [
+        {
+          "id": "ed",
+          "value": "editor"
+        },
+        {
+          "id": "tr",
+          "value": "translator"
+        },
+        {
+          "id": "org",
+          "value": "organization"
+        }
+      ]
+    },
+    {
+      "id": "bibliography-languages@en",
+      "targetId": "languages"
+    },
+    {
+      "id": "bibliography-types@en",
+      "entries": [
+        {
+          "id": "book",
+          "value": "book"
+        },
+        {
+          "id": "article-j",
+          "value": "journal article"
+        },
+        {
+          "id": "article-b",
+          "value": "book article"
+        },
+        {
+          "id": "article-p",
+          "value": "proceedings article"
+        },
+        {
+          "id": "review",
+          "value": "review"
+        },
+        {
+          "id": "ebook",
+          "value": "e-book"
+        },
+        {
+          "id": "site",
+          "value": "web site"
+        },
+        {
+          "id": "magazine",
+          "value": "magazine"
+        },
+        {
+          "id": "newspaper",
+          "value": "newspaper"
+        },
+        {
+          "id": "tweet",
+          "value": "tweet"
+        }
+      ]
+    },
+    {
+      "id": "categories@en",
+      "entries": [
+        {
+          "id": "cnt",
+          "value": "content"
+        },
+        {
+          "id": "cnt.funerary",
+          "value": "content: funerary"
+        },
+        {
+          "id": "cnt.signature",
+          "value": "content: signature"
+        },
+        {
+          "id": "cnt.celebratory",
+          "value": "content: celebratory"
+        },
+        {
+          "id": "cnt.exhortative",
+          "value": "content: exhortative"
+        },
+        {
+          "id": "cnt.didactic",
+          "value": "content: didactic"
+        },
+        {
+          "id": "cnt.initials",
+          "value": "content: initials name"
+        },
+        {
+          "id": "cnt.sign",
+          "value": "content: sign"
+        },
+        {
+          "id": "cnt.signage",
+          "value": "content: signage"
+        },
+        {
+          "id": "cnt.citation",
+          "value": "content: citation"
+        },
+        {
+          "id": "cnt.defame",
+          "value": "content: defame"
+        },
+        {
+          "id": "cnt.sport",
+          "value": "content: sport"
+        },
+        {
+          "id": "cnt.prostitution",
+          "value": "content: prostitution"
+        },
+        {
+          "id": "cnt.politics",
+          "value": "content: politics"
+        },
+        {
+          "id": "cnt.religious",
+          "value": "content: religious"
+        },
+        {
+          "id": "cnt.prayer",
+          "value": "content: prayer"
+        },
+        {
+          "id": "cnt.exvoto",
+          "value": "content: ex voto"
+        },
+        {
+          "id": "cnt.love",
+          "value": "content: love"
+        },
+        {
+          "id": "cnt.prose",
+          "value": "content: prose"
+        },
+        {
+          "id": "cnt.poetry",
+          "value": "content: poetry"
+        },
+        {
+          "id": "cnt.speakers",
+          "value": "content: speakers"
+        },
+        {
+          "id": "cnt.insult",
+          "value": "content: insult"
+        },
+        {
+          "id": "cnt.swearing",
+          "value": "content: swearing"
+        },
+        {
+          "id": "fig",
+          "value": "figurative"
+        },
+        {
+          "id": "fig.animal",
+          "value": "figurative: animal"
+        },
+        {
+          "id": "fig.flag",
+          "value": "figurative: flag"
+        },
+        {
+          "id": "fig.coat",
+          "value": "figurative: coat of arms"
+        },
+        {
+          "id": "fig.armor",
+          "value": "figurative: armor"
+        },
+        {
+          "id": "fig.weapon",
+          "value": "figurative: weapon"
+        },
+        {
+          "id": "fig.game",
+          "value": "figurative: game"
+        },
+        {
+          "id": "fig.plant",
+          "value": "figurative: plant"
+        },
+        {
+          "id": "fig.boat",
+          "value": "figurative: boat"
+        },
+        {
+          "id": "fig.geometric",
+          "value": "figurative: geometric"
+        },
+        {
+          "id": "fig.landscape",
+          "value": "figurative: landscape"
+        },
+        {
+          "id": "fig.architect",
+          "value": "figurative: architectures"
+        },
+        {
+          "id": "fig.heart",
+          "value": "figurative: heart"
+        },
+        {
+          "id": "fig.cross",
+          "value": "figurative: cross"
+        },
+        {
+          "id": "fig.human",
+          "value": "figurative: human figure"
+        },
+        {
+          "id": "fig.bust",
+          "value": "figurative: bust"
+        },
+        {
+          "id": "fig.face",
+          "value": "figurative: face"
+        },
+        {
+          "id": "fig.erotic",
+          "value": "figurative: erotic"
+        },
+        {
+          "id": "fig.anatomical",
+          "value": "figurative: anatomical parts"
+        },
+        {
+          "id": "fig.arrow",
+          "value": "figurative: arrow"
+        },
+        {
+          "id": "fig.tool",
+          "value": "figurative: tool"
+        },
+        {
+          "id": "fig.signboard",
+          "value": "figurative: signboard"
+        },
+        {
+          "id": "fig.symbol",
+          "value": "figurative: symbol"
+        }
+      ]
+    },
+    {
+      "id": "comment-categories@en",
+      "targetId": "categories"
+    },
+    {
+      "id": "epi-ligature-types@en",
+      "entries": [
+        {
+          "id": "joint",
+          "value": "joint"
+        },
+        {
+          "id": "inversion",
+          "value": "inversion"
+        },
+        {
+          "id": "overlap",
+          "value": "overlap"
+        },
+        {
+          "id": "replacement",
+          "value": "replacement"
+        },
+        {
+          "id": "graft",
+          "value": "graft"
+        },
+        {
+          "id": "inclusion",
+          "value": "inclusion"
+        },
+        {
+          "id": "connection",
+          "value": "connection"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-functions@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "home",
+          "value": "home"
+        },
+        {
+          "id": "church",
+          "value": "church"
+        },
+        {
+          "id": "cloister",
+          "value": "cloister"
+        },
+        {
+          "id": "condominium",
+          "value": "condominium"
+        },
+        {
+          "id": "colannade",
+          "value": "colonnade"
+        },
+        {
+          "id": "convent",
+          "value": "convent"
+        },
+        {
+          "id": "warehouse",
+          "value": "warehouse"
+        },
+        {
+          "id": "palace",
+          "value": "palace"
+        },
+        {
+          "id": "well",
+          "value": "well"
+        },
+        {
+          "id": "prison",
+          "value": "prison"
+        },
+        {
+          "id": "street",
+          "value": "street"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-materials@en",
+      "entries": [
+        {
+          "id": "concrete",
+          "value": "concrete"
+        },
+        {
+          "id": "plaster",
+          "value": "plaster"
+        },
+        {
+          "id": "wood",
+          "value": "wood"
+        },
+        {
+          "id": "stone",
+          "value": "stone"
+        },
+        {
+          "id": "brick",
+          "value": "brick"
+        },
+        {
+          "id": "metal",
+          "value": "metal"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-object-types@en",
+      "entries": [
+        {
+          "id": "street",
+          "value": "strada"
+        },
+        {
+          "id": "bridge",
+          "value": "ponte"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-types@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "balustrade",
+          "value": "balustrade"
+        },
+        {
+          "id": "sill",
+          "value": "still"
+        },
+        {
+          "id": "column",
+          "value": "column"
+        },
+        {
+          "id": "step",
+          "value": "step"
+        },
+        {
+          "id": "tombstone",
+          "value": "tombstone"
+        },
+        {
+          "id": "eccl-furniture",
+          "value": "ecclesiastical furniture"
+        },
+        {
+          "id": "wall",
+          "value": "wall"
+        },
+        {
+          "id": "bench",
+          "value": "bench"
+        },
+        {
+          "id": "floor",
+          "value": "floor"
+        },
+        {
+          "id": "pillar",
+          "value": "pillar"
+        },
+        {
+          "id": "door",
+          "value": "door"
+        },
+        {
+          "id": "well",
+          "value": "well"
+        },
+        {
+          "id": "jamb",
+          "value": "jamb"
+        },
+        {
+          "id": "street",
+          "value": "street"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-fig-types@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "ani",
+          "value": "animal"
+        },
+        {
+          "id": "ani.-",
+          "value": "animal"
+        },
+        {
+          "id": "obj",
+          "value": "object"
+        },
+        {
+          "id": "obj.-",
+          "value": "object"
+        },
+        {
+          "id": "obj.flag",
+          "value": "object: flag"
+        },
+        {
+          "id": "obj.coat",
+          "value": "object: coat of arms"
+        },
+        {
+          "id": "obj.armor",
+          "value": "object: armor"
+        },
+        {
+          "id": "obj.weapon",
+          "value": "object: weapon"
+        },
+        {
+          "id": "obj.tool",
+          "value": "object: tool"
+        },
+        {
+          "id": "game",
+          "value": "game"
+        },
+        {
+          "id": "plant",
+          "value": "plant"
+        },
+        {
+          "id": "boat",
+          "value": "boat"
+        },
+        {
+          "id": "geometric",
+          "value": "geometric"
+        },
+        {
+          "id": "landscape",
+          "value": "landscape"
+        },
+        {
+          "id": "architecture",
+          "value": "architectures"
+        },
+        {
+          "id": "sym",
+          "value": "symbol"
+        },
+        {
+          "id": "sym.-",
+          "value": "symbol: heart"
+        },
+        {
+          "id": "sym.cross",
+          "value": "symbol: cross"
+        },
+        {
+          "id": "hum",
+          "value": "human"
+        },
+        {
+          "id": "hum.-",
+          "value": "human figure"
+        },
+        {
+          "id": "hum.bust",
+          "value": "human: bust"
+        },
+        {
+          "id": "hum.face",
+          "value": "human: face"
+        },
+        {
+          "id": "hum.anatomical",
+          "value": "human: anatomical parts"
+        },
+        {
+          "id": "erotic",
+          "value": "erotic"
+        },
+        {
+          "id": "arrow",
+          "value": "arrow"
+        },
+        {
+          "id": "signboard",
+          "value": "signboard"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-frame-types@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "square",
+          "value": "square"
+        },
+        {
+          "id": "rect",
+          "value": "rectangular"
+        },
+        {
+          "id": "oval",
+          "value": "oval"
+        },
+        {
+          "id": "round",
+          "value": "round"
+        },
+        {
+          "id": "heart",
+          "value": "heart"
+        },
+        {
+          "id": "cross",
+          "value": "cross"
+        },
+        {
+          "id": "flag",
+          "value": "flag"
+        },
+        {
+          "id": "cartouche",
+          "value": "cartouche"
+        },
+        {
+          "id": "signboard",
+          "value": "signboard"
+        },
+        {
+          "id": "cloud",
+          "value": "cloud"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-languages@en",
+      "entries": [
+        {
+          "id": "eng",
+          "value": "English"
+        },
+        {
+          "id": "fre",
+          "value": "French"
+        },
+        {
+          "id": "deu",
+          "value": "German"
+        },
+        {
+          "id": "grc",
+          "value": "Ancient Greek"
+        },
+        {
+          "id": "gre",
+          "value": "Modern Greek"
+        },
+        {
+          "id": "ita",
+          "value": "Italian"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        },
+        {
+          "id": "spa",
+          "value": "Spanish"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-metres@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-script-features@en",
+      "entries": [
+        {
+          "id": "text",
+          "value": "testo"
+        },
+        {
+          "id": "digit",
+          "value": "numeri"
+        },
+        {
+          "id": "punct",
+          "value": "interpunzioni"
+        },
+        {
+          "id": "ligature",
+          "value": "legature"
+        },
+        {
+          "id": "abbr",
+          "value": "abbreviazioni"
+        },
+        {
+          "id": "mono",
+          "value": "monogrammi"
+        },
+        {
+          "id": "1-letter",
+          "value": "lettera singola"
+        },
+        {
+          "id": "undef-letter",
+          "value": "lettere indef."
+        },
+        {
+          "id": "undef-drawing",
+          "value": "disegno indef."
+        },
+        {
+          "id": "upper",
+          "value": "uppercase"
+        },
+        {
+          "id": "lower",
+          "value": "lowercase"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-systems@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "latn",
+          "value": "latino"
+        },
+        {
+          "id": "grek",
+          "value": "greco"
+        },
+        {
+          "id": "armn",
+          "value": "armenian"
+        },
+        {
+          "id": "cyrl",
+          "value": "cirillic"
+        },
+        {
+          "id": "geor",
+          "value": "georgian"
+        },
+        {
+          "id": "hebr",
+          "value": "hebrew"
+        },
+        {
+          "id": "hans",
+          "value": "chinese"
+        },
+        {
+          "id": "jpan",
+          "value": "japanese"
+        },
+        {
+          "id": "arab",
+          "value": "arabic"
+        },
+        {
+          "id": "deva",
+          "value": "indian"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-techniques@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "charcoal",
+          "value": "charcoal"
+        },
+        {
+          "id": "candlesmoke",
+          "value": "candlesmoke"
+        },
+        {
+          "id": "graffiti",
+          "value": "graffiti"
+        },
+        {
+          "id": "graphite",
+          "value": "graphite"
+        },
+        {
+          "id": "ink",
+          "value": "ink"
+        },
+        {
+          "id": "punch",
+          "value": "punch"
+        },
+        {
+          "id": "paint",
+          "value": "paint"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-tools@en",
+      "entries": [
+        {
+          "id": "-",
+          "entries": "---"
+        },
+        {
+          "id": "charcoal",
+          "value": "charcoal"
+        },
+        {
+          "id": "nail",
+          "value": "nail"
+        },
+        {
+          "id": "gradine",
+          "value": "gradine"
+        },
+        {
+          "id": "blade",
+          "value": "blade"
+        },
+        {
+          "id": "marker",
+          "value": "marker"
+        },
+        {
+          "id": "pen",
+          "value": "pen"
+        },
+        {
+          "id": "brush",
+          "value": "brush"
+        },
+        {
+          "id": "stencil",
+          "value": "stencil"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-types@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "upper",
+          "value": "uppercase"
+        },
+        {
+          "id": "lower",
+          "value": "lowercase"
+        },
+        {
+          "id": "italic",
+          "value": "italic"
+        }
+      ]
+    },
+    {
+      "id": "geo-name-languages@en",
+      "entries": [
+        {
+          "id": "eng",
+          "value": "English"
+        },
+        {
+          "id": "grc",
+          "value": "Greek"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        }
+      ]
+    },
+    {
+      "id": "geo-name-piece-types@en",
+      "entries": [
+        {
+          "id": "cnt*",
+          "value": "continent"
+        },
+        {
+          "id": "cnt.europe",
+          "value": "Europe"
+        },
+        {
+          "id": "cnt.amr-n",
+          "value": "North America"
+        },
+        {
+          "id": "cnt.amr-s",
+          "value": "South America"
+        },
+        {
+          "id": "cnt.afr",
+          "value": "Africa"
+        },
+        {
+          "id": "cnt.asi",
+          "value": "Asia"
+        },
+        {
+          "id": "cnt.aus",
+          "value": "Australia"
+        },
+        {
+          "id": "cnt.ant",
+          "value": "Antarctica"
+        },
+        {
+          "id": "country*",
+          "value": "country"
+        },
+        {
+          "id": "region*",
+          "value": "region"
+        },
+        {
+          "id": "_order",
+          "value": "cnt country region"
+        }
+      ]
+    },
+    {
+      "id": "languages@en",
+      "entries": [
+        {
+          "id": "eng",
+          "value": "English"
+        },
+        {
+          "id": "fre",
+          "value": "French"
+        },
+        {
+          "id": "deu",
+          "value": "German"
+        },
+        {
+          "id": "grc",
+          "value": "Ancient Greek"
+        },
+        {
+          "id": "gre",
+          "value": "Modern Greek"
+        },
+        {
+          "id": "ita",
+          "value": "Italian"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        },
+        {
+          "id": "spa",
+          "value": "Spanish"
+        }
+      ]
+    },
+    {
+      "id": "orthography-tags@en",
+      "entries": [
+        {
+          "id": "grc.p.-",
+          "value": "phonology: Greek"
+        },
+        {
+          "id": "grc.p.v.-",
+          "value": "Greek: phonology: vowels"
+        },
+        {
+          "id": "grc.p.v.itacism.-",
+          "value": "Greek: phonology: vowels: itacism"
+        },
+        {
+          "id": "grc.p.v.itacism.ei-i",
+          "value": "Greek: phonology: vowels: itacism: EI=I"
+        },
+        {
+          "id": "grc.p.v.itacism.i-ei",
+          "value": "Greek: phonology: vowels: itacism: I=EI"
+        },
+        {
+          "id": "grc.p.v.itacism.h-ei",
+          "value": "Greek: phonology: vowels: itacism: H=EI"
+        },
+        {
+          "id": "grc.p.v.itacism.y-i",
+          "value": "Greek: phonology: vowels: itacism: Y=I"
+        },
+        {
+          "id": "grc.p.v.itacism.hi-ei",
+          "value": "Greek: phonology: vowels: itacism: HI=EI"
+        },
+        {
+          "id": "grc.p.v.monophth.-",
+          "value": "Greek: phonology: vowels: monophthongisation"
+        },
+        {
+          "id": "grc.p.v.monophth.e-ai",
+          "value": "Greek: phonology: vowels: monophthongisation: E=AI"
+        },
+        {
+          "id": "grc.p.v.monophth.aii-ai",
+          "value": "Greek: phonology: vowels: monophthongisation: AII=AI"
+        },
+        {
+          "id": "grc.p.v.qt.-",
+          "value": "Greek: phonology: vowels: quantity"
+        },
+        {
+          "id": "grc.p.v.qt.o-omega",
+          "value": "Greek: phonology: vowels: quantity: O=Ω"
+        },
+        {
+          "id": "grc.p.c.-",
+          "value": "Greek: phonology: consonants"
+        },
+        {
+          "id": "grc.p.c.fric.-",
+          "value": "Greek: phonology: consonants: fricativisation"
+        },
+        {
+          "id": "grc.p.c.fric.b-oy",
+          "value": "Greek: phonology: consonants: fricativisation: B=OΥ"
+        },
+        {
+          "id": "grc.p.c.occl.-",
+          "value": "Greek: phonology: consonants: occlusives"
+        },
+        {
+          "id": "grc.p.c.occl.d-t",
+          "value": "Greek: phonology: consonants: occlusives: Δ=Τ"
+        },
+        {
+          "id": "lat.p.-",
+          "value": "phonology: Latin"
+        },
+        {
+          "id": "lat.p.v.-",
+          "value": "Latin: phonology: vowels"
+        },
+        {
+          "id": "lat.p.v.qt.-",
+          "value": "Latin: phonology: vowels: quantity"
+        },
+        {
+          "id": "lat.p.v.qt.e-longi",
+          "value": "Latin: phonology: vowels: quantity: E=ī"
+        },
+        {
+          "id": "lat.p.v.qt.e-longo",
+          "value": "Latin: phonology: vowels: quantity: E=ō"
+        },
+        {
+          "id": "lat.p.v.qt.oy-o",
+          "value": "Latin: phonology: vowels: quantity: OY=O"
+        },
+        {
+          "id": "lat.p.c.-",
+          "value": "Latin: phonology: consonants"
+        },
+        {
+          "id": "lat.p.c.fric.-",
+          "value": "Latin: phonology: consonants: fricativisation"
+        },
+        {
+          "id": "lat.p.c.fric.b-v",
+          "value": "Latin: phonology: consonants: fricativisation: B=V"
+        },
+        {
+          "id": "lat.p.c.occl.-",
+          "value": "Latin: phonology: consonants: occlusives"
+        },
+        {
+          "id": "lat.p.c.occl.p-b",
+          "value": "Latin: phonology: consonants: occlusives: Π=B"
+        },
+        {
+          "id": "lat.p.c.nas.-",
+          "value": "Latin: phonology: consonants: nasals"
+        },
+        {
+          "id": "lat.p.c.nas.coiug",
+          "value": "Latin: phonology: consonants: nasals: coiug=coniug"
+        }
+      ]
+    },
+    {
+      "id": "physical-size-units@en",
+      "entries": [
+        {
+          "id": "cm",
+          "value": "cm"
+        },
+        {
+          "id": "mm",
+          "value": "mm"
+        }
+      ]
+    }
+  ],
+  "seed": {
+    "options": {
+      "seed": 1,
+      "users": [ "zeus" ],
+      "partRoles": [],
+      "fragmentRoles": []
+    },
+    "partSeeders": [
+      {
+        "id": "seed.it.vedph.bibliography",
+        "options": {
+          "authors": [
+            "Doe,Jane",
+            "Doherty,Charles",
+            "Orwell,William",
+            "Sampson,James",
+            "Voss,Francis"
+          ],
+          "journals": [ "AJPh", "CJ", "CPh", "CQ", "IF" ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.categories",
+        "options": {
+          "maxCategoriesPerItem": 3,
+          "categories": [
+            "language.phonology",
+            "language.morphology",
+            "language.syntax",
+            "literature",
+            "geography"
+          ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.comment",
+        "options": {
+          "languages": [ "eng", "ita" ],
+          "categories": [ "language.phonology", "language.syntax", "history" ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.doc-references"
+      },
+      {
+        "id": "seed.it.vedph.external-ids"
+      },
+      {
+        "id": "seed.it.vedph.epigraphy.support"
+      },
+      {
+        "id": "seed.it.vedph.epigraphy.writing"
+      },
+      {
+        "id": "seed.it.vedph.geo.asserted-locations"
+      },
+      {
+        "id": "seed.it.vedph.geo.asserted-toponyms"
+      },
+      {
+        "id": "seed.it.vedph.historical-date"
+      },
+      {
+        "id": "seed.it.vedph.index-keywords",
+        "options": {
+          "indexIds": [ "persons", "places" ],
+          "languages": [ "eng", "deu", "ita", "fra", "spa" ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.metadata"
+      },
+      {
+        "id": "seed.it.vedph.names"
+      },
+      {
+        "id": "seed.it.vedph.note",
+        "options": {
+          "tags": [ "language", "history", "geography" ]
+        }
+      },
+      {
+        "id": "seed.it.vedph.token-text"
+      },
+      {
+        "id": "seed.it.vedph.token-text-layer",
+        "options": {
+          "maxFragmentCount": 3
+        }
+      }
+    ],
+    "fragmentSeeders": [
+      {
+        "id": "seed.fr.it.vedph.comment",
+        "options": {
+          "languages": [ "eng", "ita" ],
+          "categories": [ "language.phonology", "language.syntax", "history" ]
+        }
+      },
+      {
+        "id": "seed.fr.it.vedph.apparatus"
+      },
+      {
+        "id": "seed.fr.it.vedph.epigraphy.ligatures"
+      },
+      {
+        "id": "seed.fr.it.vedph.orthography",
+        "options": {
+          "tags": [ "ph.c.occl.", "ph.c.liq.", "ph.c.nas." ]
+        }
+      }
+    ]
+  }
+}
