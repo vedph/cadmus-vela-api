@@ -33,13 +33,22 @@
           "sortKey": "d"
         },
         {
+          "typeId": "it.vedph.geo.asserted-toponyms",
+          "name": "toponym",
+          "description": "Toponym(s).",
+          "isRequired": true,
+          "colorKey": "006430",
+          "groupKey": "general",
+          "sortKey": "e"
+        },
+        {
           "typeId": "it.vedph.historical-date",
           "name": "date",
           "description": "Date.",
           "isRequired": true,
           "colorKey": "000080",
           "groupKey": "general",
-          "sortKey": "e"
+          "sortKey": "f"
         },
         {
           "typeId": "it.vedph.epigraphy.support",
@@ -47,7 +56,7 @@
           "description": "Material support.",
           "colorKey": "B03060",
           "groupKey": "epigraphy",
-          "sortKey": "f"
+          "sortKey": "g"
         },
         {
           "typeId": "it.vedph.epigraphy.writing",
@@ -55,7 +64,7 @@
           "description": "Writing.",
           "colorKey": "FA0000",
           "groupKey": "epigraphy",
-          "sortKey": "g"
+          "sortKey": "h"
         },
         {
           "typeId": "it.vedph.categories",
@@ -64,7 +73,7 @@
           "isRequired": true,
           "colorKey": "00CED1",
           "groupKey": "classification",
-          "sortKey": "h"
+          "sortKey": "i"
         },
         {
           "typeId": "it.vedph.index-keywords",
@@ -72,7 +81,7 @@
           "description": "Item's index keywords.",
           "colorKey": "FFA500",
           "groupKey": "classification",
-          "sortKey": "i"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.comment",
@@ -80,7 +89,7 @@
           "description": "Comment.",
           "colorKey": "FEFE00",
           "groupKey": "comment",
-          "sortKey": "j"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.note",
@@ -88,7 +97,7 @@
           "description": "A free text note.",
           "colorKey": "00FE00",
           "groupKey": "comment",
-          "sortKey": "k"
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -96,7 +105,7 @@
           "description": "Documental references.",
           "colorKey": "00FA90",
           "groupKey": "references",
-          "sortKey": "l"
+          "sortKey": "m"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -104,7 +113,7 @@
           "description": "Bibliography.",
           "colorKey": "0000FE",
           "groupKey": "references",
-          "sortKey": "m"
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -113,7 +122,7 @@
           "description": "Item's token-based text.",
           "colorKey": "D8BFD8",
           "groupKey": "text",
-          "sortKey": "n"
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -122,7 +131,7 @@
           "description": "Comments on text.",
           "colorKey": "FE00FE",
           "groupKey": "text",
-          "sortKey": "o"
+          "sortKey": "p"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -131,7 +140,7 @@
           "description": "Chronological indications in text.",
           "colorKey": "DDA0DD",
           "groupKey": "text",
-          "sortKey": "t"
+          "sortKey": "q"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -140,7 +149,7 @@
           "description": "Critical apparatus.",
           "colorKey": "1E90FF",
           "groupKey": "text",
-          "sortKey": "p"
+          "sortKey": "r"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -149,7 +158,7 @@
           "description": "Standard orthography.",
           "colorKey": "F0E68C",
           "groupKey": "text",
-          "sortKey": "q"
+          "sortKey": "s"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -158,7 +167,7 @@
           "description": "Ligatures.",
           "colorKey": "E0C404",
           "groupKey": "text",
-          "sortKey": "r"
+          "sortKey": "t"
         }
       ]
     }
@@ -267,6 +276,10 @@
         {
           "id": "fr.it.vedph.apparatus",
           "value": "apparatus fr."
+        },
+        {
+          "id": "fr.it.vedph.chronology",
+          "value": "chronology"
         },
         {
           "id": "fr.it.vedph.comment",

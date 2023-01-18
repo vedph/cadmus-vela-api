@@ -49,3 +49,9 @@ f) text:
 - ligatures layer: can be used to annotate ligatures in text.
 - comment layer: can be used to comment specific words of the text.
 - chronology layer: can be used to mark specific words of the text (designating battles, priesthoods, magistrates, etc.) as related to a datation.
+
+## History
+
+- 2023-01-17:
+  - updated packages.
+  - updated thesauri.

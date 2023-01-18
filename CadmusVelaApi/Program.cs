@@ -82,7 +82,7 @@ public static class Program
                     Debug.WriteLine($"Serilog:ConnectionString override = {cs}");
                     Console.WriteLine($"Serilog:ConnectionString override = {cs}");
 
-                    Dictionary<string, string> dct = new()
+                    Dictionary<string, string?> dct = new()
                     {
                         { "Serilog:ConnectionString", cs }
                     };
