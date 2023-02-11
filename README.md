@@ -2,7 +2,7 @@
 
 Quick Docker image build:
 
-    docker build . -t vedph2020/cadmus-vela-api:1.0.0 -t vedph2020/cadmus-vela-api:latest
+    docker build . -t vedph2020/cadmus-vela-api:1.0.1 -t vedph2020/cadmus-vela-api:latest
 
 (replace with the current version).
 
@@ -51,6 +51,12 @@ f) text:
 - chronology layer: can be used to mark specific words of the text (designating battles, priesthoods, magistrates, etc.) as related to a datation.
 
 ## History
+
+### 1.0.1
+
+- 2023-02-11: updated packages.
+
+### 1.0.0
 
 - 2023-02-07: migrated to new components factory. This is a breaking change for backend components, please see [this page](https://myrmex.github.io/overview/cadmus/dev/history/#2023-02-01---backend-infrastructure-upgrade). Anyway, in the end you just have to update your libraries and a single namespace reference. Benefits include:
   - more streamlined component instantiation.
