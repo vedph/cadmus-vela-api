@@ -1,8 +1,8 @@
 # Cadmus Vela API
 
-Quick Docker image build:
+🐋 Quick Docker image build:
 
-    docker build . -t vedph2020/cadmus-vela-api:1.0.1 -t vedph2020/cadmus-vela-api:latest
+    docker build . -t vedph2020/cadmus-vela-api:1.0.2 -t vedph2020/cadmus-vela-api:latest
 
 (replace with the current version).
 
@@ -51,6 +51,8 @@ f) text:
 - chronology layer: can be used to mark specific words of the text (designating battles, priesthoods, magistrates, etc.) as related to a datation.
 
 ## History
+
+### 1.0.2
 
 - 2023-03-11: updated packages.
 - 2023-03-07: updated packages.
