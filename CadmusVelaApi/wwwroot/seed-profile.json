@@ -54,6 +54,7 @@
           "typeId": "it.vedph.epigraphy.support",
           "name": "support",
           "description": "Material support.",
+          "isRequired": true,
           "colorKey": "B03060",
           "groupKey": "epigraphy",
           "sortKey": "g"
@@ -62,6 +63,7 @@
           "typeId": "it.vedph.epigraphy.writing",
           "name": "writing",
           "description": "Writing.",
+          "isRequired": true,
           "colorKey": "FA0000",
           "groupKey": "epigraphy",
           "sortKey": "h"
