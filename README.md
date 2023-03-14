@@ -52,27 +52,27 @@ This API uses core components from the following Cadmus libraries:
 
 The original schema was just a flat spreadsheet table, where some columns are grouped under so-called header columns, filled with color and without data, whose purpose is making all the following columns belonging to the same group. Often this is used to represent boolean features in a mutually exclusive relationship. Of course, this is just a hack due to the flat nature of the spreadsheet model.
 
-- A = ID (e.g. `CASTELLO_01-0001`): this can just be the title and eventually an EID in metadata part.
+- A = ID (e.g. `CASTELLO_01-0001`): this can just be the item's **title** and eventually an EID in **metadata part**.
 - B = image, I found it always empty. At any rate, once we have an ID, the image resources can be accessed via some transformation of it.
-- C-E = area, sestriere, denominazione: toponyms part hierarchy.
-- F-K = funzione originaria, funzione attuale, tipologia struttura, interno/esterno, supporto, materiale: epigraphic support part.
-- L = "datati" (boolean): eventually in metadata.
-- M-O = terminus post, terminus ante, cronologia: datation part.
-- writing part: script features:
+- C-E = area, sestriere, denominazione: **toponyms part** hierarchy. 📚
+- F-K = funzione originaria, funzione attuale, tipologia struttura, interno/esterno, supporto, materiale: **epigraphic support part** (📚 `epi-support-materials`, `epi-support-functions`, `epi-support-object-types`, `epi-support-types`).
+- L = "datati" (boolean): eventually in **metadata part**.
+- M-O = terminus post, terminus ante, cronologia: **datation part**.
+- **writing part**: script features (📚 `epi-writing-script-features`):
   - P figurativi
   - Q testo
   - R numero
   - S cornice
-- T tipo figurativo: support part: figurative type.
-- U tipo cornice: writing part: figurative features.
-- V misure: support part.
-- W numero righe: calculated (?).
-- X alfabeto: writing part: system.
-- Y lingua: writing part: languages.
+- T tipo figurativo: **support part**: figurative type (📚 `epi-writing-fig-types`).
+- U tipo cornice: **writing part**: figurative features (📚 `epi-writing-fig-features`).
+- V misure: **support part**: size.
+- W numero righe: **writing part**: counts (📚 `decorated-count-ids`, `decorated-count-tags`).
+- X alfabeto: **writing part**: system.
+- Y lingua: **writing part**: languages.
 - Z lingua ISO 639/3: as above.
 - AA codice glottologico (?)
 - AB tipologia grafica (?)
-- AC tecnica esecuzione (header column): writing part: technique:
+- AC tecnica esecuzione (header column): **writing part**: technique (📚 `epi-writing-techniques`):
   - AD presenza di disegno
   - AE presenza di preparazione del supporto
   - AF graffio
@@ -81,7 +81,7 @@ The original schema was just a flat spreadsheet table, where some columns are gr
   - AI disegno
   - AJ punzonatura
   - AK a rilievo
-- AL strumento di esecuzione (header column): writing part: tool:
+- AL strumento di esecuzione (header column): **writing part**: tool (📚 `epi-writing-tools`):
   - AM chiodo
   - AN gradina
   - AO scalpello
@@ -95,26 +95,26 @@ The original schema was just a flat spreadsheet table, where some columns are gr
   - AW vernice
   - AX lama (affilatura)
   - AY tipo di lama
-- AZ caratteristiche grafiche (header column): writing part: script features:
+- AZ caratteristiche grafiche (header column): **writing part**: script features (📚 `epi-writing-script-features`):
   - BA maiuscolo/minuscolo
   - BB sistema interpuntivo
-  - BC nessi e legamenti (note: you might also provide more details with the ligatures layer).
+  - BC nessi e legamenti (note: you might also provide more details with the **ligatures layer** with 📚 `epi-ligature-types`).
   - BD abbreviazioni
-- BE monogrammi, lettere singole, etcc. (header column): writing part: script features:
+- BE monogrammi, lettere singole, etcc. (header column): **writing part**: script features (📚 `epi-writing-script-features`):
   - BF monogrammi
   - BG lettera singola
   - BH lettere non interpretabili
   - BI disegno non interpretabile
-- BJ tipologia di argomento (header column): columns BK-CG: categories part.
-- CH categorie figurative (header column): writing part: columns CH-CY: figurative type and features.
+- BJ tipologia di argomento (header column): columns BK-CG: **categories part** (📚 `categories`).
+- CH categorie figurative (header column): **writing part**: columns CH-CY: figurative type and features (📚 `epi-writing-fig-types`, `epi-writing-fig-features`).
 - CZ (header column): edizione e commento:
-  - DA edizione
-  - DB codice iconclass: in figurative type/features.
-  - DC commento
-  - DD osservazioni sullo stato di conservazione: support part.
-  - DE bibliografia: bibliography part.
-  - DF data primo rilievo: metadata or add to support part, depending on how typical we can estimate this property.
-  - DG data ultima ricognizione: support part.
+  - DA edizione: **bibliography part** (📚 `bibliography-author-roles`, `bibliography-languages`, `bibliography-types`).
+  - DB codice iconclass: in **writing part**: figurative type/features (in IDs).
+  - DC commento: **comment part**.
+  - DD osservazioni sullo stato di conservazione: **support part**.
+  - DE bibliografia: **bibliography part**.
+  - DF data primo rilievo: **metadata part**, or add to support part, depending on how typical we can estimate this property.
+  - DG data ultima ricognizione: **support part**.
 
 ## History
 
