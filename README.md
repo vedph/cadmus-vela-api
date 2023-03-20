@@ -12,43 +12,48 @@ This API uses core components from the following Cadmus libraries:
 - [epigraphy](https://github.com/vedph/cadmus-epigraphy)
 - [geography](https://github.com/vedph/cadmus-geo)
 
-## Graffiti
+## Data Model
+
+Currently the data model includes only the item type representing a single graffiti (see the [Cadmus models shop](https://cadmus.fusi-soft.com/#/models/shop)).
+
+### Graffiti
 
 (a) general:
 
-- external IDs\*: all the IDs linked to the inscription.
-- metadata: general purpose metadata.
-- geographic location(s)\*. This is used to pinpoint the inscription on a map. The link to a site is managed via the pin links part.
-- date\*.
+- external IDs\* (`it.vedph.external-ids`): all the IDs linked to the inscription.
+- metadata (`it.vedph.metadata`): general purpose metadata.
+- geographic location(s)\* (`it.vedph.geo.asserted-locations`). This is used to pinpoint the inscription on a map. The link to a site is managed via the pin links part.
+- toponym(s) (`it.vedph.geo.asserted-toponyms`).
+- date\* (`it.vedph.historical-date`).
 
 (b) epigraphy:
 
-- support.
-- writing.
+- support (`it.vedph.epigraphy.support`).
+- writing (`it.vedph.epigraphy.writing`).
 
 (c) classification:
 
-- categories\*: general thematic tags from a taxonomy.
-- index keywords: multiple-language keywords which can be grouped under several sections ("indexes").
+- categories\* (`it.vedph.categories`): general thematic tags from a taxonomy.
+- index keywords (`it.vedph.index-keywords`): multiple-language keywords which can be grouped under several sections ("indexes").
 
 (d) comment:
 
-- comment: generic comment.
-- note: free text note. Might be useful for redactional purposes.
+- comment (`it.vedph.comment`): generic comment.
+- note (`it.vedph.note`): free text note. Might be useful for redactional purposes.
 
 (e) references:
 
-- references: short documentary references.
-- bibliography.
+- references (`it.vedph.doc-references`): short documentary references.
+- bibliography (`it.vedph.bibliography`).
 
 (f) text:
 
-- text: text or a part of it when required.
-- apparatus layer: critical apparatus.
-- orthography layer: can be used to annotate and categorize linguistic phenomena reflected in orthography.
-- ligatures layer: can be used to annotate ligatures in text.
-- comment layer: can be used to comment specific words of the text.
-- chronology layer: can be used to mark specific words of the text (designating battles, priesthoods, magistrates, etc.) as related to a datation.
+- text (`it.vedph.token-text`): text or a part of it when required.
+- apparatus layer (`it.vedph.token-text-layer` with role `fr.it.vedph.apparatus`): critical apparatus.
+- ligatures layer (`it.vedph.token-text-layer` with role `fr.it.vedph.epigraphy.ligatures`): can be used to annotate ligatures in text.
+- comment layer (`it.vedph.token-text-layer` with role `fr.it.vedph.comment`): can be used to comment specific words of the text.
+- orthography layer (`it.vedph.token-text-layer` with role `fr.it.vedph.orthography`): can be used to annotate and categorize linguistic phenomena reflected in orthography.
+- chronology layer (`it.vedph.token-text-layer` with role `fr.it.vedph.chronology`): can be used to mark specific words of the text (designating battles, priesthoods, magistrates, etc.) as related to a datation.
 
 The original schema was just a flat spreadsheet table, where some columns are grouped under so-called header columns, filled with color and without data, whose purpose is making all the following columns belonging to the same group. Often this is used to represent boolean features in a mutually exclusive relationship. Of course, this is just a hack due to the flat nature of the spreadsheet model.
 
