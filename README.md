@@ -16,9 +16,11 @@ This API uses core components from the following Cadmus libraries:
 
 Currently the only item is the graffiti item, with the parts listed below.
 
-### GrfSummaryPart (Old)
+### Old Proposals
 
-Essential information about a graffiti. This corresponds to the data core which might also be derived from external sources.
+The discussed proposal included two parts for summary and more details on support, as follows; but this had a number of modeling issues, which are marked by ⚠️ here:
+
+(A) GrfSummaryPart (Old)
 
 (1) location
 
@@ -70,7 +72,7 @@ Essential information about a graffiti. This corresponds to the data core which 
 - `text` (`string`, 5000) ⚠️
 - `lastSeen`\* (`date`)
 
-### GrfSupportPart (Old)
+(B) GrfSupportPart (Old)
 
 Material support. This is the original model:
 
@@ -85,13 +87,18 @@ Material support. This is the original model:
   - `date`\* (`date`)
   - `note` (`string`, 5000)
 
-Yet, this has too many overlaps (marked with ⚠️) with `GrfSummaryPart`. The same is true for `text`, which repeats the same datum designed to be stored in text (because text is the basis for layers).
+As you can see, this would have a lot of overlaps (⚠️) with `GrfSummaryPart`. The same is true for `text`, which repeats the same datum designed to be stored in text (because text is the basis for layers).
 
-To avoid duplication, the solution is including the additional properties of this part in the summary part; and for `text`, just removing it: the `text` part is the designated target for it. When the summary data come from external sources or is first filled, these additional properties can just be ignored.
+To **avoid duplication**, the solution is:
 
-So, I propose to merge these two models into one, which must be the summary part as this is the core for the 1st data entry stage; and remove `text`, leaving it to the text part alone. This of course does not affect any import procedure: it just means that when importing core data from external sources, the text will be stored in _text_, and the rest will be stored in _summary_.
+- including the _additional properties_ of this part in the summary part; when the summary data come from external sources or is first filled, these additional properties can just be ignored.
+- remove `text` from summary, so that it remains only where it belongs, i.e. in the text part.
 
-### GrfSummaryPart (New)
+This of course does not affect any import procedure: it just means that when importing core data from external sources, the text will be stored in _text_, and the rest will be stored in _summary_.
+
+So, with these adjustments the models are as follow.
+
+### GrfSummaryPart
 
 Essential information about a graffiti. This corresponds to the data core which might also be derived from external sources.
 
