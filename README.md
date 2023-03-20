@@ -67,7 +67,7 @@ Essential information about a graffiti. This corresponds to the data core which 
 - `features` (thesaurus: `grf-features`)
 - `figDescription` (`string`, 5000)
 - `frameDescription` (`string`, 5000)
-- `text` (`string`, 5000)
+- `text` (`string`, 5000) ⚠️
 - `lastSeen`\* (`date`)
 
 ### GrfSupportPart (Old)
@@ -85,9 +85,11 @@ Material support. This is the original model:
   - `date`\* (`date`)
   - `note` (`string`, 5000)
 
-Yet, this has too many overlaps (marked with ⚠️) with `GrfSummaryPart`. To avoid duplication, the solution is including the additional properties of this part in the summary part. When the summary data come from external sources or is first filled, these additional properties can just be ignored.
+Yet, this has too many overlaps (marked with ⚠️) with `GrfSummaryPart`. The same is true for `text`, which repeats the same datum designed to be stored in text (because text is the basis for layers).
 
-So, I propose to merge these two models into one, which must be the summary part as this is the core for the 1st data entry stage.
+To avoid duplication, the solution is including the additional properties of this part in the summary part; and for `text`, just removing it: the `text` part is the designated target for it. When the summary data come from external sources or is first filled, these additional properties can just be ignored.
+
+So, I propose to merge these two models into one, which must be the summary part as this is the core for the 1st data entry stage; and remove `text`, leaving it to the text part alone. This of course does not affect any import procedure: it just means that when importing core data from external sources, the text will be stored in _text_, and the rest will be stored in _summary_.
 
 ### GrfSummaryPart (New)
 
@@ -140,7 +142,6 @@ Essential information about a graffiti. This corresponds to the data core which 
 - `features` (thesaurus: `grf-features`)
 - `figDescription` (`string`, 5000)
 - `frameDescription` (`string`, 5000)
-- `text` (`string`, 5000)
 - `lastSeen`\* (`date`)
 
 (4) additional
