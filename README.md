@@ -14,46 +14,219 @@ This API uses core components from the following Cadmus libraries:
 
 ## Data Model
 
-Currently the data model includes only the item type representing a single graffiti (see the [Cadmus models shop](https://cadmus.fusi-soft.com/#/models/shop)).
+Currently the only item is the graffiti item, with the parts listed below.
 
-### Graffiti
+### GrfSummaryPart (Old)
 
-(a) general:
+Essential information about a graffiti. This corresponds to the data core which might also be derived from external sources.
 
-- external IDs\* (`it.vedph.external-ids`): all the IDs linked to the inscription.
-- metadata (`it.vedph.metadata`): general purpose metadata.
-- geographic location(s)\* (`it.vedph.geo.asserted-locations`). This is used to pinpoint the inscription on a map. The link to a site is managed via the pin links part.
-- toponym(s) (`it.vedph.geo.asserted-toponyms`).
-- date\* (`it.vedph.historical-date`).
+(1) location
 
-(b) epigraphy:
+- `toponyms` (🧱 `AssertedToponym[]`):
+  - `tag` (`string`, optional thesaurus: `geo-toponym-tags`)
+  - `eid` (`string`)
+  - `name`\* (`AssertedProperName`):
+    - `language` (`string`)
+    - `tag` (`string`)
+    - `pieces` (`ProperNamePiece[]`):
+      - `type`\* (`string`)
+      - `value`\* (`string`)
+    - `assertion` (`Assertion`)
+- `originalFn` (`string`, thesaurus: `grf-support-functions`)
+- `supportType` (`string`, thesaurus: `grf-support-types`) ⚠️
+- `currentFn` (`string`, thesaurus: `grf-support-functions`)
+- `indoor` (`boolean`) ⚠️
 
-- support (`it.vedph.epigraphy.support`).
-- writing (`it.vedph.epigraphy.writing`).
+(2) material
 
-(c) classification:
+- `material`\* (`string`, thesaurus: `grf-support-materials`) ⚠️
+- `description` (`string`, 5000)
 
-- categories\* (`it.vedph.categories`): general thematic tags from a taxonomy.
-- index keywords (`it.vedph.index-keywords`): multiple-language keywords which can be grouped under several sections ("indexes").
+(3) identification
 
-(d) comment:
+- `size` (🧱 `PhysicalSize`):
+  - `tag` (`string`, thesaurus: `physical-size-tags`)
+  - `w` (`PhysicalDimension`):
+    - `value`\* (`number`)
+    - `unit`\* (`string`, thesaurus: `physical-size-units`)
+    - `tag` (`string`, thesaurus: `physical-size-dim-tags`)
+  - `h` (`PhysicalDimension`)
+  - `d` (`PhysicalDimension`)
+  - `note` (`string`)
+- `date` (🧱 `HistoricalDate`)
+  - `a` (`Datation`):
+    - `value` (`int`)
+    - `isCentury` (`bool`)
+    - `isSpan` (`bool`)
+    - `isApproximate` (`bool`)
+    - `isDubious` (`bool`)
+    - `day` (`short`)
+    - `month` (`short`)
+    - `hint` (`string`)
+  - `b` (`Datation`)
+- `features` (thesaurus: `grf-features`)
+- `figDescription` (`string`, 5000)
+- `frameDescription` (`string`, 5000)
+- `text` (`string`, 5000)
+- `lastSeen`\* (`date`)
 
-- comment (`it.vedph.comment`): generic comment.
-- note (`it.vedph.note`): free text note. Might be useful for redactional purposes.
+### GrfSupportPart (Old)
 
-(e) references:
+Material support. This is the original model:
 
-- references (`it.vedph.doc-references`): short documentary references.
-- bibliography (`it.vedph.bibliography`).
+- `material`\* (`string`, thesaurus: `grf-support-materials`) ⚠️
+- `originalFn` (`string`, thesaurus: `grf-support-functions`) ⚠️
+- `currentFn` (`string`, thesaurus: `grf-support-functions`)
+- `objectType` (`string`, thesaurus: `grf-support-object-types`)
+- `supportType` (`string`, thesaurus: `grf-support-types`) ⚠️
+- `indoor` (`boolean`) ⚠️
+- `states` (`GrfSupportState[]`):
+  - `type`\* (`string`, thesaurus: `grf-support-states`)
+  - `date`\* (`date`)
+  - `note` (`string`, 5000)
 
-(f) text:
+Yet, this has too many overlaps (marked with ⚠️) with `GrfSummaryPart`. To avoid duplication, the solution is including the additional properties of this part in the summary part. When the summary data come from external sources or is first filled, these additional properties can just be ignored.
 
-- text (`it.vedph.token-text`): text or a part of it when required.
-- apparatus layer (`it.vedph.token-text-layer` with role `fr.it.vedph.apparatus`): critical apparatus.
-- ligatures layer (`it.vedph.token-text-layer` with role `fr.it.vedph.epigraphy.ligatures`): can be used to annotate ligatures in text.
-- comment layer (`it.vedph.token-text-layer` with role `fr.it.vedph.comment`): can be used to comment specific words of the text.
-- orthography layer (`it.vedph.token-text-layer` with role `fr.it.vedph.orthography`): can be used to annotate and categorize linguistic phenomena reflected in orthography.
-- chronology layer (`it.vedph.token-text-layer` with role `fr.it.vedph.chronology`): can be used to mark specific words of the text (designating battles, priesthoods, magistrates, etc.) as related to a datation.
+So, I propose to merge these two models into one, which must be the summary part as this is the core for the 1st data entry stage.
+
+### GrfSummaryPart (New)
+
+Essential information about a graffiti. This corresponds to the data core which might also be derived from external sources.
+
+(1) location
+
+- `toponyms` (🧱 `AssertedToponym[]`):
+  - `tag` (`string`, optional thesaurus: `geo-toponym-tags`)
+  - `eid` (`string`)
+  - `name`\* (`AssertedProperName`):
+    - `language` (`string`)
+    - `tag` (`string`)
+    - `pieces` (`ProperNamePiece[]`):
+      - `type`\* (`string`)
+      - `value`\* (`string`)
+    - `assertion` (`Assertion`)
+- `originalFn` (`string`, thesaurus: `grf-support-functions`)
+- `supportType` (`string`, thesaurus: `grf-support-types`)
+- `currentFn` (`string`, thesaurus: `grf-support-functions`)
+- `indoor` (`boolean`)
+
+(2) material
+
+- `material`\* (`string`, thesaurus: `grf-support-materials`)
+- `description` (`string`, 5000)
+
+(3) identification
+
+- `size` (🧱 `PhysicalSize`):
+  - `tag` (`string`, thesaurus: `physical-size-tags`)
+  - `w` (`PhysicalDimension`):
+    - `value`\* (`number`)
+    - `unit`\* (`string`, thesaurus: `physical-size-units`)
+    - `tag` (`string`, thesaurus: `physical-size-dim-tags`)
+  - `h` (`PhysicalDimension`)
+  - `d` (`PhysicalDimension`)
+  - `note` (`string`)
+- `date` (🧱 `HistoricalDate`)
+  - `a` (`Datation`):
+    - `value` (`int`)
+    - `isCentury` (`bool`)
+    - `isSpan` (`bool`)
+    - `isApproximate` (`bool`)
+    - `isDubious` (`bool`)
+    - `day` (`short`)
+    - `month` (`short`)
+    - `hint` (`string`)
+  - `b` (`Datation`)
+- `features` (thesaurus: `grf-features`)
+- `figDescription` (`string`, 5000)
+- `frameDescription` (`string`, 5000)
+- `text` (`string`, 5000)
+- `lastSeen`\* (`date`)
+
+(4) additional
+
+This section contains all the additional properties in comparison with the summary core.
+
+- `currentFn` (`string`, thesaurus: `grf-support-functions`)
+- `objectType` (`string`, thesaurus: `grf-support-object-types`)
+- `states` (`GrfSupportState[]`):
+  - `type`\* (`string`, thesaurus: `grf-support-states`)
+  - `date`\* (`date`)
+  - `note` (`string`, 5000)
+
+### GrfTechniquePart
+
+Techniques and tools.
+
+- `techniques`\* (`string[]`, thesaurus: `grf-techniques`)
+- `tools`\* (`string[]`, thesaurus: `grf-tools`)
+
+### GrfWritingPart
+
+Writing description.
+
+- `languages`\* (`string[]`, thesaurus: `grf-writing-languages`, usually ISO 639-3)
+- `system`\* (`string`, thesaurus: `grf-writing-systems`, usually ISO 15924 lowercase)
+- `type`\* (`string`, thesaurus: `grf-writing-types`)
+- `counts` (`DecoratedCount`[]):
+  - `id`\* (`string`, thesaurus: `decorated-count-ids`)
+  - `tag` (`string`, thesaurus: `decorated-count-tags`)
+  - `value`\* (`number`)
+  - `note` (`string`)
+- `features` (`string[]`, thesaurus, `grf-writing-features`)
+- `hasPoetry` (`boolean`)
+- `metres` (`string[]`, thesaurus: `grf-writing-metres`)
+
+### GrfFigurativePart
+
+Figurative description.
+
+- `frame` (`string`, thesaurus: `grf-fig-frame-types`)
+- `type` (`string`, thesaurus: `grf-fig-types`)
+- `features` (`string[]`, thesaurus: `grf-fig-features`)
+
+### Other Parts
+
+- metadata
+- categories
+- keywords
+- comment
+- note
+- bibliography
+- doc references
+- external IDs
+- text
+- comment layer
+- chronology layer
+
+### Graffiti Item Layout
+
+- graffiti group:
+  - summary
+  - technique
+  - writing
+  - figurative
+
+- general group:
+  - metadata
+  - categories
+  - keywords
+
+- comment group:
+  - comment
+  - note
+
+- references group:
+  - bibliography
+  - doc references
+  - external IDs
+
+- text group:
+  - text
+  - comment layer
+  - chronology layer
+
+## Original Spreadsheet
 
 The original schema was just a flat spreadsheet table, where some columns are grouped under so-called header columns, filled with color and without data, whose purpose is making all the following columns belonging to the same group. Often this is used to represent boolean features in a mutually exclusive relationship. Of course, this is just a hack due to the flat nature of the spreadsheet model.
 
