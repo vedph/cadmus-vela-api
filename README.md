@@ -162,8 +162,8 @@ This section contains all the additional properties in comparison with the summa
 - `states` (`GrfSupportState[]`):
   - `type`\* (`string`, thesaurus: `grf-support-states`)
   - `date`\* (`date`)
+  - `reporter`\* (`string`, 100)
   - `note` (`string`, 5000)
-  - `reporter` (`string`, 100)
 
 ### GrfTechniquePart
 
