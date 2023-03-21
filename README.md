@@ -94,6 +94,8 @@ To **avoid duplication**, the solution is:
 - including the _additional properties_ of this part in the summary part; when the summary data come from external sources or is first filled, these additional properties can just be ignored.
 - remove `text` from summary, so that it remains only where it belongs, i.e. in the text part.
 
+Once the properties of `GrfSupportPart` have been merged into the summary model, this part becomes meaningless and is thus removed.
+
 This of course does not affect any import procedure: it just means that when importing core data from external sources, the text will be stored in _text_, and the rest will be stored in _summary_.
 
 So, with these adjustments the models are as follow.
@@ -122,7 +124,7 @@ Essential information about a graffiti. This corresponds to the data core which 
 (2) material
 
 - `material`\* (`string`, thesaurus: `grf-support-materials`)
-- `description` (`string`, 5000)
+- `description`\* (`string`, 5000)
 
 (3) identification
 
@@ -161,6 +163,7 @@ This section contains all the additional properties in comparison with the summa
   - `type`\* (`string`, thesaurus: `grf-support-states`)
   - `date`\* (`date`)
   - `note` (`string`, 5000)
+  - `reporter` (`string`, 100)
 
 ### GrfTechniquePart
 
