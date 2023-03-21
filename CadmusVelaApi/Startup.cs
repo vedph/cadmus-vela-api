@@ -32,8 +32,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.IO;
 using System;
-using CadmusVelaApi.Services;
 using System.Linq;
+using Cadmus.Vela.Services;
 
 namespace CadmusVelaApi;
 

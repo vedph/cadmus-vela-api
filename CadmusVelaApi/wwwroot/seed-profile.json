@@ -7,169 +7,145 @@
       "colorKey": "EBD586",
       "partDefinitions": [
         {
-          "typeId": "it.vedph.external-ids",
-          "name": "external IDs",
-          "description": "External identifiers.",
+          "typeId": "it.vedph.graffiti.summary",
+          "name": "sintesi",
+          "description": "Scheda sintetica.",
           "isRequired": true,
           "colorKey": "2F4F4F",
-          "groupKey": "general",
+          "groupKey": "graffito",
           "sortKey": "a"
         },
         {
-          "typeId": "it.vedph.metadata",
-          "name": "metadata",
-          "description": "Generic metadata.",
-          "colorKey": "8B4513",
-          "groupKey": "general",
+          "typeId": "it.vedph.graffiti.technique",
+          "name": "tecnica",
+          "description": "Tecnica e strumenti.",
+          "colorKey": "006430",
+          "groupKey": "graffito",
           "sortKey": "b"
         },
         {
-          "typeId": "it.vedph.geo.asserted-locations",
-          "name": "location",
-          "description": "Geographic location(s).",
-          "isRequired": true,
-          "colorKey": "006400",
-          "groupKey": "general",
+          "typeId": "it.vedph.graffiti.support",
+          "name": "supporto",
+          "description": "Material support.",
+          "colorKey": "B03060",
+          "groupKey": "graffito",
+          "sortKey": "c"
+        },
+        {
+          "typeId": "it.vedph.graffiti.writing",
+          "name": "scrittura",
+          "description": "Scrittura.",
+          "colorKey": "FA0000",
+          "groupKey": "graffito",
           "sortKey": "d"
         },
         {
-          "typeId": "it.vedph.geo.asserted-toponyms",
-          "name": "toponym",
-          "description": "Toponym(s).",
-          "isRequired": true,
-          "colorKey": "006430",
-          "groupKey": "general",
+          "typeId": "it.vedph.metadata",
+          "name": "metadati",
+          "description": "Metadati generici.",
+          "colorKey": "8B4513",
+          "groupKey": "generale",
           "sortKey": "e"
         },
         {
-          "typeId": "it.vedph.historical-date",
-          "name": "date",
-          "description": "Date.",
-          "isRequired": true,
-          "colorKey": "000080",
-          "groupKey": "general",
+          "typeId": "it.vedph.categories",
+          "name": "categorie",
+          "description": "Categorie del graffito.",
+          "colorKey": "00CED1",
+          "groupKey": "generale",
           "sortKey": "f"
         },
         {
-          "typeId": "it.vedph.epigraphy.support",
-          "name": "support",
-          "description": "Material support.",
-          "isRequired": true,
-          "colorKey": "B03060",
-          "groupKey": "epigraphy",
+          "typeId": "it.vedph.index-keywords",
+          "name": "parole chiave",
+          "description": "Parole chiave del graffito.",
+          "colorKey": "FFA500",
+          "groupKey": "generale",
           "sortKey": "g"
         },
         {
-          "typeId": "it.vedph.epigraphy.writing",
-          "name": "writing",
-          "description": "Writing.",
-          "isRequired": true,
-          "colorKey": "FA0000",
-          "groupKey": "epigraphy",
+          "typeId": "it.vedph.comment",
+          "name": "commento",
+          "description": "Commento al graffito.",
+          "colorKey": "FEFE00",
+          "groupKey": "commento",
           "sortKey": "h"
         },
         {
-          "typeId": "it.vedph.categories",
-          "name": "categories",
-          "description": "Item's categories.",
-          "isRequired": true,
-          "colorKey": "00CED1",
-          "groupKey": "classification",
+          "typeId": "it.vedph.note",
+          "name": "nota",
+          "description": "Nota miscellanea.",
+          "colorKey": "00FE00",
+          "groupKey": "commento",
           "sortKey": "i"
         },
         {
-          "typeId": "it.vedph.index-keywords",
-          "name": "index keywords",
-          "description": "Item's index keywords.",
-          "colorKey": "FFA500",
-          "groupKey": "classification",
+          "typeId": "it.vedph.bibliography",
+          "name": "bibliografia",
+          "description": "Bibliografia sul graffito.",
+          "colorKey": "0000FE",
+          "groupKey": "riferimenti",
           "sortKey": "j"
         },
         {
-          "typeId": "it.vedph.comment",
-          "name": "comment",
-          "description": "Comment.",
-          "colorKey": "FEFE00",
-          "groupKey": "comment",
+          "typeId": "it.vedph.doc-references",
+          "name": "riferimenti",
+          "description": "Riferimenti sintetici.",
+          "colorKey": "00FA90",
+          "groupKey": "riferimenti",
           "sortKey": "k"
         },
         {
-          "typeId": "it.vedph.note",
-          "name": "note",
-          "description": "A free text note.",
-          "colorKey": "00FE00",
-          "groupKey": "comment",
+          "typeId": "it.vedph.external-ids",
+          "name": "ID esterni",
+          "description": "Identificativi di entità in risorse esterne.",
+          "colorKey": "2F4F4F",
+          "groupKey": "riferimenti",
           "sortKey": "l"
         },
         {
-          "typeId": "it.vedph.doc-references",
-          "name": "references",
-          "description": "Documental references.",
-          "colorKey": "00FA90",
-          "groupKey": "references",
+          "typeId": "it.vedph.geo.asserted-locations",
+          "name": "geografia",
+          "description": "Collocazione geografica.",
+          "colorKey": "006400",
+          "groupKey": "geografia",
           "sortKey": "m"
-        },
-        {
-          "typeId": "it.vedph.bibliography",
-          "name": "bibliography",
-          "description": "Bibliography.",
-          "colorKey": "0000FE",
-          "groupKey": "references",
-          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.token-text",
           "roleId": "base-text",
-          "name": "text",
-          "description": "Item's token-based text.",
+          "name": "testo",
+          "description": "Testo del graffito.",
           "colorKey": "D8BFD8",
-          "groupKey": "text",
-          "sortKey": "o"
+          "groupKey": "testo",
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.token-text-layer",
           "roleId": "fr.it.vedph.comment",
-          "name": "comments",
-          "description": "Comments on text.",
+          "name": "commenti",
+          "description": "Commenti a parti del testo.",
           "colorKey": "FE00FE",
-          "groupKey": "text",
-          "sortKey": "p"
+          "groupKey": "testo",
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.token-text-layer",
           "roleId": "fr.it.vedph.chronology",
-          "name": "chronology",
-          "description": "Chronological indications in text.",
+          "name": "cronologia",
+          "description": "Indicazioni cronologiche nel testo.",
           "colorKey": "DDA0DD",
-          "groupKey": "text",
-          "sortKey": "q"
-        },
-        {
-          "typeId": "it.vedph.token-text-layer",
-          "roleId": "fr.it.vedph.apparatus",
-          "name": "apparatus",
-          "description": "Critical apparatus.",
-          "colorKey": "1E90FF",
-          "groupKey": "text",
-          "sortKey": "r"
-        },
-        {
-          "typeId": "it.vedph.token-text-layer",
-          "roleId": "fr.it.vedph.orthography",
-          "name": "orthography",
-          "description": "Standard orthography.",
-          "colorKey": "F0E68C",
-          "groupKey": "text",
-          "sortKey": "s"
+          "groupKey": "testo",
+          "sortKey": "p"
         },
         {
           "typeId": "it.vedph.token-text-layer",
           "roleId": "fr.it.vedph.epigraphy.ligatures",
-          "name": "ligatures",
-          "description": "Ligatures.",
+          "name": "legature",
+          "description": "Legature notevoli nel testo.",
           "colorKey": "E0C404",
-          "groupKey": "text",
-          "sortKey": "t"
+          "groupKey": "testo",
+          "sortKey": "q"
         }
       ]
     }
@@ -177,20 +153,20 @@
   "flags": [
     {
       "id": 1,
-      "label": "warn",
-      "description": "The item has warnings.",
+      "label": "bozza",
+      "description": "Bozza importata.",
       "colorKey": "FFD95C"
     },
     {
       "id": 2,
-      "label": "complete",
-      "description": "The item is complete.",
+      "label": "completo",
+      "description": "Scheda completa.",
       "colorKey": "49D6CD"
     },
     {
       "id": 4,
-      "label": "revised",
-      "description": "The item is revised.",
+      "label": "revisionato",
+      "description": "Scheda revisionata.",
       "colorKey": "49D697"
     }
   ],
@@ -213,87 +189,79 @@
       "entries": [
         {
           "id": "it.vedph.bibliography",
-          "value": "bibliography"
+          "value": "bibliografia"
         },
         {
           "id": "it.vedph.categories",
-          "value": "categories"
+          "value": "categorie"
         },
         {
           "id": "it.vedph.comment",
-          "value": "comment"
+          "value": "commento"
         },
         {
           "id": "it.vedph.doc-references",
-          "value": "references"
-        },
-        {
-          "id": "it.vedph.epigraphy.support",
-          "value": "epi support"
-        },
-        {
-          "id": "it.vedph.epigraphy.writing",
-          "value": "epi writing"
+          "value": "riferimenti"
         },
         {
           "id": "it.vedph.external-ids",
-          "value": "external IDs"
-        },
-        {
-          "id": "it.vedph.geo.asserted-toponyms",
-          "value": "toponyms"
+          "value": "ID esterni"
         },
         {
           "id": "it.vedph.geo.asserted-locations",
-          "value": "locations"
+          "value": "localizzazione"
         },
         {
-          "id": "it.vedph.historical-date",
-          "value": "date"
+          "id": "it.vedph.graffiti.figurative",
+          "value": "figurativo"
+        },
+        {
+          "id": "it.vedph.graffiti.summary",
+          "value": "sintesi"
+        },
+        {
+          "id": "it.vedph.graffiti.support",
+          "value": "supporto"
+        },
+        {
+          "id": "it.vedph.graffiti.technique",
+          "value": "tecnica"
+        },
+        {
+          "id": "it.vedph.graffiti.writing",
+          "value": "scrittura"
         },
         {
           "id": "it.vedph.index-keywords",
-          "value": "index keywords"
+          "value": "parole chiave"
         },
         {
           "id": "it.vedph.metadata",
-          "value": "metadata"
-        },
-        {
-          "id": "it.vedph.names",
-          "value": "names"
+          "value": "metadati"
         },
         {
           "id": "it.vedph.note",
-          "value": "note"
+          "value": "nota"
         },
         {
           "id": "it.vedph.token-text",
-          "value": "text"
+          "value": "testo"
         },
         {
           "id": "it.vedph.token-text-layer",
-          "value": "text layer"
-        },
-        {
-          "id": "fr.it.vedph.apparatus",
-          "value": "apparatus fr."
+          "value": "strato"
         },
         {
           "id": "fr.it.vedph.chronology",
-          "value": "chronology"
+          "value": "fr.cronologia"
         },
         {
           "id": "fr.it.vedph.comment",
-          "value": "comment fr."
+          "value": "fr.commento"
         },
         {
           "id": "fr.it.vedph.epigraphy.ligatures",
-          "value": "ligatures fr."
-        },
-        {
-          "id": "fr.it.vedph.orthography",
-          "value": "orthography fr."
+          "value": "fr.legature"
         }
       ]
     },
@@ -302,15 +270,15 @@
       "entries": [
         {
           "id": "ed",
-          "value": "editor"
+          "value": "editore"
         },
         {
           "id": "tr",
-          "value": "translator"
+          "value": "traduttore"
         },
         {
           "id": "org",
-          "value": "organization"
+          "value": "organizzazione"
         }
       ]
     },
@@ -323,23 +291,23 @@
       "entries": [
         {
           "id": "book",
-          "value": "book"
+          "value": "libro"
         },
         {
           "id": "article-j",
-          "value": "journal article"
+          "value": "art.rivista"
         },
         {
           "id": "article-b",
-          "value": "book article"
+          "value": "art.libro"
         },
         {
           "id": "article-p",
-          "value": "proceedings article"
+          "value": "art.atti"
         },
         {
           "id": "review",
-          "value": "review"
+          "value": "recensione"
         },
         {
           "id": "ebook",
@@ -347,15 +315,15 @@
         },
         {
           "id": "site",
-          "value": "web site"
+          "value": "sito web"
         },
         {
           "id": "magazine",
-          "value": "magazine"
+          "value": "rivista"
         },
         {
           "id": "newspaper",
-          "value": "newspaper"
+          "value": "quotidiano"
         },
         {
           "id": "tweet",
@@ -590,167 +558,122 @@
       ]
     },
     {
-      "id": "epi-support-functions@en",
+      "id": "grf-features@en",
+      "entries": [
+        {
+          "id": "text",
+          "value": "testo"
+        },
+        {
+          "id": "digit",
+          "value": "numeri"
+        },
+        {
+          "id": "punct",
+          "value": "interpunzioni"
+        },
+        {
+          "id": "ligature",
+          "value": "legature"
+        },
+        {
+          "id": "abbr",
+          "value": "abbreviazioni"
+        },
+        {
+          "id": "mono",
+          "value": "monogrammi"
+        },
+        {
+          "id": "1-letter",
+          "value": "lettera singola"
+        },
+        {
+          "id": "undef-letter",
+          "value": "lettere indef."
+        },
+        {
+          "id": "undef-drawing",
+          "value": "disegno indef."
+        },
+        {
+          "id": "upper",
+          "value": "uppercase"
+        },
+        {
+          "id": "lower",
+          "value": "lowercase"
+        }
+      ]
+    },
+    {
+      "id": "grf-fig-features@en",
+      "entries": [
+        {
+          "id": "a",
+          "value": "alpha"
+        },
+        {
+          "id": "b",
+          "value": "beta"
+        },
+        {
+          "id": "g",
+          "value": "gamma"
+        }
+      ]
+    },
+    {
+      "id": "grf-fig-frame-types@en",
       "entries": [
         {
           "id": "-",
           "value": "---"
         },
         {
-          "id": "home",
-          "value": "home"
+          "id": "square",
+          "value": "square"
         },
         {
-          "id": "church",
-          "value": "church"
+          "id": "rect",
+          "value": "rectangular"
         },
         {
-          "id": "cloister",
-          "value": "cloister"
+          "id": "oval",
+          "value": "oval"
         },
         {
-          "id": "condominium",
-          "value": "condominium"
+          "id": "round",
+          "value": "round"
         },
         {
-          "id": "colannade",
-          "value": "colonnade"
+          "id": "heart",
+          "value": "heart"
         },
         {
-          "id": "convent",
-          "value": "convent"
+          "id": "cross",
+          "value": "cross"
         },
         {
-          "id": "warehouse",
-          "value": "warehouse"
+          "id": "flag",
+          "value": "flag"
         },
         {
-          "id": "palace",
-          "value": "palace"
+          "id": "cartouche",
+          "value": "cartouche"
         },
         {
-          "id": "well",
-          "value": "well"
+          "id": "signboard",
+          "value": "signboard"
         },
         {
-          "id": "prison",
-          "value": "prison"
-        },
-        {
-          "id": "street",
-          "value": "street"
+          "id": "cloud",
+          "value": "cloud"
         }
       ]
     },
     {
-      "id": "epi-support-materials@en",
-      "entries": [
-        {
-          "id": "concrete",
-          "value": "concrete"
-        },
-        {
-          "id": "plaster",
-          "value": "plaster"
-        },
-        {
-          "id": "wood",
-          "value": "wood"
-        },
-        {
-          "id": "stone",
-          "value": "stone"
-        },
-        {
-          "id": "brick",
-          "value": "brick"
-        },
-        {
-          "id": "metal",
-          "value": "metal"
-        }
-      ]
-    },
-    {
-      "id": "epi-support-object-types@en",
-      "entries": [
-        {
-          "id": "street",
-          "value": "strada"
-        },
-        {
-          "id": "bridge",
-          "value": "ponte"
-        }
-      ]
-    },
-    {
-      "id": "epi-support-types@en",
-      "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
-        {
-          "id": "balustrade",
-          "value": "balustrade"
-        },
-        {
-          "id": "sill",
-          "value": "still"
-        },
-        {
-          "id": "column",
-          "value": "column"
-        },
-        {
-          "id": "step",
-          "value": "step"
-        },
-        {
-          "id": "tombstone",
-          "value": "tombstone"
-        },
-        {
-          "id": "eccl-furniture",
-          "value": "ecclesiastical furniture"
-        },
-        {
-          "id": "wall",
-          "value": "wall"
-        },
-        {
-          "id": "bench",
-          "value": "bench"
-        },
-        {
-          "id": "floor",
-          "value": "floor"
-        },
-        {
-          "id": "pillar",
-          "value": "pillar"
-        },
-        {
-          "id": "door",
-          "value": "door"
-        },
-        {
-          "id": "well",
-          "value": "well"
-        },
-        {
-          "id": "jamb",
-          "value": "jamb"
-        },
-        {
-          "id": "street",
-          "value": "street"
-        }
-      ]
-    },
-    {
-      "id": "epi-writing-fig-types@en",
+      "id": "grf-fig-types@en",
       "entries": [
         {
           "id": "-",
@@ -863,56 +786,278 @@
       ]
     },
     {
-      "id": "epi-writing-frame-types@en",
+      "id": "grf-place-piece-types@en",
+      "entries": [
+        {
+          "id": "s*",
+          "value": "sestriere"
+        },
+        {
+          "id": "s.cr",
+          "value": "Cannaregio"
+        },
+        {
+          "id": "s.cs",
+          "value": "Castello"
+        },
+        {
+          "id": "s.dd",
+          "value": "Dorsoduro"
+        },
+        {
+          "id": "s.sm",
+          "value": "San Marco"
+        },
+        {
+          "id": "s.sp",
+          "value": "San Polo"
+        },
+        {
+          "id": "s.sc",
+          "value": "Santa Croce"
+        },
+        {
+          "id": "l*",
+          "value": "località"
+        },
+        {
+          "id": "_order",
+          "value": "s l"
+        }
+      ]
+    },
+    {
+      "id": "grf-support-functions@en",
       "entries": [
         {
           "id": "-",
           "value": "---"
         },
         {
-          "id": "square",
-          "value": "square"
+          "id": "home",
+          "value": "home"
         },
         {
-          "id": "rect",
-          "value": "rectangular"
+          "id": "church",
+          "value": "church"
         },
         {
-          "id": "oval",
-          "value": "oval"
+          "id": "cloister",
+          "value": "cloister"
         },
         {
-          "id": "round",
-          "value": "round"
+          "id": "condominium",
+          "value": "condominium"
         },
         {
-          "id": "heart",
-          "value": "heart"
+          "id": "colannade",
+          "value": "colonnade"
         },
         {
-          "id": "cross",
-          "value": "cross"
+          "id": "convent",
+          "value": "convent"
         },
         {
-          "id": "flag",
-          "value": "flag"
+          "id": "warehouse",
+          "value": "warehouse"
         },
         {
-          "id": "cartouche",
-          "value": "cartouche"
+          "id": "palace",
+          "value": "palace"
         },
         {
-          "id": "signboard",
-          "value": "signboard"
+          "id": "well",
+          "value": "well"
         },
         {
-          "id": "cloud",
-          "value": "cloud"
+          "id": "prison",
+          "value": "prison"
+        },
+        {
+          "id": "street",
+          "value": "street"
         }
       ]
     },
     {
-      "id": "epi-writing-languages@en",
+      "id": "grf-support-materials@en",
+      "entries": [
+        {
+          "id": "concrete",
+          "value": "concrete"
+        },
+        {
+          "id": "plaster",
+          "value": "plaster"
+        },
+        {
+          "id": "wood",
+          "value": "wood"
+        },
+        {
+          "id": "stone",
+          "value": "stone"
+        },
+        {
+          "id": "brick",
+          "value": "brick"
+        },
+        {
+          "id": "metal",
+          "value": "metal"
+        }
+      ]
+    },
+    {
+      "id": "grf-support-object-types@en",
+      "entries": [
+        {
+          "id": "street",
+          "value": "strada"
+        },
+        {
+          "id": "bridge",
+          "value": "ponte"
+        }
+      ]
+    },
+    {
+      "id": "grf-support-states@en",
+      "entries": [
+        {
+          "id": "s1",
+          "value": "stato 1"
+        },
+        {
+          "id": "s2",
+          "value": "stato 2"
+        }
+      ]
+    },
+    {
+      "id": "grf-support-types@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "balustrade",
+          "value": "balustrade"
+        },
+        {
+          "id": "sill",
+          "value": "still"
+        },
+        {
+          "id": "column",
+          "value": "column"
+        },
+        {
+          "id": "step",
+          "value": "step"
+        },
+        {
+          "id": "tombstone",
+          "value": "tombstone"
+        },
+        {
+          "id": "eccl-furniture",
+          "value": "ecclesiastical furniture"
+        },
+        {
+          "id": "wall",
+          "value": "wall"
+        },
+        {
+          "id": "bench",
+          "value": "bench"
+        },
+        {
+          "id": "floor",
+          "value": "floor"
+        },
+        {
+          "id": "pillar",
+          "value": "pillar"
+        },
+        {
+          "id": "door",
+          "value": "door"
+        },
+        {
+          "id": "well",
+          "value": "well"
+        },
+        {
+          "id": "jamb",
+          "value": "jamb"
+        },
+        {
+          "id": "street",
+          "value": "street"
+        }
+      ]
+    },
+    {
+      "id": "grf-techniques@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "charcoal",
+          "value": "charcoal"
+        },
+        {
+          "id": "candlesmoke",
+          "value": "candlesmoke"
+        },
+        {
+          "id": "graffiti",
+          "value": "graffiti"
+        },
+        {
+          "id": "graphite",
+          "value": "graphite"
+        },
+        {
+          "id": "ink",
+          "value": "ink"
+        },
+        {
+          "id": "punch",
+          "value": "punch"
+        },
+        {
+          "id": "paint",
+          "value": "paint"
+        }
+      ]
+    },
+    {
+      "id": "grf-writing-count-ids@en",
+      "entries": [
+        {
+          "id": "row",
+          "value": "righe"
+        }
+      ]
+    },
+    {
+      "id": "grf-writing-features@en",
+      "entries": [
+        {
+          "id": "f1"
+        },
+        {
+          "id": "f2"
+        }
+      ]
+    },
+    {
+      "id": "grf-writing-languages@en",
       "entries": [
         {
           "id": "eng",
@@ -949,65 +1094,24 @@
       ]
     },
     {
-      "id": "epi-writing-metres@en",
+      "id": "grf-writing-metres@en",
       "entries": [
         {
           "id": "-",
           "value": "---"
+        },
+        {
+          "id": "s7",
+          "value": "settenario"
+        },
+        {
+          "id": "s8",
+          "value": "ottonario"
         }
       ]
     },
     {
-      "id": "epi-writing-script-features@en",
-      "entries": [
-        {
-          "id": "text",
-          "value": "testo"
-        },
-        {
-          "id": "digit",
-          "value": "numeri"
-        },
-        {
-          "id": "punct",
-          "value": "interpunzioni"
-        },
-        {
-          "id": "ligature",
-          "value": "legature"
-        },
-        {
-          "id": "abbr",
-          "value": "abbreviazioni"
-        },
-        {
-          "id": "mono",
-          "value": "monogrammi"
-        },
-        {
-          "id": "1-letter",
-          "value": "lettera singola"
-        },
-        {
-          "id": "undef-letter",
-          "value": "lettere indef."
-        },
-        {
-          "id": "undef-drawing",
-          "value": "disegno indef."
-        },
-        {
-          "id": "upper",
-          "value": "uppercase"
-        },
-        {
-          "id": "lower",
-          "value": "lowercase"
-        }
-      ]
-    },
-    {
-      "id": "epi-writing-systems@en",
+      "id": "grf-writing-systems@en",
       "entries": [
         {
           "id": "-",
@@ -1056,44 +1160,7 @@
       ]
     },
     {
-      "id": "epi-writing-techniques@en",
-      "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
-        {
-          "id": "charcoal",
-          "value": "charcoal"
-        },
-        {
-          "id": "candlesmoke",
-          "value": "candlesmoke"
-        },
-        {
-          "id": "graffiti",
-          "value": "graffiti"
-        },
-        {
-          "id": "graphite",
-          "value": "graphite"
-        },
-        {
-          "id": "ink",
-          "value": "ink"
-        },
-        {
-          "id": "punch",
-          "value": "punch"
-        },
-        {
-          "id": "paint",
-          "value": "paint"
-        }
-      ]
-    },
-    {
-      "id": "epi-writing-tools@en",
+      "id": "grf-writing-tools@en",
       "entries": [
         {
           "id": "-",
@@ -1134,7 +1201,7 @@
       ]
     },
     {
-      "id": "epi-writing-types@en",
+      "id": "grf-writing-types@en",
       "entries": [
         {
           "id": "-",
@@ -1151,72 +1218,6 @@
         {
           "id": "italic",
           "value": "italic"
-        }
-      ]
-    },
-    {
-      "id": "geo-name-languages@en",
-      "entries": [
-        {
-          "id": "eng",
-          "value": "English"
-        },
-        {
-          "id": "grc",
-          "value": "Greek"
-        },
-        {
-          "id": "lat",
-          "value": "Latin"
-        }
-      ]
-    },
-    {
-      "id": "geo-name-piece-types@en",
-      "entries": [
-        {
-          "id": "cnt*",
-          "value": "continent"
-        },
-        {
-          "id": "cnt.europe",
-          "value": "Europe"
-        },
-        {
-          "id": "cnt.amr-n",
-          "value": "North America"
-        },
-        {
-          "id": "cnt.amr-s",
-          "value": "South America"
-        },
-        {
-          "id": "cnt.afr",
-          "value": "Africa"
-        },
-        {
-          "id": "cnt.asi",
-          "value": "Asia"
-        },
-        {
-          "id": "cnt.aus",
-          "value": "Australia"
-        },
-        {
-          "id": "cnt.ant",
-          "value": "Antarctica"
-        },
-        {
-          "id": "country*",
-          "value": "country"
-        },
-        {
-          "id": "region*",
-          "value": "region"
-        },
-        {
-          "id": "_order",
-          "value": "cnt country region"
         }
       ]
     },
@@ -1254,135 +1255,6 @@
         {
           "id": "spa",
           "value": "Spanish"
-        }
-      ]
-    },
-    {
-      "id": "orthography-tags@en",
-      "entries": [
-        {
-          "id": "grc.p.-",
-          "value": "phonology: Greek"
-        },
-        {
-          "id": "grc.p.v.-",
-          "value": "Greek: phonology: vowels"
-        },
-        {
-          "id": "grc.p.v.itacism.-",
-          "value": "Greek: phonology: vowels: itacism"
-        },
-        {
-          "id": "grc.p.v.itacism.ei-i",
-          "value": "Greek: phonology: vowels: itacism: EI=I"
-        },
-        {
-          "id": "grc.p.v.itacism.i-ei",
-          "value": "Greek: phonology: vowels: itacism: I=EI"
-        },
-        {
-          "id": "grc.p.v.itacism.h-ei",
-          "value": "Greek: phonology: vowels: itacism: H=EI"
-        },
-        {
-          "id": "grc.p.v.itacism.y-i",
-          "value": "Greek: phonology: vowels: itacism: Y=I"
-        },
-        {
-          "id": "grc.p.v.itacism.hi-ei",
-          "value": "Greek: phonology: vowels: itacism: HI=EI"
-        },
-        {
-          "id": "grc.p.v.monophth.-",
-          "value": "Greek: phonology: vowels: monophthongisation"
-        },
-        {
-          "id": "grc.p.v.monophth.e-ai",
-          "value": "Greek: phonology: vowels: monophthongisation: E=AI"
-        },
-        {
-          "id": "grc.p.v.monophth.aii-ai",
-          "value": "Greek: phonology: vowels: monophthongisation: AII=AI"
-        },
-        {
-          "id": "grc.p.v.qt.-",
-          "value": "Greek: phonology: vowels: quantity"
-        },
-        {
-          "id": "grc.p.v.qt.o-omega",
-          "value": "Greek: phonology: vowels: quantity: O=Ω"
-        },
-        {
-          "id": "grc.p.c.-",
-          "value": "Greek: phonology: consonants"
-        },
-        {
-          "id": "grc.p.c.fric.-",
-          "value": "Greek: phonology: consonants: fricativisation"
-        },
-        {
-          "id": "grc.p.c.fric.b-oy",
-          "value": "Greek: phonology: consonants: fricativisation: B=OΥ"
-        },
-        {
-          "id": "grc.p.c.occl.-",
-          "value": "Greek: phonology: consonants: occlusives"
-        },
-        {
-          "id": "grc.p.c.occl.d-t",
-          "value": "Greek: phonology: consonants: occlusives: Δ=Τ"
-        },
-        {
-          "id": "lat.p.-",
-          "value": "phonology: Latin"
-        },
-        {
-          "id": "lat.p.v.-",
-          "value": "Latin: phonology: vowels"
-        },
-        {
-          "id": "lat.p.v.qt.-",
-          "value": "Latin: phonology: vowels: quantity"
-        },
-        {
-          "id": "lat.p.v.qt.e-longi",
-          "value": "Latin: phonology: vowels: quantity: E=ī"
-        },
-        {
-          "id": "lat.p.v.qt.e-longo",
-          "value": "Latin: phonology: vowels: quantity: E=ō"
-        },
-        {
-          "id": "lat.p.v.qt.oy-o",
-          "value": "Latin: phonology: vowels: quantity: OY=O"
-        },
-        {
-          "id": "lat.p.c.-",
-          "value": "Latin: phonology: consonants"
-        },
-        {
-          "id": "lat.p.c.fric.-",
-          "value": "Latin: phonology: consonants: fricativisation"
-        },
-        {
-          "id": "lat.p.c.fric.b-v",
-          "value": "Latin: phonology: consonants: fricativisation: B=V"
-        },
-        {
-          "id": "lat.p.c.occl.-",
-          "value": "Latin: phonology: consonants: occlusives"
-        },
-        {
-          "id": "lat.p.c.occl.p-b",
-          "value": "Latin: phonology: consonants: occlusives: Π=B"
-        },
-        {
-          "id": "lat.p.c.nas.-",
-          "value": "Latin: phonology: consonants: nasals"
-        },
-        {
-          "id": "lat.p.c.nas.coiug",
-          "value": "Latin: phonology: consonants: nasals: coiug=coniug"
         }
       ]
     },
@@ -1448,16 +1320,19 @@
         "id": "seed.it.vedph.external-ids"
       },
       {
-        "id": "seed.it.vedph.epigraphy.support"
-      },
-      {
-        "id": "seed.it.vedph.epigraphy.writing"
-      },
-      {
         "id": "seed.it.vedph.geo.asserted-locations"
       },
       {
-        "id": "seed.it.vedph.geo.asserted-toponyms"
+        "id": "seed.it.vedph.graffiti.summary"
+      },
+      {
+        "id": "seed.it.vedph.graffiti.support"
+      },
+      {
+        "id": "seed.it.vedph.graffiti.technique"
+      },
+      {
+        "id": "seed.it.vedph.graffiti.writing"
       },
       {
         "id": "seed.it.vedph.historical-date"
@@ -1493,6 +1368,9 @@
     ],
     "fragmentSeeders": [
       {
+        "id": "seed.fr.it.vedph.chronology"
+      },
+      {
         "id": "seed.fr.it.vedph.comment",
         "options": {
           "languages": [ "eng", "ita" ],
@@ -1500,16 +1378,7 @@
         }
       },
       {
-        "id": "seed.fr.it.vedph.apparatus"
-      },
-      {
         "id": "seed.fr.it.vedph.epigraphy.ligatures"
-      },
-      {
-        "id": "seed.fr.it.vedph.orthography",
-        "options": {
-          "tags": [ "ph.c.occl.", "ph.c.liq.", "ph.c.nas." ]
-        }
       }
     ]
   }
