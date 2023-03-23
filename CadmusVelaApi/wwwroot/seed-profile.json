@@ -24,20 +24,12 @@
           "sortKey": "b"
         },
         {
-          "typeId": "it.vedph.graffiti.support",
-          "name": "supporto",
-          "description": "Material support.",
-          "colorKey": "B03060",
-          "groupKey": "graffito",
-          "sortKey": "c"
-        },
-        {
           "typeId": "it.vedph.graffiti.writing",
           "name": "scrittura",
           "description": "Scrittura.",
           "colorKey": "FA0000",
           "groupKey": "graffito",
-          "sortKey": "d"
+          "sortKey": "c"
         },
         {
           "typeId": "it.vedph.metadata",
@@ -45,7 +37,7 @@
           "description": "Metadati generici.",
           "colorKey": "8B4513",
           "groupKey": "generale",
-          "sortKey": "e"
+          "sortKey": "d"
         },
         {
           "typeId": "it.vedph.categories",
@@ -53,7 +45,7 @@
           "description": "Categorie del graffito.",
           "colorKey": "00CED1",
           "groupKey": "generale",
-          "sortKey": "f"
+          "sortKey": "e"
         },
         {
           "typeId": "it.vedph.index-keywords",
@@ -61,7 +53,7 @@
           "description": "Parole chiave del graffito.",
           "colorKey": "FFA500",
           "groupKey": "generale",
-          "sortKey": "g"
+          "sortKey": "f"
         },
         {
           "typeId": "it.vedph.comment",
@@ -69,7 +61,7 @@
           "description": "Commento al graffito.",
           "colorKey": "FEFE00",
           "groupKey": "commento",
-          "sortKey": "h"
+          "sortKey": "g"
         },
         {
           "typeId": "it.vedph.note",
@@ -77,7 +69,7 @@
           "description": "Nota miscellanea.",
           "colorKey": "00FE00",
           "groupKey": "commento",
-          "sortKey": "i"
+          "sortKey": "h"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -85,7 +77,7 @@
           "description": "Bibliografia sul graffito.",
           "colorKey": "0000FE",
           "groupKey": "riferimenti",
-          "sortKey": "j"
+          "sortKey": "i"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -93,7 +85,7 @@
           "description": "Riferimenti sintetici.",
           "colorKey": "00FA90",
           "groupKey": "riferimenti",
-          "sortKey": "k"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.external-ids",
@@ -101,7 +93,7 @@
           "description": "Identificativi di entità in risorse esterne.",
           "colorKey": "2F4F4F",
           "groupKey": "riferimenti",
-          "sortKey": "l"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.geo.asserted-locations",
@@ -109,7 +101,7 @@
           "description": "Collocazione geografica.",
           "colorKey": "006400",
           "groupKey": "geografia",
-          "sortKey": "m"
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -118,7 +110,7 @@
           "description": "Testo del graffito.",
           "colorKey": "D8BFD8",
           "groupKey": "testo",
-          "sortKey": "n"
+          "sortKey": "m"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -127,7 +119,7 @@
           "description": "Commenti a parti del testo.",
           "colorKey": "FE00FE",
           "groupKey": "testo",
-          "sortKey": "o"
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -136,7 +128,7 @@
           "description": "Indicazioni cronologiche nel testo.",
           "colorKey": "DDA0DD",
           "groupKey": "testo",
-          "sortKey": "p"
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -145,7 +137,7 @@
           "description": "Legature notevoli nel testo.",
           "colorKey": "E0C404",
           "groupKey": "testo",
-          "sortKey": "q"
+          "sortKey": "p"
         }
       ]
     }
@@ -218,10 +210,6 @@
         {
           "id": "it.vedph.graffiti.summary",
           "value": "sintesi"
-        },
-        {
-          "id": "it.vedph.graffiti.support",
-          "value": "supporto"
         },
         {
           "id": "it.vedph.graffiti.technique",
@@ -1324,9 +1312,6 @@
       },
       {
         "id": "seed.it.vedph.graffiti.summary"
-      },
-      {
-        "id": "seed.it.vedph.graffiti.support"
       },
       {
         "id": "seed.it.vedph.graffiti.technique"

@@ -17,6 +17,7 @@ This API uses core components from the following Cadmus libraries:
 
 ## History
 
+- 2023-03-23: fixes to configuration.
 - 2023-03-21: refactored data models introducing graffiti-specific parts.
 - 2023-03-14: updated facet "required" properties.
 
