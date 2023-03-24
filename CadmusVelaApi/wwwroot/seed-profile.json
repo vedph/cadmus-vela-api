@@ -840,6 +840,23 @@
       ]
     },
     {
+      "id": "grf-state-entries@en",
+      "entries": [
+        {
+          "id": "s0",
+          "value": "alpha"
+        },
+        {
+          "id": "s1",
+          "value": "beta"
+        },
+        {
+          "id": "s2",
+          "value": "gamma"
+        }
+      ]
+    },
+    {
       "id": "grf-support-functions@en",
       "entries": [
         {
