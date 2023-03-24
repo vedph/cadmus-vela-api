@@ -774,6 +774,31 @@
       ]
     },
     {
+      "id": "grf-place-languages@en",
+      "entries": [
+        {
+          "id": "ita",
+          "value": "Italian"
+        },
+        {
+          "id": "fre",
+          "value": "French"
+        },
+        {
+          "id": "spa",
+          "value": "Spanish"
+        },
+        {
+          "id": "eng",
+          "value": "English"
+        },
+        {
+          "id": "deu",
+          "value": "German"
+        }
+      ]
+    },
+    {
       "id": "grf-place-piece-types@en",
       "entries": [
         {
