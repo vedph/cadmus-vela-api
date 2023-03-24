@@ -32,12 +32,20 @@
           "sortKey": "c"
         },
         {
+          "typeId": "it.vedph.graffiti.figurative",
+          "name": "tecnica",
+          "description": "Parte figurativa.",
+          "colorKey": "E3B5A4",
+          "groupKey": "graffito",
+          "sortKey": "d"
+        },
+        {
           "typeId": "it.vedph.metadata",
           "name": "metadati",
           "description": "Metadati generici.",
           "colorKey": "8B4513",
           "groupKey": "generale",
-          "sortKey": "d"
+          "sortKey": "e"
         },
         {
           "typeId": "it.vedph.categories",
@@ -45,7 +53,7 @@
           "description": "Categorie del graffito.",
           "colorKey": "00CED1",
           "groupKey": "generale",
-          "sortKey": "e"
+          "sortKey": "f"
         },
         {
           "typeId": "it.vedph.index-keywords",
@@ -53,7 +61,7 @@
           "description": "Parole chiave del graffito.",
           "colorKey": "FFA500",
           "groupKey": "generale",
-          "sortKey": "f"
+          "sortKey": "g"
         },
         {
           "typeId": "it.vedph.comment",
@@ -61,7 +69,7 @@
           "description": "Commento al graffito.",
           "colorKey": "FEFE00",
           "groupKey": "commento",
-          "sortKey": "g"
+          "sortKey": "h"
         },
         {
           "typeId": "it.vedph.note",
@@ -69,7 +77,7 @@
           "description": "Nota miscellanea.",
           "colorKey": "00FE00",
           "groupKey": "commento",
-          "sortKey": "h"
+          "sortKey": "i"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -77,7 +85,7 @@
           "description": "Bibliografia sul graffito.",
           "colorKey": "0000FE",
           "groupKey": "riferimenti",
-          "sortKey": "i"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -85,7 +93,7 @@
           "description": "Riferimenti sintetici.",
           "colorKey": "00FA90",
           "groupKey": "riferimenti",
-          "sortKey": "j"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.external-ids",
@@ -93,7 +101,7 @@
           "description": "Identificativi di entità in risorse esterne.",
           "colorKey": "2F4F4F",
           "groupKey": "riferimenti",
-          "sortKey": "k"
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.geo.asserted-locations",
@@ -101,7 +109,7 @@
           "description": "Collocazione geografica.",
           "colorKey": "006400",
           "groupKey": "geografia",
-          "sortKey": "l"
+          "sortKey": "m"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -110,7 +118,7 @@
           "description": "Testo del graffito.",
           "colorKey": "D8BFD8",
           "groupKey": "testo",
-          "sortKey": "m"
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -119,7 +127,7 @@
           "description": "Commenti a parti del testo.",
           "colorKey": "FE00FE",
           "groupKey": "testo",
-          "sortKey": "n"
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -128,7 +136,7 @@
           "description": "Indicazioni cronologiche nel testo.",
           "colorKey": "DDA0DD",
           "groupKey": "testo",
-          "sortKey": "o"
+          "sortKey": "p"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -137,7 +145,7 @@
           "description": "Legature notevoli nel testo.",
           "colorKey": "E0C404",
           "groupKey": "testo",
-          "sortKey": "p"
+          "sortKey": "q"
         }
       ]
     }
@@ -1067,6 +1075,47 @@
       ]
     },
     {
+      "id": "grf-tools@en",
+      "entries": [
+        {
+          "id": "-",
+          "entries": "---"
+        },
+        {
+          "id": "charcoal",
+          "value": "charcoal"
+        },
+        {
+          "id": "nail",
+          "value": "nail"
+        },
+        {
+          "id": "gradine",
+          "value": "gradine"
+        },
+        {
+          "id": "blade",
+          "value": "blade"
+        },
+        {
+          "id": "marker",
+          "value": "marker"
+        },
+        {
+          "id": "pen",
+          "value": "pen"
+        },
+        {
+          "id": "brush",
+          "value": "brush"
+        },
+        {
+          "id": "stencil",
+          "value": "stencil"
+        }
+      ]
+    },
+    {
       "id": "grf-writing-count-ids@en",
       "entries": [
         {
@@ -1186,47 +1235,6 @@
         {
           "id": "deva",
           "value": "indian"
-        }
-      ]
-    },
-    {
-      "id": "grf-writing-tools@en",
-      "entries": [
-        {
-          "id": "-",
-          "entries": "---"
-        },
-        {
-          "id": "charcoal",
-          "value": "charcoal"
-        },
-        {
-          "id": "nail",
-          "value": "nail"
-        },
-        {
-          "id": "gradine",
-          "value": "gradine"
-        },
-        {
-          "id": "blade",
-          "value": "blade"
-        },
-        {
-          "id": "marker",
-          "value": "marker"
-        },
-        {
-          "id": "pen",
-          "value": "pen"
-        },
-        {
-          "id": "brush",
-          "value": "brush"
-        },
-        {
-          "id": "stencil",
-          "value": "stencil"
         }
       ]
     },
@@ -1351,6 +1359,9 @@
       },
       {
         "id": "seed.it.vedph.geo.asserted-locations"
+      },
+      {
+        "id": "seed.it.vedph.graffiti.figurative"
       },
       {
         "id": "seed.it.vedph.graffiti.summary"
