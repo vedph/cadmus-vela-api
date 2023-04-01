@@ -20,7 +20,7 @@
           "name": "supporto",
           "description": "Supporto materiale.",
           "isRequired": true,
-          "colorKey": "006430",
+          "colorKey": "AAD2BA",
           "groupKey": "sintesi",
           "sortKey": "b"
         },
@@ -29,7 +29,7 @@
           "name": "cornice",
           "description": "Cornice, dimensioni e figura.",
           "isRequired": true,
-          "colorKey": "006430",
+          "colorKey": "EFD0CA",
           "groupKey": "sintesi",
           "sortKey": "c"
         },
@@ -38,7 +38,7 @@
           "name": "stati",
           "description": "Stati del graffito nel tempo.",
           "isRequired": true,
-          "colorKey": "006430",
+          "colorKey": "AF90A9",
           "groupKey": "sintesi",
           "sortKey": "d"
         },
@@ -48,7 +48,7 @@
           "roleId": "text",
           "description": "Prima trascrizione del testo.",
           "isRequired": true,
-          "colorKey": "00FE00",
+          "colorKey": "FFB17A",
           "groupKey": "sintesi",
           "sortKey": "e"
         },
@@ -57,7 +57,7 @@
           "name": "date",
           "roleId": "date",
           "description": "Note sulla cronologia.",
-          "colorKey": "00FEC0",
+          "colorKey": "C09BD8",
           "groupKey": "sintesi",
           "sortKey": "f"
         },
@@ -65,7 +65,7 @@
           "typeId": "it.vedph.graffiti.writing",
           "name": "scrittura",
           "description": "Scrittura.",
-          "colorKey": "FA0000",
+          "colorKey": "048BA8",
           "groupKey": "dettagli",
           "sortKey": "g"
         },
@@ -73,7 +73,7 @@
           "typeId": "it.vedph.graffiti.technique",
           "name": "tecnica",
           "description": "Tecnica e strumenti.",
-          "colorKey": "006430",
+          "colorKey": "75DBCD",
           "groupKey": "dettagli",
           "sortKey": "h"
         },
@@ -81,7 +81,7 @@
           "typeId": "it.vedph.graffiti.figurative",
           "name": "figurativa",
           "description": "Parte figurativa.",
-          "colorKey": "E3B5A4",
+          "colorKey": "ED97B4",
           "groupKey": "dettagli",
           "sortKey": "i"
         },
@@ -89,7 +89,7 @@
           "typeId": "it.vedph.historical-date",
           "name": "datazione",
           "description": "Datazione.",
-          "colorKey": "00AEC0",
+          "colorKey": "9F84BD",
           "groupKey": "dettagli",
           "sortKey": "j"
         },
@@ -98,7 +98,7 @@
           "name": "functions",
           "roleId": "functions",
           "description": "Funzioni del graffito.",
-          "colorKey": "00CED1",
+          "colorKey": "7668B6",
           "groupKey": "dettagli",
           "sortKey": "k"
         },
@@ -107,7 +107,7 @@
           "name": "themes",
           "roleId": "themes",
           "description": "Temi del graffito.",
-          "colorKey": "00CED1",
+          "colorKey": "8275BD",
           "groupKey": "dettagli",
           "sortKey": "l"
         },
@@ -116,7 +116,7 @@
           "roleId": "base-text",
           "name": "edited text",
           "description": "Testo edito del graffito.",
-          "colorKey": "D8BFD8",
+          "colorKey": "2EBFA5",
           "groupKey": "testo",
           "sortKey": "m"
         },
@@ -125,7 +125,7 @@
           "roleId": "fr.it.vedph.comment",
           "name": "commenti",
           "description": "Commenti a parti del testo.",
-          "colorKey": "FE00FE",
+          "colorKey": "28666E",
           "groupKey": "testo",
           "sortKey": "n"
         },
@@ -134,7 +134,7 @@
           "roleId": "fr.it.vedph.chronology",
           "name": "cronologia",
           "description": "Indicazioni cronologiche nel testo.",
-          "colorKey": "DDA0DD",
+          "colorKey": "7582BD",
           "groupKey": "testo",
           "sortKey": "o"
         },
@@ -143,7 +143,7 @@
           "roleId": "fr.it.vedph.epigraphy.ligatures",
           "name": "legature",
           "description": "Legature notevoli nel testo.",
-          "colorKey": "E0C404",
+          "colorKey": "DEBEF3",
           "groupKey": "testo",
           "sortKey": "p"
         },
@@ -151,7 +151,7 @@
           "typeId": "it.vedph.comment",
           "name": "commento",
           "description": "Commento al graffito.",
-          "colorKey": "FEFE00",
+          "colorKey": "28666E",
           "groupKey": "commento",
           "sortKey": "q"
         },
@@ -159,7 +159,7 @@
           "typeId": "it.vedph.note",
           "name": "nota",
           "description": "Nota miscellanea.",
-          "colorKey": "00FE00",
+          "colorKey": "8D93A5",
           "groupKey": "commento",
           "sortKey": "r"
         },
@@ -167,7 +167,7 @@
           "typeId": "it.vedph.metadata",
           "name": "metadati",
           "description": "Metadati generici.",
-          "colorKey": "8B4513",
+          "colorKey": "5D8CC0",
           "groupKey": "classificazione",
           "sortKey": "s"
         },
@@ -183,7 +183,7 @@
           "typeId": "it.vedph.bibliography",
           "name": "bibliografia",
           "description": "Bibliografia sul graffito.",
-          "colorKey": "0000FE",
+          "colorKey": "4C5EA9",
           "groupKey": "riferimenti",
           "sortKey": "u"
         },
@@ -191,7 +191,7 @@
           "typeId": "it.vedph.doc-references",
           "name": "riferimenti",
           "description": "Riferimenti sintetici.",
-          "colorKey": "00FA90",
+          "colorKey": "AAAA9D",
           "groupKey": "riferimenti",
           "sortKey": "v"
         },
@@ -392,197 +392,150 @@
       ]
     },
     {
-      "id": "categories@en",
+      "id": "categories_functions@en",
       "entries": [
         {
-          "id": "cnt",
-          "value": "content"
+          "id": "funerary",
+          "value": "funeraria"
         },
         {
-          "id": "cnt.funerary",
-          "value": "content: funerary"
+          "id": "memorial",
+          "value": "commemorativa"
         },
         {
-          "id": "cnt.signature",
-          "value": "content: signature"
+          "id": "celebratory",
+          "value": "celebrativa"
         },
         {
-          "id": "cnt.celebratory",
-          "value": "content: celebratory"
+          "id": "exhortative",
+          "value": "esortativa"
         },
         {
-          "id": "cnt.exhortative",
-          "value": "content: exhortative"
+          "id": "signaling",
+          "value": "segnaletica"
         },
         {
-          "id": "cnt.didactic",
-          "value": "content: didactic"
+          "id": "auspicious",
+          "value": "augurale"
         },
         {
-          "id": "cnt.initials",
-          "value": "content: initials name"
+          "id": "consecration",
+          "value": "consacrazione"
         },
         {
-          "id": "cnt.sign",
-          "value": "content: sign"
+          "id": "dedication",
+          "value": "dedicatoria"
         },
         {
-          "id": "cnt.signage",
-          "value": "content: signage"
+          "id": "date",
+          "value": "data"
         },
         {
-          "id": "cnt.citation",
-          "value": "content: citation"
+          "id": "devotional",
+          "value": "devozionale"
         },
         {
-          "id": "cnt.defame",
-          "value": "content: defame"
+          "id": "didascalic",
+          "value": "didascalica"
         },
         {
-          "id": "cnt.sport",
-          "value": "content: sport"
+          "id": "documentary",
+          "value": "documentaria"
         },
         {
-          "id": "cnt.prostitution",
-          "value": "content: prostitution"
+          "id": "exegetical",
+          "value": "esegetica"
         },
         {
-          "id": "cnt.politics",
-          "value": "content: politics"
+          "id": "signature",
+          "value": "firma"
         },
         {
-          "id": "cnt.religious",
-          "value": "content: religious"
+          "id": "invocative",
+          "value": "invocativa"
         },
         {
-          "id": "cnt.prayer",
-          "value": "content: prayer"
+          "id": "liturgical",
+          "value": "liturgica"
         },
         {
-          "id": "cnt.exvoto",
-          "value": "content: ex voto"
+          "id": "building",
+          "value": "marchio edile"
         },
         {
-          "id": "cnt.love",
-          "value": "content: love"
+          "id": "measure",
+          "value": "misura"
         },
         {
-          "id": "cnt.prose",
-          "value": "content: prose"
+          "id": "votive",
+          "value": "votiva"
         },
         {
-          "id": "cnt.poetry",
-          "value": "content: poetry"
+          "id": "speaking",
+          "value": "parlanti"
+        }
+      ]
+    },
+    {
+      "id": "categories_themes@en",
+      "entries": [
+        {
+          "id": "sport",
+          "value": "sport"
         },
         {
-          "id": "cnt.speakers",
-          "value": "content: speakers"
+          "id": "infamous",
+          "value": "infamante"
         },
         {
-          "id": "cnt.insult",
-          "value": "content: insult"
+          "id": "prostitution",
+          "value": "prostituzione"
         },
         {
-          "id": "cnt.swearing",
-          "value": "content: swearing"
+          "id": "politics",
+          "value": "politica"
         },
         {
-          "id": "fig",
-          "value": "figurative"
+          "id": "religion",
+          "value": "religione"
         },
         {
-          "id": "fig.animal",
-          "value": "figurative: animal"
+          "id": "ex-voto",
+          "value": "ex voto"
         },
         {
-          "id": "fig.flag",
-          "value": "figurative: flag"
+          "id": "prayer",
+          "value": "preghiera"
         },
         {
-          "id": "fig.coat",
-          "value": "figurative: coat of arms"
+          "id": "love",
+          "value": "amore"
         },
         {
-          "id": "fig.armor",
-          "value": "figurative: armor"
+          "id": "taunt",
+          "value": "insulto"
         },
         {
-          "id": "fig.weapon",
-          "value": "figurative: weapon"
+          "id": "curse",
+          "value": "imprecazione"
         },
         {
-          "id": "fig.game",
-          "value": "figurative: game"
+          "id": "war",
+          "value": "guerra"
         },
         {
-          "id": "fig.plant",
-          "value": "figurative: plant"
+          "id": "individual",
+          "value": "individuo"
         },
         {
-          "id": "fig.boat",
-          "value": "figurative: boat"
-        },
-        {
-          "id": "fig.geometric",
-          "value": "figurative: geometric"
-        },
-        {
-          "id": "fig.landscape",
-          "value": "figurative: landscape"
-        },
-        {
-          "id": "fig.architect",
-          "value": "figurative: architectures"
-        },
-        {
-          "id": "fig.heart",
-          "value": "figurative: heart"
-        },
-        {
-          "id": "fig.cross",
-          "value": "figurative: cross"
-        },
-        {
-          "id": "fig.human",
-          "value": "figurative: human figure"
-        },
-        {
-          "id": "fig.bust",
-          "value": "figurative: bust"
-        },
-        {
-          "id": "fig.face",
-          "value": "figurative: face"
-        },
-        {
-          "id": "fig.erotic",
-          "value": "figurative: erotic"
-        },
-        {
-          "id": "fig.anatomical",
-          "value": "figurative: anatomical parts"
-        },
-        {
-          "id": "fig.arrow",
-          "value": "figurative: arrow"
-        },
-        {
-          "id": "fig.tool",
-          "value": "figurative: tool"
-        },
-        {
-          "id": "fig.signboard",
-          "value": "figurative: signboard"
-        },
-        {
-          "id": "fig.symbol",
-          "value": "figurative: symbol"
+          "id": "initial",
+          "value": "iniziale nomi"
         }
       ]
     },
     {
       "id": "comment-categories@en",
-      "targetId": "categories"
+      "targetId": "categories_themes"
     },
     {
       "id": "epi-ligature-types@en",
@@ -1568,7 +1521,7 @@
         "id": "seed.fr.it.vedph.comment",
         "options": {
           "languages": [ "eng", "ita" ],
-          "categories": [ "language.phonology", "language.syntax", "history" ]
+          "categories": [ "sport", "infamous" ]
         }
       },
       {
