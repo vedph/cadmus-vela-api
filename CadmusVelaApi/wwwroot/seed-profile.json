@@ -19,6 +19,7 @@
           "typeId": "it.vedph.graffiti.support",
           "name": "supporto",
           "description": "Supporto materiale.",
+          "isRequired": true,
           "colorKey": "006430",
           "groupKey": "sintesi",
           "sortKey": "b"
@@ -27,6 +28,7 @@
           "typeId": "it.vedph.graffiti.frame",
           "name": "cornice",
           "description": "Cornice, dimensioni e figura.",
+          "isRequired": true,
           "colorKey": "006430",
           "groupKey": "sintesi",
           "sortKey": "c"
@@ -35,6 +37,7 @@
           "typeId": "it.vedph.graffiti.states",
           "name": "stati",
           "description": "Stati del graffito nel tempo.",
+          "isRequired": true,
           "colorKey": "006430",
           "groupKey": "sintesi",
           "sortKey": "d"
@@ -44,6 +47,7 @@
           "name": "text",
           "roleId": "text",
           "description": "Prima trascrizione del testo.",
+          "isRequired": true,
           "colorKey": "00FE00",
           "groupKey": "sintesi",
           "sortKey": "e"
@@ -1510,13 +1514,19 @@
         "id": "seed.it.vedph.external-ids"
       },
       {
-        "id": "seed.it.vedph.geo.asserted-locations"
-      },
-      {
         "id": "seed.it.vedph.graffiti.figurative"
       },
       {
-        "id": "seed.it.vedph.graffiti.summary"
+        "id": "seed.it.vedph.graffiti.frame"
+      },
+      {
+        "id": "seed.it.vedph.graffiti.localization"
+      },
+      {
+        "id": "seed.it.vedph.graffiti.states"
+      },
+      {
+        "id": "seed.it.vedph.graffiti.support"
       },
       {
         "id": "seed.it.vedph.graffiti.technique"
@@ -1538,13 +1548,7 @@
         "id": "seed.it.vedph.metadata"
       },
       {
-        "id": "seed.it.vedph.names"
-      },
-      {
-        "id": "seed.it.vedph.note",
-        "options": {
-          "tags": [ "language", "history", "geography" ]
-        }
+        "id": "seed.it.vedph.note"
       },
       {
         "id": "seed.it.vedph.token-text"
