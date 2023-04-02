@@ -1193,36 +1193,36 @@
       "id": "grf-writing-languages@en",
       "entries": [
         {
-          "id": "eng",
-          "value": "English"
-        },
-        {
-          "id": "fre",
-          "value": "French"
-        },
-        {
-          "id": "deu",
-          "value": "German"
-        },
-        {
-          "id": "grc",
-          "value": "Ancient Greek"
-        },
-        {
-          "id": "gre",
-          "value": "Modern Greek"
-        },
-        {
           "id": "ita",
-          "value": "Italian"
+          "value": "italiano"
         },
         {
           "id": "lat",
-          "value": "Latin"
+          "value": "latino"
+        },
+        {
+          "id": "grc",
+          "value": "greco"
+        },
+        {
+          "id": "eng",
+          "value": "inglese"
+        },
+        {
+          "id": "fre",
+          "value": "francese"
+        },
+        {
+          "id": "deu",
+          "value": "tedesco"
+        },
+        {
+          "id": "gre",
+          "value": "neogreco"
         },
         {
           "id": "spa",
-          "value": "Spanish"
+          "value": "spagnolo"
         }
       ]
     },
