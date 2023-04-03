@@ -690,51 +690,51 @@
       "entries": [
         {
           "id": "hum",
-          "value": "human"
+          "value": "fig.umana"
         },
         {
           "id": "hum.-",
-          "value": "human figure"
+          "value": "figura umana"
         },
         {
           "id": "hum.bust",
-          "value": "human: bust"
+          "value": "figura umana: busto"
         },
         {
           "id": "hum.face",
-          "value": "human: face"
+          "value": "figura umana: volto"
         },
         {
           "id": "hum.anatomical",
-          "value": "human: anatomical parts"
+          "value": "figura umana: parti anatomiche"
         },
         {
           "id": "ani",
-          "value": "animal"
+          "value": "animali"
         },
         {
           "id": "plant",
-          "value": "plant"
+          "value": "piante"
         },
         {
           "id": "erotic",
-          "value": "erotic"
+          "value": "erotico"
         },
         {
           "id": "geometric",
-          "value": "geometric"
+          "value": "geometrico"
         },
         {
           "id": "sym",
-          "value": "symbol"
+          "value": "simbolo"
         },
         {
           "id": "sym.-",
-          "value": "symbol: heart"
+          "value": "simbolo: cuore"
         },
         {
           "id": "sym.cross",
-          "value": "symbol: cross"
+          "value": "simbolo: croce"
         },
         {
           "id": "war",
@@ -823,7 +823,7 @@
       "entries": [
         {
           "id": "ita",
-          "value": "Italian"
+          "value": "italiano"
         }
       ]
     },
@@ -877,11 +877,11 @@
       "entries": [
         {
           "id": "s1",
-          "value": "stato 1"
+          "value": "leggibile"
         },
         {
-          "id": "s2",
-          "value": "stato 2"
+          "id": "s0",
+          "value": "scomparso"
         }
       ]
     },
@@ -1099,11 +1099,11 @@
         },
         {
           "id": "nail",
-          "value": "nail"
+          "value": "chiodo"
         },
         {
           "id": "gradine",
-          "value": "gradine"
+          "value": "gradina"
         },
         {
           "id": "chisel",
@@ -1127,7 +1127,7 @@
         },
         {
           "id": "charcoal",
-          "value": "charcoal"
+          "value": "carboncino"
         },
         {
           "id": "lead-pencil",
