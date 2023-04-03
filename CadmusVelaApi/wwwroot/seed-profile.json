@@ -292,6 +292,10 @@
           "value": "scrittura"
         },
         {
+          "id": "it.vedph.historical-date",
+          "value": "datazione"
+        },
+        {
           "id": "it.vedph.index-keywords",
           "value": "parole chiave"
         },
@@ -1315,35 +1319,35 @@
         },
         {
           "id": "armn",
-          "value": "armenian"
+          "value": "armeno"
         },
         {
           "id": "cyrl",
-          "value": "cirillic"
+          "value": "cirillico"
         },
         {
           "id": "geor",
-          "value": "georgian"
+          "value": "georgiano"
         },
         {
           "id": "hebr",
-          "value": "hebrew"
+          "value": "ebraico"
         },
         {
           "id": "hans",
-          "value": "chinese"
+          "value": "cinese"
         },
         {
           "id": "jpan",
-          "value": "japanese"
+          "value": "giapponese"
         },
         {
           "id": "arab",
-          "value": "arabic"
+          "value": "arabo"
         },
         {
           "id": "deva",
-          "value": "indian"
+          "value": "indiano"
         }
       ]
     },
@@ -1356,15 +1360,15 @@
         },
         {
           "id": "upper",
-          "value": "uppercase"
+          "value": "maiuscolo"
         },
         {
           "id": "lower",
-          "value": "lowercase"
+          "value": "minuscolo"
         },
         {
           "id": "italic",
-          "value": "italic"
+          "value": "corsivo"
         }
       ]
     },
@@ -1373,35 +1377,35 @@
       "entries": [
         {
           "id": "eng",
-          "value": "English"
+          "value": "inglese"
         },
         {
           "id": "fre",
-          "value": "French"
+          "value": "francese"
         },
         {
           "id": "deu",
-          "value": "German"
+          "value": "tedesco"
         },
         {
           "id": "grc",
-          "value": "Ancient Greek"
+          "value": "greco"
         },
         {
           "id": "gre",
-          "value": "Modern Greek"
+          "value": "neogreco"
         },
         {
           "id": "ita",
-          "value": "Italian"
+          "value": "italiano"
         },
         {
           "id": "lat",
-          "value": "Latin"
+          "value": "latino"
         },
         {
           "id": "spa",
-          "value": "Spanish"
+          "value": "spagnolo"
         }
       ]
     },

@@ -2,7 +2,7 @@
 
 🐋 Quick Docker image build:
 
-    docker build . -t vedph2020/cadmus-vela-api:1.0.2 -t vedph2020/cadmus-vela-api:latest
+    docker build . -t vedph2020/cadmus-vela-api:1.0.3 -t vedph2020/cadmus-vela-api:latest
 
 (replace with the current version).
 
@@ -16,6 +16,8 @@ This API uses core components from the following Cadmus libraries:
 - [geography](https://github.com/vedph/cadmus-geo)
 
 ## History
+
+### 1.0.3
 
 - 2023-03-24: added thesauri and parts.
 - 2023-03-23: fixes to configuration.
