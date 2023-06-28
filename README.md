@@ -17,6 +17,10 @@ This API uses core components from the following Cadmus libraries:
 
 ## History
 
+### 2.0.0
+
+- 2023-06-28: [moved to PostgreSQL database](https://myrmex.github.io/overview/cadmus/dev/history/b-rdbms/).
+
 ### 1.0.3
 
 - 2023-03-24: added thesauri and parts.
