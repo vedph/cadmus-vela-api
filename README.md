@@ -17,6 +17,8 @@ This API uses core components from the following Cadmus libraries:
 
 ## History
 
+- 2023-11-27: ⚠️ Upgraded to .NET 8.
+
 ### 2.0.0
 
 - 2023-06-28: [moved to PostgreSQL database](https://myrmex.github.io/overview/cadmus/dev/history/b-rdbms/).
