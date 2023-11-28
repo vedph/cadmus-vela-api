@@ -1,8 +1,10 @@
-# Cadmus Vela API
+# Cadmus VeLA API
+
+Cadmus editor for the [Venezia Libro Aperto project](https://projet.biblissima.fr/en/calls-projects/selected-projects/venezia-libro-aperto-vela).
 
 🐋 Quick Docker image build:
 
-    docker build . -t vedph2020/cadmus-vela-api:1.0.3 -t vedph2020/cadmus-vela-api:latest
+    docker build . -t vedph2020/cadmus-vela-api:3.0.0 -t vedph2020/cadmus-vela-api:latest
 
 (replace with the current version).
 
@@ -16,6 +18,8 @@ This API uses core components from the following Cadmus libraries:
 - [geography](https://github.com/vedph/cadmus-geo)
 
 ## History
+
+### 3.0.0
 
 - 2023-11-27: ⚠️ Upgraded to .NET 8.
 
