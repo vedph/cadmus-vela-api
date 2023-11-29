@@ -19,6 +19,8 @@ This API uses core components from the following Cadmus libraries:
 
 ## History
 
+- 2023-11-29: expose port 8080 in Dockerfile. This seems the default port for the API in 8.0.
+
 ### 3.0.0
 
 - 2023-11-27: ⚠️ Upgraded to .NET 8.
