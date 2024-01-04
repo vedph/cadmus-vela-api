@@ -3,7 +3,6 @@ using Serilog;
 using System.Diagnostics;
 using Serilog.Events;
 using Cadmus.Api.Services.Seeding;
-using Cadmus.Api.Services;
 using Microsoft.Extensions.Hosting;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -11,6 +10,11 @@ using System;
 using Microsoft.Extensions.Configuration;
 using System.Linq;
 using Microsoft.AspNetCore.Hosting;
+using Fusi.DbManager.PgSql;
+using NpgsqlTypes;
+using Serilog.Sinks.PostgreSQL.ColumnWriters;
+using Serilog.Sinks.PostgreSQL;
+using System.Text.RegularExpressions;
 
 namespace CadmusVelaApi;
 
@@ -45,6 +49,65 @@ public static class Program
                 webBuilder.UseStartup<Startup>();
             });
 
+    private static bool IsAuditEnabledFor(IConfiguration config, string key)
+    {
+        bool? value = config.GetValue<bool?>($"Auditing:{key}");
+        return value != null && value != false;
+    }
+
+    private static void ConfigurePostgreLogging(HostBuilderContext context,
+        LoggerConfiguration loggerConfiguration)
+    {
+        string? cs = context.Configuration.GetConnectionString("PostgresLog");
+        if (string.IsNullOrEmpty(cs))
+        {
+            Console.WriteLine("Postgres log connection string not found");
+            return;
+        }
+
+        Regex dbRegex = new("Database=(?<n>[^;]+);?");
+        Match m = dbRegex.Match(cs);
+        if (!m.Success)
+        {
+            Console.WriteLine("Postgres log connection string not valid");
+            return;
+        }
+        string cst = dbRegex.Replace(cs, "Database={0};");
+        string dbName = m.Groups["n"].Value;
+        PgSqlDbManager mgr = new(cst);
+        if (!mgr.Exists(dbName))
+        {
+            Console.WriteLine($"Creating log database {dbName}...");
+            mgr.CreateDatabase(dbName, "", null);
+        }
+
+        IDictionary<string, ColumnWriterBase> columnWriters =
+            new Dictionary<string, ColumnWriterBase>
+        {
+        { "message", new RenderedMessageColumnWriter(
+            NpgsqlDbType.Text) },
+        { "message_template", new MessageTemplateColumnWriter(
+            NpgsqlDbType.Text) },
+        { "level", new LevelColumnWriter(
+            true, NpgsqlDbType.Varchar) },
+        { "raise_date", new TimestampColumnWriter(
+            NpgsqlDbType.TimestampTz) },
+        { "exception", new ExceptionColumnWriter(
+            NpgsqlDbType.Text) },
+        { "properties", new LogEventSerializedColumnWriter(
+            NpgsqlDbType.Jsonb) },
+        { "props_test", new PropertiesColumnWriter(
+            NpgsqlDbType.Jsonb) },
+        { "machine_name", new SinglePropertyColumnWriter(
+            "MachineName", PropertyWriteMethod.ToString,
+            NpgsqlDbType.Text, "l") }
+        };
+
+        loggerConfiguration
+            .WriteTo.PostgreSQL(cs, "log", columnWriters,
+            needAutoCreateTable: true, needAutoCreateSchema: true);
+    }
+
     /// <summary>
     /// Entry point.
     /// </summary>
@@ -64,31 +127,51 @@ public static class Program
             Log.Information("Starting Cadmus Vela API host");
             DumpEnvironmentVars();
 
-            // this is the place for seeding:
-            // see https://stackoverflow.com/questions/45148389/how-to-seed-in-entity-framework-core-2
-            // and https://docs.microsoft.com/en-us/aspnet/core/migration/1x-to-2x/?view=aspnetcore-2.1#move-database-initialization-code
             var host = await CreateHostBuilder(args)
-                // add in-memory config to override Serilog connection string
-                // as there is no way of configuring it outside appsettings
-                // https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0#in-memory-provider-and-binding-to-a-poco-class
-                .ConfigureAppConfiguration((context, config) =>
+                .UseSerilog((hostingContext, loggerConfiguration) =>
                 {
-                    IConfiguration cfg = AppConfigReader.Read();
-                    string csTemplate = cfg.GetValue<string>("Serilog:ConnectionString")!;
-                    string dbName = cfg.GetValue<string>("DatabaseNames:Data")!;
-                    string cs = string.Format(csTemplate, dbName);
-                    Debug.WriteLine($"Serilog:ConnectionString override = {cs}");
-                    Console.WriteLine($"Serilog:ConnectionString override = {cs}");
+                    var maxSize = hostingContext.Configuration["Serilog:MaxMbSize"];
 
-                    Dictionary<string, string?> dct = new()
+                    loggerConfiguration.ReadFrom.Configuration(
+                        hostingContext.Configuration);
+
+                    if (IsAuditEnabledFor(hostingContext.Configuration, "File"))
                     {
-                        { "Serilog:ConnectionString", cs }
-                    };
-                    // (requires Microsoft.Extensions.Configuration package
-                    // to get the MemoryConfigurationProvider)
-                    config.AddInMemoryCollection(dct);
+                        Console.WriteLine("Logging to file enabled");
+                        loggerConfiguration.WriteTo.File("cadmus-log.txt",
+                            rollingInterval: RollingInterval.Day);
+                    }
+
+                    if (IsAuditEnabledFor(hostingContext.Configuration, "Mongo"))
+                    {
+                        Console.WriteLine("Logging to Mongo enabled");
+                        string? cs = hostingContext.Configuration
+                            .GetConnectionString("MongoLog");
+
+                        if (!string.IsNullOrEmpty(cs))
+                        {
+                            loggerConfiguration.WriteTo.MongoDBCapped(cs,
+                                cappedMaxSizeMb: !string.IsNullOrEmpty(maxSize) &&
+                                int.TryParse(maxSize, out int n) && n > 0 ? n : 10);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Mongo log connection string not found");
+                        }
+                    }
+
+                    if (IsAuditEnabledFor(hostingContext.Configuration, "Postgres"))
+                    {
+                        Console.WriteLine("Logging to Postgres enabled");
+                        ConfigurePostgreLogging(hostingContext, loggerConfiguration);
+                    }
+
+                    if (IsAuditEnabledFor(hostingContext.Configuration, "Console"))
+                    {
+                        Console.WriteLine("Logging to console enabled");
+                        loggerConfiguration.WriteTo.Console();
+                    }
                 })
-                .UseSerilog()
                 .Build()
                 .SeedAsync(); // see Services/HostSeedExtension
 
