@@ -224,6 +224,14 @@
       "label": "revisionato",
       "description": "Scheda revisionata.",
       "colorKey": "49D697"
+    },
+    {
+      "id": 8,
+      "label": "riservato"
+    },
+    {
+      "id": 16,
+      "label": "pseudonimi"
     }
   ],
   "index": {
