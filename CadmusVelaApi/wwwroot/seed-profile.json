@@ -232,6 +232,10 @@
     {
       "id": 16,
       "label": "pseudonimi"
+    },
+    {
+      "id": 32,
+      "label": "non interpr."
     }
   ],
   "index": {
@@ -827,6 +831,27 @@
         {
           "id": "transport.plane",
           "value": "mezzi di trasporto: aereo"
+        }
+      ]
+    },
+    {
+      "id": "grf-periods@en",
+      "entries": [
+        {
+          "id": "ancient",
+          "value": "antico"
+        },
+        {
+          "id": "medieval",
+          "value": "medievale"
+        },
+        {
+          "id": "modern",
+          "value": "moderno"
+        },
+        {
+          "id": "contemporary",
+          "value": "contemporaneo"
         }
       ]
     },

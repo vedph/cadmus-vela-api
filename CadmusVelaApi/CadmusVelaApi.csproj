@@ -19,7 +19,7 @@
 		<PackageReference Include="Cadmus.Seed.General.Parts" Version="6.0.2" />
 		<PackageReference Include="Cadmus.Seed.Geo.Parts" Version="3.0.1" />
 		<PackageReference Include="Cadmus.Seed.Philology.Parts" Version="8.0.2" />
-		<PackageReference Include="Cadmus.Vela.Services" Version="2.0.1" />
+		<PackageReference Include="Cadmus.Vela.Services" Version="2.1.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.1" />
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.1" />
 		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.1" />
