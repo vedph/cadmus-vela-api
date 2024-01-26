@@ -546,6 +546,18 @@
         {
           "id": "initial",
           "value": "iniziale nomi"
+        },
+        {
+          "id": "damnatio",
+          "value": "damnatio"
+        },
+        {
+          "id": "damnatio.f",
+          "value": "damnatio (full)"
+        },
+        {
+          "id": "damnatio.p",
+          "value": "damnatio (partial)"
         }
       ]
     },
