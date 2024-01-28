@@ -16,13 +16,22 @@
           "sortKey": "a"
         },
         {
+          "typeId": "it.vedph.categories",
+          "name": "caratteristiche",
+          "roleId": "features",
+          "description": "Caratteristiche del graffito.",
+          "colorKey": "8060B0",
+          "groupKey": "sintesi",
+          "sortKey": "b"
+        },        
+        {
           "typeId": "it.vedph.graffiti.support",
           "name": "supporto",
           "description": "Supporto materiale.",
           "isRequired": true,
           "colorKey": "AAD2BA",
           "groupKey": "sintesi",
-          "sortKey": "b"
+          "sortKey": "c"
         },
         {
           "typeId": "it.vedph.graffiti.frame",
@@ -31,7 +40,7 @@
           "isRequired": true,
           "colorKey": "EFD0CA",
           "groupKey": "sintesi",
-          "sortKey": "c"
+          "sortKey": "d"
         },
         {
           "typeId": "it.vedph.graffiti.states",
@@ -40,7 +49,7 @@
           "isRequired": true,
           "colorKey": "AF90A9",
           "groupKey": "sintesi",
-          "sortKey": "d"
+          "sortKey": "e"
         },
         {
           "typeId": "it.vedph.note",
@@ -50,7 +59,7 @@
           "isRequired": true,
           "colorKey": "FFB17A",
           "groupKey": "sintesi",
-          "sortKey": "e"
+          "sortKey": "f"
         },
         {
           "typeId": "it.vedph.note",
@@ -59,7 +68,7 @@
           "description": "Note sulla cronologia.",
           "colorKey": "C09BD8",
           "groupKey": "sintesi",
-          "sortKey": "f"
+          "sortKey": "g"
         },
         {
           "typeId": "it.vedph.graffiti.writing",
@@ -67,7 +76,7 @@
           "description": "Scrittura.",
           "colorKey": "048BA8",
           "groupKey": "dettagli",
-          "sortKey": "g"
+          "sortKey": "h"
         },
         {
           "typeId": "it.vedph.graffiti.technique",
@@ -75,7 +84,7 @@
           "description": "Tecnica e strumenti.",
           "colorKey": "75DBCD",
           "groupKey": "dettagli",
-          "sortKey": "h"
+          "sortKey": "i"
         },
         {
           "typeId": "it.vedph.graffiti.figurative",
@@ -83,7 +92,7 @@
           "description": "Parte figurativa.",
           "colorKey": "ED97B4",
           "groupKey": "dettagli",
-          "sortKey": "i"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.historical-date",
@@ -91,7 +100,7 @@
           "description": "Datazione.",
           "colorKey": "9F84BD",
           "groupKey": "dettagli",
-          "sortKey": "j"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.categories",
@@ -100,7 +109,7 @@
           "description": "Funzioni del graffito.",
           "colorKey": "7668B6",
           "groupKey": "dettagli",
-          "sortKey": "k"
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.categories",
@@ -109,7 +118,7 @@
           "description": "Temi del graffito.",
           "colorKey": "8275BD",
           "groupKey": "dettagli",
-          "sortKey": "l"
+          "sortKey": "m"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -118,7 +127,7 @@
           "description": "Testo edito del graffito.",
           "colorKey": "2EBFA5",
           "groupKey": "testo",
-          "sortKey": "m"
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -127,7 +136,7 @@
           "description": "Commenti a parti del testo.",
           "colorKey": "28666E",
           "groupKey": "testo",
-          "sortKey": "n"
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -136,7 +145,7 @@
           "description": "Indicazioni cronologiche nel testo.",
           "colorKey": "7582BD",
           "groupKey": "testo",
-          "sortKey": "o"
+          "sortKey": "p"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -145,7 +154,7 @@
           "description": "Legature notevoli nel testo.",
           "colorKey": "DEBEF3",
           "groupKey": "testo",
-          "sortKey": "p"
+          "sortKey": "q"
         },
         {
           "typeId": "it.vedph.comment",
@@ -153,7 +162,7 @@
           "description": "Commento al graffito.",
           "colorKey": "28666E",
           "groupKey": "commento",
-          "sortKey": "q"
+          "sortKey": "r"
         },
         {
           "typeId": "it.vedph.note",
@@ -161,7 +170,7 @@
           "description": "Nota miscellanea.",
           "colorKey": "8D93A5",
           "groupKey": "commento",
-          "sortKey": "r"
+          "sortKey": "s"
         },
         {
           "typeId": "it.vedph.metadata",
@@ -169,7 +178,7 @@
           "description": "Metadati generici.",
           "colorKey": "5D8CC0",
           "groupKey": "classificazione",
-          "sortKey": "s"
+          "sortKey": "t"
         },
         {
           "typeId": "it.vedph.index-keywords",
@@ -177,7 +186,7 @@
           "description": "Parole chiave del graffito.",
           "colorKey": "FFA500",
           "groupKey": "classificazione",
-          "sortKey": "t"
+          "sortKey": "u"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -185,7 +194,7 @@
           "description": "Bibliografia sul graffito.",
           "colorKey": "4C5EA9",
           "groupKey": "riferimenti",
-          "sortKey": "u"
+          "sortKey": "v"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -193,7 +202,7 @@
           "description": "Riferimenti sintetici.",
           "colorKey": "AAAA9D",
           "groupKey": "riferimenti",
-          "sortKey": "v"
+          "sortKey": "w"
         },
         {
           "typeId": "it.vedph.external-ids",
@@ -201,7 +210,7 @@
           "description": "Identificativi di entità in risorse esterne.",
           "colorKey": "2F4F4F",
           "groupKey": "riferimenti",
-          "sortKey": "w"
+          "sortKey": "x"
         }
       ]
     }
@@ -227,15 +236,21 @@
     },
     {
       "id": 8,
-      "label": "riservato"
+      "label": "riservato",
+      "description": "Accesso riservato",
+      "colorKey": "EC8E74"
     },
     {
       "id": 16,
-      "label": "pseudonimi"
+      "label": "pseudonimi",
+      "description": "Testo pseudonimizzato",
+      "colorKey": "E0A3FA"
     },
     {
       "id": 32,
-      "label": "non interpr."
+      "label": "non interpr.",
+      "description": "Non interpretabile",
+      "colorKey": "E4C6B2"
     }
   ],
   "index": {
@@ -405,6 +420,27 @@
           "id": "tweet",
           "value": "tweet"
         }
+      ]
+    },
+    {
+      "id": "categories_features",
+      "entries": [
+        {
+          "id": "text",
+          "value": "testo"
+        },
+        {
+          "id": "figurative",
+          "value": "figurativo"
+        },
+        {
+          "id": "digits",
+          "value": "numeri"
+        },
+        {
+          "id": "frame",
+          "value": "cornice"
+        }        
       ]
     },
     {
@@ -595,55 +631,6 @@
         {
           "id": "connection",
           "value": "connection"
-        }
-      ]
-    },
-    {
-      "id": "grf-features@en",
-      "entries": [
-        {
-          "id": "text",
-          "value": "testo"
-        },
-        {
-          "id": "digit",
-          "value": "numeri"
-        },
-        {
-          "id": "punct",
-          "value": "interpunzioni"
-        },
-        {
-          "id": "ligature",
-          "value": "legature"
-        },
-        {
-          "id": "abbr",
-          "value": "abbreviazioni"
-        },
-        {
-          "id": "mono",
-          "value": "monogrammi"
-        },
-        {
-          "id": "1-letter",
-          "value": "lettera singola"
-        },
-        {
-          "id": "undef-letter",
-          "value": "lettere indef."
-        },
-        {
-          "id": "undef-drawing",
-          "value": "disegno indef."
-        },
-        {
-          "id": "upper",
-          "value": "uppercase"
-        },
-        {
-          "id": "lower",
-          "value": "lowercase"
         }
       ]
     },
