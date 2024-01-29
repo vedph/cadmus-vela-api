@@ -584,6 +584,14 @@
           "value": "iniziale nomi"
         },
         {
+          "id": "toponym",
+          "value": "nome di luogo"
+        },
+        {
+          "id": "greeting",
+          "value": "saluti"
+        },
+        {
           "id": "damnatio",
           "value": "damnatio"
         },
@@ -1135,6 +1143,18 @@
         {
           "id": "relief",
           "value": "rilievo"
+        },
+        {
+          "id": "blade-type",
+          "value": "tipo di lama"
+        },
+        {
+          "id": "blade-type.curved",
+          "value": "curva"
+        },
+        {
+          "id": "blade-type.straight",
+          "value": "dritta"
         }
       ]
     },
