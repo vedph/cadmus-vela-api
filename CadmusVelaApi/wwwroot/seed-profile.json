@@ -752,6 +752,10 @@
           "value": "simbolo: croce"
         },
         {
+          "id": "sym.zodiac",
+          "value": "simbolo: zodiaco"
+        },
+        {
           "id": "war",
           "value": "guerra"
         },
