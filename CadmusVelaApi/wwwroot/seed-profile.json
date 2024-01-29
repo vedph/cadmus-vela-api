@@ -793,7 +793,11 @@
         },
         {
           "id": "flag",
-          "value": "bandiera/stemma"
+          "value": "bandiera"
+        },
+        {
+          "id": "coat-of-arms",
+          "value": "stemma"
         },
         {
           "id": "obj",
