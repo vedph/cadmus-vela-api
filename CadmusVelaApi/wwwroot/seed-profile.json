@@ -1105,8 +1105,12 @@
           "value": "---"
         },
         {
-          "id": "preparation",
-          "value": "preparazione"
+          "id": "preparation-drawing",
+          "value": "preparazione disegno"
+        },
+        {
+          "id": "preparation-support",
+          "value": "preparazione supporto"
         },
         {
           "id": "scratch",
