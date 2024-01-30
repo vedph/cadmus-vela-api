@@ -1128,6 +1128,23 @@
       ]
     },
     {
+      "id": "grf-writing-prevalent-casing@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "upper",
+          "value": "maiuscolo"
+        },
+        {
+          "id": "lower",
+          "value": "minuscolo"
+        }
+      ]
+    },
+    {
       "id": "grf-writing-count-ids@en",
       "entries": [
         {
