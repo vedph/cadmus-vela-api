@@ -923,7 +923,7 @@
       "entries": [
         {
           "id": "balustrade",
-          "value": "balustrade"
+          "value": "balaustra"
         },
         {
           "id": "sill",
@@ -942,12 +942,12 @@
           "value": "lapide"
         },
         {
-          "id": "furniture",
-          "value": "arredo"
+          "id": "church-furniture",
+          "value": "mobilio ecclesiastico"
         },
         {
           "id": "wall",
-          "value": "wall"
+          "value": "muro"
         },
         {
           "id": "bench",
