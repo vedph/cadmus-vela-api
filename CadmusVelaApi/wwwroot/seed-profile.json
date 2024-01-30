@@ -528,14 +528,6 @@
         {
           "id": "greeting",
           "value": "saluti"
-        },
-        {
-          "id": "damnatio-f",
-          "value": "damnatio (full)"
-        },
-        {
-          "id": "damnatio-p",
-          "value": "damnatio (partial)"
         }
       ]
     },
