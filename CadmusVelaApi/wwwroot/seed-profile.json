@@ -577,6 +577,27 @@
       ]
     },
     {
+      "id": "grf-damnatio-types@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "absent",
+          "value": "non presente"
+        },
+        {
+          "id": "partial",
+          "value": "parziale"
+        },
+        {
+          "id": "complete",
+          "value": "totale"
+        }
+      ]
+    },    
+    {
       "id": "grf-fig-features@en",
       "entries": [
         {
