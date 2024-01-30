@@ -731,8 +731,8 @@
       "id": "grf-periods@en",
       "entries": [
         {
-          "id": "ancient",
-          "value": "antico"
+          "id": "roman",
+          "value": "romana"
         },
         {
           "id": "medieval",
@@ -740,11 +740,11 @@
         },
         {
           "id": "modern",
-          "value": "moderno"
+          "value": "moderna"
         },
         {
           "id": "contemporary",
-          "value": "contemporaneo"
+          "value": "contemporanea"
         }
       ]
     },
