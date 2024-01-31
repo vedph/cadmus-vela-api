@@ -431,7 +431,7 @@
         {
           "id": "frame",
           "value": "cornice"
-        }        
+        }
       ]
     },
     {
@@ -588,7 +588,7 @@
           "value": "totale"
         }
       ]
-    },    
+    },
     {
       "id": "grf-fig-features@en",
       "entries": [
@@ -1108,7 +1108,7 @@
         {
           "id": "cursive",
           "value": "corsivo"
-        },        
+        },
         {
           "id": "upper",
           "value": "maiuscolo"
@@ -1154,8 +1154,65 @@
       ]
     },
     {
+      "id": "grf-writing-glottologs@en",
+      "entries": [
+        {
+          "id": "arme1259",
+          "value": "Armenian Sign Language"
+        },
+        {
+          "id": "lite1248",
+          "value": "Classical Chinese"
+        },
+        {
+          "id": "lati1261",
+          "value": "Latin"
+        },
+        {
+          "id": "nucl1643",
+          "value": "Japanese"
+        },
+        {
+          "id": "ital1282",
+          "value": "Italian"
+        },
+        {
+          "id": "anci1242",
+          "value": "Ancient Greek"
+        },
+        {
+          "id": "mode1248",
+          "value": "Modern Greek"
+        },
+        {
+          "id": "stan1295",
+          "value": "German"
+        },
+        {
+          "id": "stan1290",
+          "value": "French"
+        },
+        {
+          "id": "stan1293",
+          "value": "English"
+        },
+        {
+          "id": "vene1258",
+          "value": "Venetian"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
       "id": "grf-writing-languages@en",
       "entries": [
+        {
+          "id": "ara",
+          "value": "arabo"
+        },
         {
           "id": "arm",
           "value": "armeno"
@@ -1175,7 +1232,7 @@
         {
           "id": "jpn",
           "value": "giapponese"
-        },        
+        },
         {
           "id": "ita",
           "value": "italiano"
@@ -1410,7 +1467,7 @@
   "seed": {
     "options": {
       "seed": 1,
-      "users": [ "zeus" ],
+      "users": ["zeus"],
       "partRoles": [],
       "fragmentRoles": []
     },
@@ -1425,7 +1482,7 @@
             "Sampson,James",
             "Voss,Francis"
           ],
-          "journals": [ "AJPh", "CJ", "CPh", "CQ", "IF" ]
+          "journals": ["AJPh", "CJ", "CPh", "CQ", "IF"]
         }
       },
       {
@@ -1444,8 +1501,8 @@
       {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": [ "eng", "ita" ],
-          "categories": [ "language.phonology", "language.syntax", "history" ]
+          "languages": ["eng", "ita"],
+          "categories": ["language.phonology", "language.syntax", "history"]
         }
       },
       {
@@ -1481,8 +1538,8 @@
       {
         "id": "seed.it.vedph.index-keywords",
         "options": {
-          "indexIds": [ "persons", "places" ],
-          "languages": [ "eng", "deu", "ita", "fra", "spa" ]
+          "indexIds": ["persons", "places"],
+          "languages": ["eng", "deu", "ita", "fra", "spa"]
         }
       },
       {
@@ -1508,8 +1565,8 @@
       {
         "id": "seed.fr.it.vedph.comment",
         "options": {
-          "languages": [ "eng", "ita" ],
-          "categories": [ "sport", "infamous" ]
+          "languages": ["eng", "ita"],
+          "categories": ["sport", "infamous"]
         }
       },
       {
