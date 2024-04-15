@@ -242,6 +242,24 @@
       "label": "non interpr.",
       "description": "Non interpretabile",
       "colorKey": "E4C6B2"
+    },
+    {
+      "id": 64,
+      "label": "urbana",
+      "description": "urbana",
+      "colorKey": "8E4D2A"
+    },
+    {
+      "id": 128,
+      "label": "monastica",
+      "description": "monastica",
+      "colorKey": "06AED5"
+    },
+    {
+      "id": 256,
+      "label": "ducale",
+      "description": "ducale",
+      "colorKey": "1F487E"
     }
   ],
   "index": {
