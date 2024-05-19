@@ -181,7 +181,7 @@ public static class Program
         }
         catch (Exception ex)
         {
-            Log.Fatal(ex, "Cadmus Vela API host terminated unexpectedly");
+            Log.Fatal(ex, "Cadmus VeLA API host terminated unexpectedly");
             Debug.WriteLine(ex.ToString());
             Console.WriteLine(ex.ToString());
             return 1;

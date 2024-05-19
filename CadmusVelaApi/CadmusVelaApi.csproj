@@ -4,9 +4,9 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
-		<Version>3.0.1</Version>
-		<FileVersion>3.0.1</FileVersion>
-		<AssemblyVersion>3.0.1</AssemblyVersion>
+		<Version>3.0.2</Version>
+		<FileVersion>3.0.2</FileVersion>
+		<AssemblyVersion>3.0.2</AssemblyVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -33,7 +33,7 @@
 		<PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
 		<PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
 		<PackageReference Include="Serilog.Sinks.MongoDB" Version="5.4.1" />
-		<PackageReference Include="Serilog.Sinks.Postgresql.Alternative" Version="4.0.3" />
+		<PackageReference Include="Serilog.Sinks.Postgresql.Alternative" Version="4.0.4" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.1" />
 	</ItemGroup>
 
