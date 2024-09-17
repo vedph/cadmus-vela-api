@@ -372,7 +372,7 @@ public sealed class Startup
             .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
             .Enrich.WithExceptionDetails()
             .WriteTo.Console()
-            .WriteTo.MongoDBCapped(Configuration["Serilog:ConnectionString"]!,
+            .WriteTo.MongoDBBson(Configuration["Serilog:ConnectionString"]!,
                 cappedMaxSizeMb: !string.IsNullOrEmpty(maxSize) &&
                     int.TryParse(maxSize, out int n) && n > 0 ? n : 10)
                 .CreateLogger());
