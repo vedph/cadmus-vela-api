@@ -19,6 +19,10 @@ This API uses core components from the following Cadmus libraries:
 
 ## History
 
+- 2024-10-21: added flag for IMAI.
+
+### 3.0.3
+
 - 2024-10-21:
   - adjustments in profile for new form model.
   - updated packages.

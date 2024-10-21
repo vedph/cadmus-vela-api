@@ -260,6 +260,12 @@
       "label": "ducale",
       "description": "ducale",
       "colorKey": "1F487E"
+    },
+    {
+      "id": 512,
+      "label": "IMAI",
+      "description": "Inscriptiones Medii Aevi Italiae",
+      "colorKey": "AC2741"
     }
   ],
   "index": {
