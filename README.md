@@ -4,7 +4,7 @@ Cadmus editor for the [Venezia Libro Aperto project](https://projet.biblissima.f
 
 🐋 Quick Docker image build:
 
-    docker build . -t vedph2020/cadmus-vela-api:3.0.2 -t vedph2020/cadmus-vela-api:latest
+    docker build . -t vedph2020/cadmus-vela-api:3.0.3 -t vedph2020/cadmus-vela-api:latest
 
 (replace with the current version).
 
