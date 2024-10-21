@@ -1095,6 +1095,14 @@
           "value": "bocciarda"
         },
         {
+          "id": "charcoal",
+          "value": "carboncino"
+        },
+        {
+          "id": "sepia",
+          "value": "seppia"
+        },
+        {
           "id": "graphite",
           "value": "grafite"
         },
