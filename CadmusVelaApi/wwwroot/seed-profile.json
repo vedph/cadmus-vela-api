@@ -619,12 +619,9 @@
         }
       ]
     },
-
-
-
     {
       "id": "comment-categories@en",
-      "targetId": "categories_topic"
+      "targetId": "categories_cnt"
     },
     {
       "id": "epi-ligature-types@en",
@@ -660,43 +657,235 @@
       ]
     },
     {
-      "id": "grf-damnatio-types@en",
+      "id": "epi-support-materials@en",
       "entries": [
         {
-          "id": "-",
-          "value": "---"
+          "id": "concrete",
+          "value": "cemento"
         },
         {
-          "id": "absent",
-          "value": "non presente"
+          "id": "pottery",
+          "value": "ceramica"
         },
         {
-          "id": "partial",
-          "value": "parziale"
+          "id": "brick",
+          "value": "laterizio"
         },
         {
-          "id": "complete",
-          "value": "totale"
+          "id": "wood",
+          "value": "legno"
+        },
+        {
+          "id": "stone",
+          "value": "materiale litico"
+        },
+        {
+          "id": "metal",
+          "value": "metallo"
+        },
+        {
+          "id": "glass",
+          "value": "vetro"
         }
       ]
     },
     {
-      "id": "grf-fig-features@en",
+      "id": "epi-support-functions@en",
       "entries": [
         {
-          "id": "a",
-          "value": "alpha"
+          "id": "private",
+          "value": "privata"
         },
         {
-          "id": "b",
-          "value": "beta"
+          "id": "public",
+          "value": "pubblica"
         },
         {
-          "id": "g",
-          "value": "gamma"
+          "id": "religious",
+          "value": "religiosa"
         }
       ]
     },
+    {
+      "id": "epi-support-types@en",
+      "entries": [
+        {
+          "id": "house",
+          "value": "abitazione"
+        },
+        {
+          "id": "library",
+          "value": "biblioteca"
+        },
+        {
+          "id": "barracks",
+          "value": "caserma"
+        },
+        {
+          "id": "castle",
+          "value": "castello"
+        },
+        {
+          "id": "cloister",
+          "value": "chiostro"
+        },
+        {
+          "id": "colonnade",
+          "value": "colonnato"
+        },
+        {
+          "id": "convent",
+          "value": "convento"
+        },
+        {
+          "id": "worship-building",
+          "value": "edificio di culto"
+        },
+        {
+          "id": "warehouse",
+          "value": "magazzino"
+        },
+        {
+          "id": "monastery",
+          "value": "monastero"
+        },
+        {
+          "id": "museum",
+          "value": "museo"
+        },
+        {
+          "id": "hospice",
+          "value": "ospizio"
+        },
+        {
+          "id": "palace",
+          "value": "palazzo"
+        },
+        {
+          "id": "bridge",
+          "value": "ponte"
+        },
+        {
+          "id": "well",
+          "value": "pozzo"
+        },
+        {
+          "id": "prison",
+          "value": "prigione"
+        },
+        {
+          "id": "stable",
+          "value": "scuderia"
+        },
+        {
+          "id": "school",
+          "value": "scuola"
+        },
+        {
+          "id": "seminary",
+          "value": "seminario"
+        },
+        {
+          "id": "barn",
+          "value": "stalla"
+        },
+        {
+          "id": "street",
+          "value": "strada"
+        },
+        {
+          "id": "tower",
+          "value": "torre"
+        },
+        {
+          "id": "public-office",
+          "value": "ufficio pubblico"
+        },
+        {
+          "id": "-",
+          "value": "n.d."
+        }
+      ]
+    },
+    {
+      "id": "epi-support-object-types@en",
+      "entries": [
+        {
+          "id": "church-furniture",
+          "value": "arredo ecclesiastico"
+        },
+        {
+          "id": "balustrade",
+          "value": "balaustra"
+        },
+        {
+          "id": "column",
+          "value": "colonna"
+        },
+        {
+          "id": "frame",
+          "value": "cornice"
+        },
+        {
+          "id": "sill",
+          "value": "davanzale"
+        },
+        {
+          "id": "window",
+          "value": "finestra"
+        },
+        {
+          "id": "step",
+          "value": "gradino"
+        },
+        {
+          "id": "tombstone",
+          "value": "lapide (graffito su)"
+        },
+        {
+          "id": "wall",
+          "value": "muro"
+        },
+        {
+          "id": "bench",
+          "value": "panchina"
+        },
+        {
+          "id": "street-paving",
+          "value": "pavimentazione stradale"
+        },
+        {
+          "id": "floor",
+          "value": "pavimento"
+        },
+        {
+          "id": "pillar",
+          "value": "pilastro"
+        },
+        {
+          "id": "door",
+          "value": "porta"
+        },
+        {
+          "id": "well",
+          "value": "pozzo"
+        },
+        {
+          "id": "jamb",
+          "value": "stipite"
+        },
+        {
+          "id": "furniture",
+          "value": "suppellettile"
+        },
+        {
+          "id": "vault",
+          "value": "volta"
+        }
+      ]
+    },
+TODO
+
     {
       "id": "grf-fig-frame-types@en",
       "entries": [
@@ -916,113 +1105,6 @@
         {
           "id": "s0",
           "value": "scomparso"
-        }
-      ]
-    },
-    {
-      "id": "grf-support-functions@en",
-      "entries": [
-        {
-          "id": "public",
-          "value": "pubblica"
-        },
-        {
-          "id": "private",
-          "value": "privata"
-        },
-        {
-          "id": "religious",
-          "value": "religiosa"
-        }
-      ]
-    },
-    {
-      "id": "grf-support-materials@en",
-      "entries": [
-        {
-          "id": "concrete",
-          "value": "cemento"
-        },
-        {
-          "id": "plaster",
-          "value": "intonaco"
-        },
-        {
-          "id": "wood",
-          "value": "legno"
-        },
-        {
-          "id": "stone",
-          "value": "litico"
-        },
-        {
-          "id": "brick",
-          "value": "mattone"
-        },
-        {
-          "id": "metal",
-          "value": "metallo"
-        },
-        {
-          "id": "glass",
-          "value": "vetro"
-        }
-      ]
-    },
-    {
-      "id": "grf-support-object-types@en",
-      "entries": [
-        {
-          "id": "house",
-          "value": "abitazione"
-        },
-        {
-          "id": "church",
-          "value": "chiesa"
-        },
-        {
-          "id": "cloister",
-          "value": "chiostro"
-        },
-        {
-          "id": "condominium",
-          "value": "condominio"
-        },
-        {
-          "id": "colonnade",
-          "value": "colonnato"
-        },
-        {
-          "id": "monastery",
-          "value": "convento"
-        },
-        {
-          "id": "warehouse",
-          "value": "magazzino"
-        },
-        {
-          "id": "palace",
-          "value": "palazzo"
-        },
-        {
-          "id": "bridge",
-          "value": "ponte"
-        },
-        {
-          "id": "well",
-          "value": "pozzo"
-        },
-        {
-          "id": "prison",
-          "value": "prigione"
-        },
-        {
-          "id": "statue",
-          "value": "statua"
-        },
-        {
-          "id": "street",
-          "value": "strada"
         }
       ]
     },
