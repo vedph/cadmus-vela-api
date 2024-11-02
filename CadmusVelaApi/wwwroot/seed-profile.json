@@ -7,25 +7,25 @@
       "colorKey": "EBD586",
       "partDefinitions": [
         {
-          "typeId": "it.vedph.graffiti.localization",
+          "typeId": "it.vedph.metadata",
+          "name": "metadati",
+          "description": "Metadati generici.",
+          "isRequired": true,
+          "colorKey": "5D8CC0",
+          "groupKey": "sintesi",
+          "sortKey": "a"
+        },
+        {
+          "typeId": "it.vedph.district-location",
           "name": "localizzazione",
           "description": "Localizzazione.",
           "isRequired": true,
           "colorKey": "2F4F4F",
           "groupKey": "sintesi",
-          "sortKey": "a"
-        },
-        {
-          "typeId": "it.vedph.categories",
-          "name": "caratteristiche",
-          "roleId": "feature",
-          "description": "Caratteristiche del graffito.",
-          "colorKey": "8080E0",
-          "groupKey": "sintesi",
           "sortKey": "b"
         },
         {
-          "typeId": "it.vedph.graffiti.support",
+          "typeId": "t.vedph.epigraphy.support",
           "name": "supporto",
           "description": "Supporto materiale.",
           "isRequired": true,
@@ -34,52 +34,50 @@
           "sortKey": "c"
         },
         {
-          "typeId": "it.vedph.graffiti.frame",
-          "name": "cornice",
-          "description": "Cornice, dimensioni e figura.",
-          "isRequired": true,
-          "colorKey": "EFD0CA",
+          "typeId": "it.vedph.categories",
+          "name": "funzione",
+          "roleId": "fn",
+          "description": "Funzione.",
+          "colorKey": "8080E0",
           "groupKey": "sintesi",
           "sortKey": "d"
         },
         {
-          "typeId": "it.vedph.graffiti.states",
-          "name": "stati",
-          "description": "Stati del graffito nel tempo.",
-          "isRequired": true,
-          "colorKey": "AF90A9",
+          "typeId": "it.vedph.categories",
+          "name": "lingua",
+          "roleId": "lng",
+          "description": "Lingue del testo.",
+          "colorKey": "8080E0",
           "groupKey": "sintesi",
           "sortKey": "e"
         },
         {
-          "typeId": "it.vedph.note",
-          "name": "testo",
-          "roleId": "text",
-          "description": "Prima trascrizione del testo.",
-          "isRequired": true,
-          "colorKey": "FFB17A",
+          "typeId": "it.vedph.categories",
+          "name": "contenuto",
+          "roleId": "cnt",
+          "description": "Tipi di contenuto.",
+          "colorKey": "ED97B4",
           "groupKey": "sintesi",
           "sortKey": "f"
         },
         {
-          "typeId": "it.vedph.note",
-          "name": "data",
-          "roleId": "date",
-          "description": "Note sulla cronologia.",
-          "colorKey": "C09BD8",
+          "typeId": "it.vedph.historical-date",
+          "name": "datazione",
+          "description": "Datazione.",
+          "colorKey": "9F84BD",
           "groupKey": "sintesi",
           "sortKey": "g"
         },
         {
-          "typeId": "it.vedph.graffiti.writing",
-          "name": "scrittura",
-          "description": "Scrittura.",
-          "colorKey": "048BA8",
-          "groupKey": "dettagli",
+          "typeId": "it.vedph.physical-states",
+          "name": "stati",
+          "description": "Stati di conservazione.",
+          "colorKey": "AF90A9",
+          "groupKey": "sintesi",
           "sortKey": "h"
         },
         {
-          "typeId": "it.vedph.graffiti.technique",
+          "typeId": "it.vedph.epigraphy.technique",
           "name": "tecnica",
           "description": "Tecnica e strumenti.",
           "colorKey": "75DBCD",
@@ -87,35 +85,36 @@
           "sortKey": "i"
         },
         {
-          "typeId": "it.vedph.graffiti.figurative",
-          "name": "figurativa",
-          "description": "Parte figurativa.",
-          "colorKey": "ED97B4",
+          "typeId": "it.vedph.epigraphy.writing",
+          "name": "scrittura",
+          "description": "Scrittura.",
+          "colorKey": "048BA8",
           "groupKey": "dettagli",
           "sortKey": "j"
         },
         {
-          "typeId": "it.vedph.historical-date",
-          "name": "datazione",
-          "description": "Datazione.",
-          "colorKey": "9F84BD",
+          "typeId": "it.vedph.categories",
+          "name": "figurativo",
+          "roleId": "fig",
+          "description": "Apparato figurativo.",
+          "colorKey": "ED97B4",
           "groupKey": "dettagli",
           "sortKey": "k"
         },
         {
-          "typeId": "it.vedph.categories",
-          "name": "temi",
-          "roleId": "topic",
-          "description": "Temi del graffito.",
-          "colorKey": "8275BD",
-          "groupKey": "dettagli",
+          "typeId": "it.vedph.note",
+          "name": "bozza",
+          "roleId": "txt",
+          "description": "Prima trascrizione del testo.",
+          "colorKey": "FFB17A",
+          "groupKey": "testo",
           "sortKey": "l"
         },
         {
           "typeId": "it.vedph.token-text",
           "roleId": "base-text",
           "name": "testo edito",
-          "description": "Testo edito del graffito.",
+          "description": "Testo edito.",
           "colorKey": "2EBFA5",
           "groupKey": "testo",
           "sortKey": "m"
@@ -150,7 +149,7 @@
         {
           "typeId": "it.vedph.comment",
           "name": "commento",
-          "description": "Commento al graffito.",
+          "description": "Commento generale.",
           "colorKey": "28666E",
           "groupKey": "commento",
           "sortKey": "q"
@@ -164,28 +163,12 @@
           "sortKey": "r"
         },
         {
-          "typeId": "it.vedph.metadata",
-          "name": "metadati",
-          "description": "Metadati generici.",
-          "colorKey": "5D8CC0",
-          "groupKey": "classificazione",
-          "sortKey": "s"
-        },
-        {
-          "typeId": "it.vedph.index-keywords",
-          "name": "parole chiave",
-          "description": "Parole chiave del graffito.",
-          "colorKey": "FFA500",
-          "groupKey": "classificazione",
-          "sortKey": "t"
-        },
-        {
           "typeId": "it.vedph.bibliography",
           "name": "bibliografia",
-          "description": "Bibliografia sul graffito.",
+          "description": "Bibliografia specifica.",
           "colorKey": "4C5EA9",
           "groupKey": "riferimenti",
-          "sortKey": "u"
+          "sortKey": "s"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -193,7 +176,7 @@
           "description": "Riferimenti sintetici.",
           "colorKey": "AAAA9D",
           "groupKey": "riferimenti",
-          "sortKey": "v"
+          "sortKey": "t"
         },
         {
           "typeId": "it.vedph.external-ids",
@@ -201,7 +184,7 @@
           "description": "Identificativi di entità in risorse esterne.",
           "colorKey": "2F4F4F",
           "groupKey": "riferimenti",
-          "sortKey": "w"
+          "sortKey": "u"
         }
       ]
     }
@@ -209,38 +192,38 @@
   "flags": [
     {
       "id": 1,
-      "label": "bozza",
-      "description": "Bozza importata.",
+      "label": "lavorazione",
+      "description": "In lavorazione.",
       "colorKey": "FFD95C"
     },
     {
       "id": 2,
-      "label": "completo",
-      "description": "Scheda completa.",
+      "label": "importata",
+      "description": "Importata.",
       "colorKey": "49D6CD"
     },
     {
       "id": 4,
-      "label": "revisionato",
-      "description": "Scheda revisionata.",
+      "label": "lavorata",
+      "description": "Lavorata.",
       "colorKey": "49D697"
     },
     {
       "id": 8,
-      "label": "riservato",
-      "description": "Accesso riservato",
+      "label": "rilevata",
+      "description": "Rilevata",
       "colorKey": "EC8E74"
     },
     {
       "id": 16,
-      "label": "pseudonimi",
-      "description": "Testo pseudonimizzato",
+      "label": "convalidata",
+      "description": "Convalidata",
       "colorKey": "E0A3FA"
     },
     {
       "id": 32,
-      "label": "non interpr.",
-      "description": "Non interpretabile",
+      "label": "nascosta",
+      "description": "Non visibile in pubblicazione",
       "colorKey": "E4C6B2"
     },
     {
@@ -298,48 +281,32 @@
           "value": "commento"
         },
         {
+          "id": "it.vedph.district.location",
+          "value": "localizzazione"
+        },
+        {
           "id": "it.vedph.doc-references",
           "value": "riferimenti"
+        },
+        {
+          "id": "it.vedph.epigraphy.support",
+          "value": "supporto"
+        },
+        {
+          "id": "it.vedph.epigraphy.technique",
+          "value": "tecnica"
+        },
+        {
+          "id": "it.vedph.epigraphy.writing",
+          "value": "scrittura"
         },
         {
           "id": "it.vedph.external-ids",
           "value": "ID esterni"
         },
         {
-          "id": "it.vedph.graffiti.figurative",
-          "value": "figurativo"
-        },
-        {
-          "id": "it.vedph.graffiti.frame",
-          "value": "cornice"
-        },
-        {
-          "id": "it.vedph.graffiti.localization",
-          "value": "localizzazione"
-        },
-        {
-          "id": "it.vedph.graffiti.states",
-          "value": "stati"
-        },
-        {
-          "id": "it.vedph.graffiti.support",
-          "value": "supporto"
-        },
-        {
-          "id": "it.vedph.graffiti.technique",
-          "value": "tecnica"
-        },
-        {
-          "id": "it.vedph.graffiti.writing",
-          "value": "scrittura"
-        },
-        {
           "id": "it.vedph.historical-date",
           "value": "datazione"
-        },
-        {
-          "id": "it.vedph.index-keywords",
-          "value": "parole chiave"
         },
         {
           "id": "it.vedph.metadata",
@@ -348,6 +315,10 @@
         {
           "id": "it.vedph.note",
           "value": "nota"
+        },
+        {
+          "id": "it.vedph.physical-states",
+          "value": "stati"
         },
         {
           "id": "it.vedph.token-text",
@@ -390,7 +361,40 @@
     },
     {
       "id": "bibliography-languages@en",
-      "targetId": "languages"
+      "entries": [
+        {
+          "id": "eng",
+          "value": "inglese"
+        },
+        {
+          "id": "fre",
+          "value": "francese"
+        },
+        {
+          "id": "deu",
+          "value": "tedesco"
+        },
+        {
+          "id": "grc",
+          "value": "greco"
+        },
+        {
+          "id": "gre",
+          "value": "neogreco"
+        },
+        {
+          "id": "ita",
+          "value": "italiano"
+        },
+        {
+          "id": "lat",
+          "value": "latino"
+        },
+        {
+          "id": "spa",
+          "value": "spagnolo"
+        }
+      ]
     },
     {
       "id": "bibliography-types@en",
@@ -438,123 +442,186 @@
       ]
     },
     {
-      "id": "categories_feature@en",
+      "id": "categories_fn@en",
       "entries": [
         {
           "id": "text",
           "value": "testo"
         },
         {
-          "id": "figurative",
-          "value": "figurativo"
+          "id": "monogram",
+          "value": "monogramma"
         },
         {
-          "id": "digits",
-          "value": "numeri"
+          "id": "letter",
+          "value": "lettera singola"
         },
         {
-          "id": "frame",
-          "value": "cornice"
+          "id": "unint",
+          "value": "lettere non interpretabili"
         }
       ]
     },
     {
-      "id": "categories_topic@en",
+      "id": "categories_cnt@en",
       "entries": [
         {
-          "id": "funerary",
-          "value": "funeraria"
+          "id": "love",
+          "value": "amore"
         },
         {
-          "id": "memorial",
-          "value": "commemorativa"
+          "id": "auspicious",
+          "value": "augurale"
         },
         {
-          "id": "signature",
-          "value": "firma"
+          "id": "relic-auth",
+          "value": "autentica di reliquie"
+        },
+        {
+          "id": "brick-stamp",
+          "value": "bollo laterizio"
+        },
+        {
+          "id": "calendar",
+          "value": "calendario"
         },
         {
           "id": "celebratory",
           "value": "celebrativa"
         },
         {
-          "id": "exhortative",
-          "value": "esortativa"
+          "id": "quote",
+          "value": "citazione"
+        },
+        {
+          "id": "memorial",
+          "value": "commemorativa"
+        },
+        {
+          "id": "consecration",
+          "value": "consacrazione"
+        },
+        {
+          "id": "dedication",
+          "value": "dedicatoria"
+        },
+        {
+          "id": "devotional",
+          "value": "devozionale"
         },
         {
           "id": "didascalic",
           "value": "didascalica"
         },
         {
-          "id": "initials",
-          "value": "iniziali nome persona"
+          "id": "documentary",
+          "value": "documentaria"
         },
         {
-          "id": "acronym",
-          "value": "sigla"
+          "id": "exegetic",
+          "value": "esegetica"
         },
         {
-          "id": "signaling",
-          "value": "segnaletica"
-        },
-        {
-          "id": "quote",
-          "value": "citazione"
-        },
-        {
-          "id": "infamous",
-          "value": "infamante"
-        },
-        {
-          "id": "sport",
-          "value": "sport"
-        },
-        {
-          "id": "prostitution",
-          "value": "prostituzione"
-        },
-        {
-          "id": "politics",
-          "value": "politica"
-        },
-        {
-          "id": "religion",
-          "value": "religiosa"
-        },
-        {
-          "id": "prayer",
-          "value": "preghiera"
+          "id": "exhortative",
+          "value": "esortativa"
         },
         {
           "id": "ex-voto",
           "value": "ex voto"
         },
         {
-          "id": "love",
-          "value": "amore"
+          "id": "signature",
+          "value": "firma"
         },
         {
-          "id": "speaking",
-          "value": "parlanti"
-        },
-        {
-          "id": "taunt",
-          "value": "insulto"
+          "id": "funerary",
+          "value": "funeraria"
         },
         {
           "id": "curse",
           "value": "imprecazione"
         },
         {
+          "id": "infamous",
+          "value": "infamante"
+        },
+        {
+          "id": "initials",
+          "value": "iniziali nome persona"
+        },
+        {
+          "id": "taunt",
+          "value": "insulto"
+        },
+        {
+          "id": "invocation",
+          "value": "invocativa"
+        },
+        {
+          "id": "build-stamp",
+          "value": "marchio edile"
+        },
+        {
+          "id": "name",
+          "value": "nome"
+        },
+        {
           "id": "toponym",
           "value": "nome di luogo"
         },
         {
+          "id": "speaking",
+          "value": "parlanti"
+        },
+        {
+          "id": "political",
+          "value": "politica"
+        },
+        {
+          "id": "poetry",
+          "value": "poesia"
+        },
+        {
+          "id": "prose",
+          "value": "prosa"
+        },
+        {
+          "id": "prostitution",
+          "value": "prostituzione"
+        },
+        {
+          "id": "prayer",
+          "value": "preghiera"
+        },
+        {
+          "id": "religious",
+          "value": "religiosa"
+        },
+        {
           "id": "greeting",
-          "value": "saluti"
+          "value": "saluto"
+        },
+        {
+          "id": "signaling",
+          "value": "segnaletica"
+        },
+        {
+          "id": "acronym",
+          "value": "sigla"
+        },
+        {
+          "id": "sport",
+          "value": "sport"
+        },
+        {
+          "id": "-",
+          "value": "non definibile"
         }
       ]
     },
+
+
+
     {
       "id": "comment-categories@en",
       "targetId": "categories_topic"
@@ -1336,7 +1403,7 @@
         {
           "id": "ita",
           "value": "italiano"
-        },        
+        },
         {
           "id": "lat",
           "value": "latino"
@@ -1602,7 +1669,7 @@
             "Sampson,James",
             "Voss,Francis"
           ],
-          "journals": ["AJPh", "CJ", "CPh", "CQ", "IF"]
+          "journals": [ "AJPh", "CJ", "CPh", "CQ", "IF" ]
         }
       },
       {
@@ -1610,63 +1677,48 @@
         "options": {
           "maxCategoriesPerItem": 3,
           "categories": [
-            "language.phonology",
-            "language.morphology",
-            "language.syntax",
-            "literature",
-            "geography"
+            "alpha",
+            "beta",
+            "gamma"
           ]
         }
       },
       {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": ["eng", "ita"],
-          "categories": ["language.phonology", "language.syntax", "history"]
+          "languages": [ "eng", "ita" ],
+          "categories": [ "alpha", "beta", "gamma" ]
         }
+      },
+      {
+        "id": "seed.it.vedph.district.location"
       },
       {
         "id": "seed.it.vedph.doc-references"
       },
       {
+        "id": "seed.it.vedph.epigraphy.support"
+      },
+      {
+        "id": "seed.it.vedph.epigraphy.technique"
+      },
+      {
+        "id": "seed.it.vedph.epigraphy.writing"
+      },
+      {
         "id": "seed.it.vedph.external-ids"
       },
       {
-        "id": "seed.it.vedph.graffiti.figurative"
-      },
-      {
-        "id": "seed.it.vedph.graffiti.frame"
-      },
-      {
-        "id": "seed.it.vedph.graffiti.localization"
-      },
-      {
-        "id": "seed.it.vedph.graffiti.states"
-      },
-      {
-        "id": "seed.it.vedph.graffiti.support"
-      },
-      {
-        "id": "seed.it.vedph.graffiti.technique"
-      },
-      {
-        "id": "seed.it.vedph.graffiti.writing"
-      },
-      {
         "id": "seed.it.vedph.historical-date"
-      },
-      {
-        "id": "seed.it.vedph.index-keywords",
-        "options": {
-          "indexIds": ["persons", "places"],
-          "languages": ["eng", "deu", "ita", "fra", "spa"]
-        }
       },
       {
         "id": "seed.it.vedph.metadata"
       },
       {
         "id": "seed.it.vedph.note"
+      },
+      {
+        "id": "seed.it.vedph.physical-states"
       },
       {
         "id": "seed.it.vedph.token-text"
@@ -1686,7 +1738,7 @@
         "id": "seed.fr.it.vedph.comment",
         "options": {
           "languages": ["eng", "ita"],
-          "categories": ["sport", "infamous"]
+          "categories": ["alpha", "beta"]
         }
       },
       {

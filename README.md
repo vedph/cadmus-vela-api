@@ -19,6 +19,9 @@ This API uses core components from the following Cadmus libraries:
 
 ## History
 
+- 2024-11-02: ⚠️ refactoring for new models.
+- 2024-10-29:
+  - updated packages.
 - 2024-10-21: added flag for IMAI.
 
 ### 3.0.3
