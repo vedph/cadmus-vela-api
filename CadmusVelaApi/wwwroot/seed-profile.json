@@ -1362,32 +1362,32 @@
           "value": "centro"
         },
         {
-          "id": "a.cr",
+          "id": "e.cr",
           "value": "Cannareggio"
         },
         {
-          "id": "a.cs",
+          "id": "e.cs",
           "value": "Castello"
         },
         {
-          "id": "a.dd",
+          "id": "e.dd",
           "value": "Dorsoduro"
         },
         {
-          "id": "a.sm",
+          "id": "e.sm",
           "value": "San Marco"
         },
         {
-          "id": "a.sp",
+          "id": "e.sp",
           "value": "San Polo"
         },
         {
-          "id": "a.sc",
+          "id": "e.sc",
           "value": "Santa Croce"
         },
         {
           "id": "l*",
-          "value": "località"
+          "value": "localizzazione"
         },
         {
           "id": "s*",
