@@ -915,6 +915,81 @@
       ]
     },
     {
+      "id": "district-name-piece-types@en",
+      "entries": [
+        {
+          "id": "p*",
+          "value": "provincia"
+        },
+        {
+          "id": "c*",
+          "value": "città"
+        },
+        {
+          "id": "a*",
+          "value": "area"
+        },
+        {
+          "id": "a.cr",
+          "value": "Cannareggio"
+        },
+        {
+          "id": "a.cs",
+          "value": "Castello"
+        },
+        {
+          "id": "a.dd",
+          "value": "Dorsoduro"
+        },
+        {
+          "id": "a.sm",
+          "value": "San Marco"
+        },
+        {
+          "id": "a.sp",
+          "value": "San Polo"
+        },
+        {
+          "id": "a.sc",
+          "value": "Santa Croce"
+        },
+        {
+          "id": "l*",
+          "value": "località"
+        },
+        {
+          "id": "s*",
+          "value": "struttura"
+        },
+        {
+          "id": "_order",
+          "value": "p c a l s"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-count-types@en",
+      "entries": [
+        {
+          "id": "rows",
+          "value": "righe"
+        }
+      ]
+    },
+    {
+      "id": "epi-support-features@en",
+      "entries": [
+        {
+          "id": "ruling",
+          "value": "rigatura"
+        },
+        {
+          "id": "preparation",
+          "value": "preparazione del supporto"
+        }
+      ]
+    },
+    {
       "id": "epi-support-functions@en",
       "entries": [
         {
@@ -1274,307 +1349,7 @@
       ]
     },
     {
-      "id": "physical-states@en",
-      "entries": [
-        {
-          "id": "missing",
-          "value": "disperso"
-        },
-        {
-          "id": "fragment",
-          "value": "frammento"
-        },
-        {
-          "id": "contiguous-fragment",
-          "value": "frammento contiguo"
-        },
-        {
-          "id": "isolated-fragment",
-          "value": "frammento isolato"
-        },
-        {
-          "id": "intact",
-          "value": "integro"
-        },
-        {
-          "id": "mutilated",
-          "value": "mutilo"
-        },
-        {
-          "id": "reused",
-          "value": "reimpiego"
-        }
-      ]
-    },
-
-    {
-      "id": "grf-place-piece-types@en",
-      "entries": [
-        {
-          "id": "a*",
-          "value": "area"
-        },
-        {
-          "id": "s*",
-          "value": "sestriere"
-        },
-        {
-          "id": "s.cr",
-          "value": "Cannaregio"
-        },
-        {
-          "id": "s.cs",
-          "value": "Castello"
-        },
-        {
-          "id": "s.dd",
-          "value": "Dorsoduro"
-        },
-        {
-          "id": "s.sm",
-          "value": "San Marco"
-        },
-        {
-          "id": "s.sp",
-          "value": "San Polo"
-        },
-        {
-          "id": "s.sc",
-          "value": "Santa Croce"
-        },
-        {
-          "id": "l*",
-          "value": "località"
-        },
-        {
-          "id": "_order",
-          "value": "a s l"
-        }
-      ]
-    },
-    {
-      "id": "grf-states@en",
-      "entries": [
-        {
-          "id": "s1",
-          "value": "leggibile"
-        },
-        {
-          "id": "s0",
-          "value": "scomparso"
-        }
-      ]
-    },
-    {
-      "id": "grf-support-types@en",
-      "entries": [
-        {
-          "id": "balustrade",
-          "value": "balaustra"
-        },
-        {
-          "id": "sill",
-          "value": "davanzale"
-        },
-        {
-          "id": "column",
-          "value": "colonna"
-        },
-        {
-          "id": "step",
-          "value": "gradino"
-        },
-        {
-          "id": "tombstone",
-          "value": "lapide"
-        },
-        {
-          "id": "church-furniture",
-          "value": "mobilio ecclesiastico"
-        },
-        {
-          "id": "wall",
-          "value": "muro"
-        },
-        {
-          "id": "bench",
-          "value": "panchina"
-        },
-        {
-          "id": "floor",
-          "value": "pavimento"
-        },
-        {
-          "id": "pillar",
-          "value": "pilastro"
-        },
-        {
-          "id": "door",
-          "value": "porta"
-        },
-        {
-          "id": "well",
-          "value": "pozzo"
-        },
-        {
-          "id": "statue",
-          "value": "statua"
-        },
-        {
-          "id": "jamb",
-          "value": "stipite"
-        },
-        {
-          "id": "street",
-          "value": "strada"
-        },
-        {
-          "id": "vault",
-          "value": "volta"
-        }
-      ]
-    },
-    {
-      "id": "grf-techniques@en",
-      "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
-        {
-          "id": "preparation-drawing",
-          "value": "preparazione disegno"
-        },
-        {
-          "id": "preparation-support",
-          "value": "preparazione supporto"
-        },
-        {
-          "id": "scratch",
-          "value": "sgraffio"
-        },
-        {
-          "id": "engraving",
-          "value": "incisione"
-        },
-        {
-          "id": "carving",
-          "value": "intaglio"
-        },
-        {
-          "id": "drawing",
-          "value": "disegno"
-        },
-        {
-          "id": "punching",
-          "value": "punzonatura"
-        },
-        {
-          "id": "relief",
-          "value": "rilievo"
-        }
-      ]
-    },
-    {
-      "id": "grf-tools@en",
-      "entries": [
-        {
-          "id": "-",
-          "entries": "---"
-        },
-        {
-          "id": "nail",
-          "value": "chiodo"
-        },
-        {
-          "id": "gradine",
-          "value": "gradina"
-        },
-        {
-          "id": "chisel",
-          "value": "scalpello"
-        },
-        {
-          "id": "gouge",
-          "value": "sgorbia"
-        },
-        {
-          "id": "saw",
-          "value": "sega"
-        },
-        {
-          "id": "bush-hammer",
-          "value": "bocciarda"
-        },
-        {
-          "id": "charcoal",
-          "value": "carboncino"
-        },
-        {
-          "id": "sepia",
-          "value": "seppia"
-        },
-        {
-          "id": "graphite",
-          "value": "grafite"
-        },
-        {
-          "id": "lead-pencil",
-          "value": "matita di piombo"
-        },
-        {
-          "id": "candlesmoke",
-          "value": "fumo di candela"
-        },
-        {
-          "id": "ink",
-          "value": "inchiostro"
-        },
-        {
-          "id": "paint",
-          "value": "vernice"
-        },
-        {
-          "id": "blade",
-          "value": "lama (affilatura)"
-        },
-        {
-          "id": "curved-blade",
-          "value": "lama curva"
-        },
-        {
-          "id": "straight-blade",
-          "value": "lama dritta"
-        }
-      ]
-    },
-    {
-      "id": "grf-writing-casing@en",
-      "entries": [
-        {
-          "id": "cursive",
-          "value": "corsiva"
-        },
-        {
-          "id": "upper",
-          "value": "maiuscola"
-        },
-        {
-          "id": "upper-lower",
-          "value": "maiuscola e minuscola"
-        },
-        {
-          "id": "lower",
-          "value": "minuscola"
-        },
-        {
-          "id": "-",
-          "value": "---"
-        }
-      ]
-    },
-    {
-      "id": "grf-writing-systems@en",
+      "id": "epi-writing-systems@en",
       "entries": [
         {
           "id": "-",
@@ -1627,23 +1402,92 @@
       ]
     },
     {
-      "id": "grf-writing-types@en",
+      "id": "epi-technique-tools@en",
       "entries": [
         {
-          "id": "-",
-          "value": "---"
+          "id": "bush-hammer",
+          "value": "bocciarda"
         },
         {
-          "id": "upper",
-          "value": "maiuscolo"
+          "id": "charcoal",
+          "value": "carboncino"
         },
         {
-          "id": "lower",
-          "value": "minuscolo"
+          "id": "candlesmoke",
+          "value": "fumo di candela"
         },
         {
-          "id": "italic",
-          "value": "corsivo"
+          "id": "gradine",
+          "value": "gradina"
+        },
+        {
+          "id": "graphite",
+          "value": "grafite"
+        },
+        {
+          "id": "ink",
+          "value": "inchiostro"
+        },
+        {
+          "id": "lead-pencil",
+          "value": "matita di piombo"
+        },
+        {
+          "id": "chisel",
+          "value": "scalpello"
+        },
+        {
+          "id": "saw",
+          "value": "sega"
+        },
+        {
+          "id": "gouge",
+          "value": "sgorbia"
+        },
+        {
+          "id": "sharp-tool",
+          "value": "strumento accuminato"
+        },
+        {
+          "id": "paint",
+          "value": "vernice"
+        },
+        {
+          "id": "blade",
+          "value": "lama (affilatura)"
+        }
+      ]
+    },
+    {
+      "id": "epi-technique-types@en",
+      "entries": [
+        {
+          "id": "groove",
+          "value": "solco"
+        },
+        {
+          "id": "relief",
+          "value": "a rilievo"
+        },
+        {
+          "id": "drawing",
+          "value": "disegno"
+        },
+        {
+          "id": "scratch",
+          "value": "graffio"
+        },
+        {
+          "id": "engraving",
+          "value": "incisione"
+        },
+        {
+          "id": "carving",
+          "value": "intaglio"
+        },
+        {
+          "id": "punching",
+          "value": "punzonatura"
         }
       ]
     },
@@ -1681,6 +1525,39 @@
         {
           "id": "spa",
           "value": "spagnolo"
+        }
+      ]
+    },
+    {
+      "id": "physical-states@en",
+      "entries": [
+        {
+          "id": "missing",
+          "value": "disperso"
+        },
+        {
+          "id": "fragment",
+          "value": "frammento"
+        },
+        {
+          "id": "contiguous-fragment",
+          "value": "frammento contiguo"
+        },
+        {
+          "id": "isolated-fragment",
+          "value": "frammento isolato"
+        },
+        {
+          "id": "intact",
+          "value": "integro"
+        },
+        {
+          "id": "mutilated",
+          "value": "mutilo"
+        },
+        {
+          "id": "reused",
+          "value": "reimpiego"
         }
       ]
     },
