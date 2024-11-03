@@ -25,13 +25,21 @@
           "sortKey": "b"
         },
         {
+          "typeId": "it.vedph.geo.asserted-locations",
+          "name": "geolocalizzazione",
+          "description": "Geolocalizzazione.",
+          "colorKey": "2F4F4F",
+          "groupKey": "sintesi",
+          "sortKey": "c"
+        },
+        {
           "typeId": "t.vedph.epigraphy.support",
           "name": "supporto",
           "description": "Supporto materiale.",
           "isRequired": true,
           "colorKey": "AAD2BA",
           "groupKey": "sintesi",
-          "sortKey": "c"
+          "sortKey": "d"
         },
         {
           "typeId": "it.vedph.categories",
@@ -40,7 +48,7 @@
           "description": "Funzione.",
           "colorKey": "8080E0",
           "groupKey": "sintesi",
-          "sortKey": "d"
+          "sortKey": "e"
         },
         {
           "typeId": "it.vedph.categories",
@@ -49,7 +57,7 @@
           "description": "Lingue del testo.",
           "colorKey": "8080E0",
           "groupKey": "sintesi",
-          "sortKey": "e"
+          "sortKey": "f"
         },
         {
           "typeId": "it.vedph.categories",
@@ -58,7 +66,7 @@
           "description": "Tipi di contenuto.",
           "colorKey": "ED97B4",
           "groupKey": "sintesi",
-          "sortKey": "f"
+          "sortKey": "g"
         },
         {
           "typeId": "it.vedph.historical-date",
@@ -66,7 +74,7 @@
           "description": "Datazione.",
           "colorKey": "9F84BD",
           "groupKey": "sintesi",
-          "sortKey": "g"
+          "sortKey": "h"
         },
         {
           "typeId": "it.vedph.physical-states",
@@ -74,7 +82,7 @@
           "description": "Stati di conservazione.",
           "colorKey": "AF90A9",
           "groupKey": "sintesi",
-          "sortKey": "h"
+          "sortKey": "i"
         },
         {
           "typeId": "it.vedph.epigraphy.technique",
@@ -82,7 +90,7 @@
           "description": "Tecnica e strumenti.",
           "colorKey": "75DBCD",
           "groupKey": "dettagli",
-          "sortKey": "i"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.epigraphy.writing",
@@ -90,7 +98,7 @@
           "description": "Scrittura.",
           "colorKey": "048BA8",
           "groupKey": "dettagli",
-          "sortKey": "j"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.categories",
@@ -99,7 +107,7 @@
           "description": "Apparato figurativo.",
           "colorKey": "ED97B4",
           "groupKey": "dettagli",
-          "sortKey": "k"
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.note",
@@ -108,7 +116,7 @@
           "description": "Prima trascrizione del testo.",
           "colorKey": "FFB17A",
           "groupKey": "testo",
-          "sortKey": "l"
+          "sortKey": "m"
         },
         {
           "typeId": "it.vedph.token-text",
@@ -117,7 +125,7 @@
           "description": "Testo edito.",
           "colorKey": "2EBFA5",
           "groupKey": "testo",
-          "sortKey": "m"
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -126,7 +134,7 @@
           "description": "Commenti a parti del testo.",
           "colorKey": "28666E",
           "groupKey": "testo",
-          "sortKey": "n"
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -135,7 +143,7 @@
           "description": "Indicazioni cronologiche nel testo.",
           "colorKey": "7582BD",
           "groupKey": "testo",
-          "sortKey": "o"
+          "sortKey": "p"
         },
         {
           "typeId": "it.vedph.token-text-layer",
@@ -144,7 +152,7 @@
           "description": "Legature notevoli nel testo.",
           "colorKey": "DEBEF3",
           "groupKey": "testo",
-          "sortKey": "p"
+          "sortKey": "q"
         },
         {
           "typeId": "it.vedph.comment",
@@ -152,7 +160,7 @@
           "description": "Commento generale.",
           "colorKey": "28666E",
           "groupKey": "commento",
-          "sortKey": "q"
+          "sortKey": "r"
         },
         {
           "typeId": "it.vedph.note",
@@ -160,7 +168,7 @@
           "description": "Nota miscellanea.",
           "colorKey": "8D93A5",
           "groupKey": "commento",
-          "sortKey": "r"
+          "sortKey": "s"
         },
         {
           "typeId": "it.vedph.bibliography",
@@ -168,7 +176,7 @@
           "description": "Bibliografia specifica.",
           "colorKey": "4C5EA9",
           "groupKey": "riferimenti",
-          "sortKey": "s"
+          "sortKey": "t"
         },
         {
           "typeId": "it.vedph.doc-references",
@@ -176,7 +184,7 @@
           "description": "Riferimenti sintetici.",
           "colorKey": "AAAA9D",
           "groupKey": "riferimenti",
-          "sortKey": "t"
+          "sortKey": "u"
         },
         {
           "typeId": "it.vedph.external-ids",
@@ -184,7 +192,7 @@
           "description": "Identificativi di entità in risorse esterne.",
           "colorKey": "2F4F4F",
           "groupKey": "riferimenti",
-          "sortKey": "u"
+          "sortKey": "v"
         }
       ]
     }
@@ -303,6 +311,10 @@
         {
           "id": "it.vedph.external-ids",
           "value": "ID esterni"
+        },
+        {
+          "id": "it.vedph.geo.asserted-locations",
+          "value": "geolocalizzazione"
         },
         {
           "id": "it.vedph.historical-date",
