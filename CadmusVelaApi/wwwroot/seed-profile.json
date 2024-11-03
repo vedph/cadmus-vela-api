@@ -1358,8 +1358,8 @@
           "value": "città"
         },
         {
-          "id": "a*",
-          "value": "area"
+          "id": "e*",
+          "value": "centro"
         },
         {
           "id": "a.cr",
@@ -1395,7 +1395,7 @@
         },
         {
           "id": "_order",
-          "value": "p c a l s"
+          "value": "p c e l s"
         }
       ]
     },
