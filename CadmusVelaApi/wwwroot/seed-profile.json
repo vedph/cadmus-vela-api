@@ -620,6 +620,95 @@
       ]
     },
     {
+      "id": "categories_fig@en",
+      "entries": [
+        {
+          "id": "unint-drawing",
+          "value": "disegno non interpretabile"
+        },
+        {
+          "id": "clothing",
+          "value": "abbigliamento"
+        },
+        {
+          "id": "animal",
+          "value": "animale"
+        },
+        {
+          "id": "architecture",
+          "value": "architettura"
+        },
+        {
+          "id": "weapon",
+          "value": "arma"
+        },
+        {
+          "id": "armor",
+          "value": "armatura"
+        },
+        {
+          "id": "flag",
+          "value": "bandiera"
+        },
+        {
+          "id": "bust",
+          "value": "busto"
+        },
+        {
+          "id": "cross",
+          "value": "croce"
+        },
+        {
+          "id": "heart",
+          "value": "cuore"
+        },
+        {
+          "id": "erotic",
+          "value": "erotico"
+        },
+        {
+          "id": "human-figure",
+          "value": "figura umana"
+        },
+        {
+          "id": "geometric",
+          "value": "geometrico"
+        },
+        {
+          "id": "game",
+          "value": "gioco"
+        },
+        {
+          "id": "ship",
+          "value": "imbarcazione"
+        },
+        {
+          "id": "language",
+          "value": "lingua"
+        },
+        {
+          "id": "landscape",
+          "value": "paesaggio"
+        },
+        {
+          "id": "plant",
+          "value": "pianta"
+        },
+        {
+          "id": "zodiac-symbol",
+          "value": "simbolo zodiacale"
+        },
+        {
+          "id": "coat-of-arms",
+          "value": "stemma"
+        },
+        {
+          "id": "face",
+          "value": "volto"
+        }
+      ]
+    },
+    {
       "id": "comment-categories@en",
       "targetId": "categories_cnt"
     },
@@ -657,6 +746,23 @@
       ]
     },
     {
+      "id": "epi-support-functions@en",
+      "entries": [
+        {
+          "id": "private",
+          "value": "privata"
+        },
+        {
+          "id": "public",
+          "value": "pubblica"
+        },
+        {
+          "id": "religious",
+          "value": "religiosa"
+        }
+      ]
+    },
+    {
       "id": "epi-support-materials@en",
       "entries": [
         {
@@ -686,23 +792,6 @@
         {
           "id": "glass",
           "value": "vetro"
-        }
-      ]
-    },
-    {
-      "id": "epi-support-functions@en",
-      "entries": [
-        {
-          "id": "private",
-          "value": "privata"
-        },
-        {
-          "id": "public",
-          "value": "pubblica"
-        },
-        {
-          "id": "religious",
-          "value": "religiosa"
         }
       ]
     },
@@ -884,7 +973,170 @@
         }
       ]
     },
-TODO
+    {
+      "id": "epi-writing-casings@en",
+      "entries": [
+        {
+          "id": "upper",
+          "value": "maiuscola"
+        },
+        {
+          "id": "upper-lower",
+          "value": "maiuscola e minuscola"
+        },
+        {
+          "id": "lower",
+          "value": "minuscola"
+        },
+        {
+          "id": "-",
+          "value": "n.d."
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-features@en",
+      "entries": [
+        {
+          "id": "abbreviation",
+          "value": "abbreviazioni"
+        },
+        {
+          "id": "ligature",
+          "value": "nessi e legamenti"
+        },
+        {
+          "id": "included-letters",
+          "value": "lettere incluse"
+        },
+        {
+          "id": "overlapping-letters",
+          "value": "lettere sovrapposte"
+        },
+        {
+          "id": "punctuation",
+          "value": "punteggiatura"
+        },
+        {
+          "id": "punctuation-marks",
+          "value": "segni di interpunzione"
+        }
+      ]
+    },
+    {
+      "id": "epi-writing-scripts@en",
+      "entries": [
+        {
+          "id": "chancery",
+          "value": "cancelleresca"
+        },
+        {
+          "id": "epigraphic-capital",
+          "value": "capitale epigrafica"
+        },
+        {
+          "id": "capital-book",
+          "value": "capitale libraria"
+        },
+        {
+          "id": "capital-romanesque",
+          "value": "capitale romanica"
+        },
+        {
+          "id": "carolingian",
+          "value": "carolina"
+        },
+        {
+          "id": "cursive-new",
+          "value": "corsiva nuova"
+        },
+        {
+          "id": "curial",
+          "value": "curiale"
+        },
+        {
+          "id": "gothic",
+          "value": "gotica"
+        },
+        {
+          "id": "insular",
+          "value": "insulare"
+        },
+        {
+          "id": "italic",
+          "value": "italica"
+        },
+        {
+          "id": "merchant",
+          "value": "mercantesca"
+        },
+        {
+          "id": "merovingian",
+          "value": "merovingica"
+        },
+        {
+          "id": "minuscule-diplomatic",
+          "value": "minuscola diplomatica"
+        },
+        {
+          "id": "uncial",
+          "value": "onciale"
+        },
+        {
+          "id": "semiuncial",
+          "value": "semionciale"
+        },
+        {
+          "id": "humanistic",
+          "value": "umanistica"
+        },
+        {
+          "id": "visigothic",
+          "value": "visigotica"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "id": "physical-states@en",
+      "entries": [
+        {
+          "id": "missing",
+          "value": "disperso"
+        },
+        {
+          "id": "fragment",
+          "value": "frammento"
+        },
+        {
+          "id": "contiguous-fragment",
+          "value": "frammento contiguo"
+        },
+        {
+          "id": "isolated-fragment",
+          "value": "frammento isolato"
+        },
+        {
+          "id": "intact",
+          "value": "integro"
+        },
+        {
+          "id": "mutilated",
+          "value": "mutilo"
+        },
+        {
+          "id": "reused",
+          "value": "reimpiego"
+        }
+      ]
+    },
 
     {
       "id": "grf-fig-frame-types@en",
@@ -1751,25 +2003,21 @@ TODO
             "Sampson,James",
             "Voss,Francis"
           ],
-          "journals": [ "AJPh", "CJ", "CPh", "CQ", "IF" ]
+          "journals": ["AJPh", "CJ", "CPh", "CQ", "IF"]
         }
       },
       {
         "id": "seed.it.vedph.categories",
         "options": {
           "maxCategoriesPerItem": 3,
-          "categories": [
-            "alpha",
-            "beta",
-            "gamma"
-          ]
+          "categories": ["alpha", "beta", "gamma"]
         }
       },
       {
         "id": "seed.it.vedph.comment",
         "options": {
-          "languages": [ "eng", "ita" ],
-          "categories": [ "alpha", "beta", "gamma" ]
+          "languages": ["eng", "ita"],
+          "categories": ["alpha", "beta", "gamma"]
         }
       },
       {
