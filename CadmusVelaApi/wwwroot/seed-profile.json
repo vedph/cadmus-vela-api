@@ -934,6 +934,426 @@
           "value": "provincia"
         },
         {
+          "id": "p.al",
+          "value": "Alessandria"
+        },
+        {
+          "id": "p.an",
+          "value": "Ancona"
+        },
+        {
+          "id": "p.aq",
+          "value": "L'Aquila"
+        },
+        {
+          "id": "p.ar",
+          "value": "Arezzo"
+        },
+        {
+          "id": "p.at",
+          "value": "Asti"
+        },
+        {
+          "id": "p.av",
+          "value": "Avellino"
+        },
+        {
+          "id": "p.ba",
+          "value": "Bari"
+        },
+        {
+          "id": "p.bg",
+          "value": "Bergamo"
+        },
+        {
+          "id": "p.bi",
+          "value": "Biella"
+        },
+        {
+          "id": "p.bl",
+          "value": "Belluno"
+        },
+        {
+          "id": "p.bn",
+          "value": "Benevento"
+        },
+        {
+          "id": "p.bo",
+          "value": "Bologna"
+        },
+        {
+          "id": "p.br",
+          "value": "Brindisi"
+        },
+        {
+          "id": "p.bs",
+          "value": "Brescia"
+        },
+        {
+          "id": "p.bt",
+          "value": "Barletta-Andria-Trani"
+        },
+        {
+          "id": "p.bz",
+          "value": "Bolzano/Bozen"
+        },
+        {
+          "id": "p.ca",
+          "value": "Cagliari"
+        },
+        {
+          "id": "p.cb",
+          "value": "Campobasso"
+        },
+        {
+          "id": "p.ce",
+          "value": "Caserta"
+        },
+        {
+          "id": "p.ch",
+          "value": "Chieti"
+        },
+        {
+          "id": "p.ci",
+          "value": "Carbonia-Iglesias"
+        },
+        {
+          "id": "p.cl",
+          "value": "Caltanissetta"
+        },
+        {
+          "id": "p.cn",
+          "value": "Cuneo"
+        },
+        {
+          "id": "p.co",
+          "value": "Como"
+        },
+        {
+          "id": "p.cr",
+          "value": "Cremona"
+        },
+        {
+          "id": "p.cs",
+          "value": "Cosenza"
+        },
+        {
+          "id": "p.ct",
+          "value": "Catania"
+        },
+        {
+          "id": "p.cz",
+          "value": "Catanzaro"
+        },
+        {
+          "id": "p.en",
+          "value": "Enna"
+        },
+        {
+          "id": "p.fc",
+          "value": "Forli-Cesena"
+        },
+        {
+          "id": "p.fe",
+          "value": "Ferrara"
+        },
+        {
+          "id": "p.fi",
+          "value": "Firenze"
+        },
+        {
+          "id": "p.fg",
+          "value": "Foggia"
+        },
+        {
+          "id": "p.fm",
+          "value": "Fermo"
+        },
+        {
+          "id": "p.fr",
+          "value": "Frosinone"
+        },
+        {
+          "id": "p.ge",
+          "value": "Genova"
+        },
+        {
+          "id": "p.go",
+          "value": "Gorizia"
+        },
+        {
+          "id": "p.gr",
+          "value": "Grosseto"
+        },
+        {
+          "id": "p.im",
+          "value": "Imperia"
+        },
+        {
+          "id": "p.is",
+          "value": "Isernia"
+        },
+        {
+          "id": "p.kr",
+          "value": "Crotone"
+        },
+        {
+          "id": "p.lc",
+          "value": "Lecco"
+        },
+        {
+          "id": "p.le",
+          "value": "Lecce"
+        },
+        {
+          "id": "p.li",
+          "value": "Livorno"
+        },
+        {
+          "id": "p.lo",
+          "value": "Lodi"
+        },
+        {
+          "id": "p.lt",
+          "value": "Latina"
+        },
+        {
+          "id": "p.lu",
+          "value": "Lucca"
+        },
+        {
+          "id": "p.mb",
+          "value": "Monza e della Brianza"
+        },
+        {
+          "id": "p.mc",
+          "value": "Macerata"
+        },
+        {
+          "id": "p.me",
+          "value": "Messina"
+        },
+        {
+          "id": "p.mi",
+          "value": "Milano"
+        },
+        {
+          "id": "p.mn",
+          "value": "Mantova"
+        },
+        {
+          "id": "p.mo",
+          "value": "Modena"
+        },
+        {
+          "id": "p.ms",
+          "value": "Massa-Carrara"
+        },
+        {
+          "id": "p.mt",
+          "value": "Matera"
+        },
+        {
+          "id": "p.na",
+          "value": "Napoli"
+        },
+        {
+          "id": "p.no",
+          "value": "Novara"
+        },
+        {
+          "id": "p.nu",
+          "value": "Nuoro"
+        },
+        {
+          "id": "p.og",
+          "value": "Ogliastra"
+        },
+        {
+          "id": "p.or",
+          "value": "Oristano"
+        },
+        {
+          "id": "p.ot",
+          "value": "Olbia-Tempio"
+        },
+        {
+          "id": "p.pa",
+          "value": "Palermo"
+        },
+        {
+          "id": "p.pc",
+          "value": "Piacenza"
+        },
+        {
+          "id": "p.pd",
+          "value": "Padova"
+        },
+        {
+          "id": "p.pe",
+          "value": "Pescara"
+        },
+        {
+          "id": "p.pg",
+          "value": "Perugia"
+        },
+        {
+          "id": "p.pi",
+          "value": "Pisa"
+        },
+        {
+          "id": "p.pn",
+          "value": "Pordenone"
+        },
+        {
+          "id": "p.po",
+          "value": "Prato"
+        },
+        {
+          "id": "p.pu",
+          "value": "Pesaro e Urbino"
+        },
+        {
+          "id": "p.pv",
+          "value": "Pavia"
+        },
+        {
+          "id": "p.pz",
+          "value": "Potenza"
+        },
+        {
+          "id": "p.ra",
+          "value": "Ravenna"
+        },
+        {
+          "id": "p.rc",
+          "value": "Reggio di Calabria"
+        },
+        {
+          "id": "p.re",
+          "value": "Reggio nell'Emilia"
+        },
+        {
+          "id": "p.ri",
+          "value": "Rieti"
+        },
+        {
+          "id": "p.rn",
+          "value": "Rimini"
+        },
+        {
+          "id": "p.ro",
+          "value": "Rovigo"
+        },
+        {
+          "id": "p.rg",
+          "value": "Ragusa"
+        },
+        {
+          "id": "p.rm",
+          "value": "Roma"
+        },
+        {
+          "id": "p.sa",
+          "value": "Salerno"
+        },
+        {
+          "id": "p.si",
+          "value": "Siena"
+        },
+        {
+          "id": "p.so",
+          "value": "Sondrio"
+        },
+        {
+          "id": "p.sp",
+          "value": "La Spezia"
+        },
+        {
+          "id": "p.sr",
+          "value": "Siracusa"
+        },
+        {
+          "id": "p.ss",
+          "value": "Sassari"
+        },
+        {
+          "id": "p.sv",
+          "value": "Savona"
+        },
+        {
+          "id": "p.ta",
+          "value": "Taranto"
+        },
+        {
+          "id": "p.te",
+          "value": "Teramo"
+        },
+        {
+          "id": "p.tn",
+          "value": "Trento"
+        },
+        {
+          "id": "p.to",
+          "value": "Torino"
+        },
+        {
+          "id": "p.tp",
+          "value": "Trapani"
+        },
+        {
+          "id": "p.tr",
+          "value": "Terni"
+        },
+        {
+          "id": "p.ts",
+          "value": "Trieste"
+        },
+        {
+          "id": "p.tv",
+          "value": "Treviso"
+        },
+        {
+          "id": "p.ud",
+          "value": "Udine"
+        },
+        {
+          "id": "p.va",
+          "value": "Varese"
+        },
+        {
+          "id": "p.vb",
+          "value": "Verbano-Cusio-Ossola"
+        },
+        {
+          "id": "p.vc",
+          "value": "Vercelli"
+        },
+        {
+          "id": "p.ve",
+          "value": "Venezia"
+        },
+        {
+          "id": "p.vi",
+          "value": "Vicenza"
+        },
+        {
+          "id": "p.vr",
+          "value": "Verona"
+        },
+        {
+          "id": "p.vs",
+          "value": "Medio Campidano"
+        },
+        {
+          "id": "p.vt",
+          "value": "Viterbo"
+        },
+        {
+          "id": "p.vv",
+          "value": "Vibo Valentia"
+        },
+        {
           "id": "c*",
           "value": "città"
         },
