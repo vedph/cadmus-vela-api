@@ -490,6 +490,30 @@
           "value": "celebrativa"
         },
         {
+          "id": "digit",
+          "value": "cifra"
+        },
+        {
+          "id": "digit.ara",
+          "value": "cifra: araba"
+        },
+        {
+          "id": "digit.arm",
+          "value": "cifra: armena"
+        },
+        {
+          "id": "digit.cyr",
+          "value": "cifra: cirillica"
+        },
+        {
+          "id": "digit.glg",
+          "value": "cifra: glagolitica"
+        },
+        {
+          "id": "digit.rom",
+          "value": "cifra: romana"
+        },
+        {
           "id": "quote",
           "value": "citazione"
         },
@@ -760,10 +784,6 @@
           "value": "lingua: latino"
         },
         {
-          "id": "lng.-",
-          "value": "lingua: n.d."
-        },
-        {
           "id": "i639",
           "value": "lingua (ISO639)"
         },
@@ -802,10 +822,6 @@
         {
           "id": "i639.lat",
           "value": "lingua (ISO639): latino"
-        },
-        {
-          "id": "i639.-",
-          "value": "lingua (ISO639): n.d."
         },
         {
           "id": "glg.-",
@@ -858,10 +874,6 @@
         {
           "id": "glg.vene1258",
           "value": "glottolog: veneziano"
-        },
-        {
-          "id": "glg.-",
-          "value": "n.d."
         }
       ]
     },
@@ -1558,298 +1570,6 @@
         {
           "id": "-",
           "value": "---"
-        }
-      ]
-    },
-    {
-      "id": "grf-writing-prevalent-casing@en",
-      "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
-        {
-          "id": "upper",
-          "value": "maiuscolo"
-        },
-        {
-          "id": "lower",
-          "value": "minuscolo"
-        }
-      ]
-    },
-    {
-      "id": "grf-writing-count-ids@en",
-      "entries": [
-        {
-          "id": "row",
-          "value": "righe"
-        }
-      ]
-    },
-    {
-      "id": "grf-writing-glottologs@en",
-      "entries": [
-        {
-          "id": "ital1282",
-          "value": "italiano"
-        },
-        {
-          "id": "vene1257",
-          "value": "veneziano"
-        },
-        {
-          "id": "anci1242",
-          "value": "greco antico"
-        },
-        {
-          "id": "medi1251",
-          "value": "greco medievale"
-        },
-        {
-          "id": "mode1248",
-          "value": "greco moderno"
-        },
-        {
-          "id": "inglese",
-          "value": "stan1293"
-        },
-        {
-          "id": "olde1238",
-          "value": "Old English"
-        },
-        {
-          "id": "midd1317",
-          "value": "Middle English"
-        },
-        {
-          "id": "oldn1244",
-          "value": "Old Norse"
-        },
-        {
-          "id": "olde1239",
-          "value": "Older Runic"
-        },
-        {
-          "id": "clas1249",
-          "value": "armeno classico"
-        },
-        {
-          "id": "arme1241",
-          "value": "armeno"
-        },
-        {
-          "id": "uk1253",
-          "value": "ucraino"
-        },
-        {
-          "id": "oldr1238",
-          "value": "antico russo"
-        },
-        {
-          "id": "russ1263",
-          "value": "russo"
-        },
-        {
-          "id": "prus1238",
-          "value": "antico prussiano"
-        },
-        {
-          "id": "old11238",
-          "value": "latino antico"
-        },
-        {
-          "id": "lati1261",
-          "value": "latino"
-        },
-        {
-          "id": "late1252",
-          "value": "latino tardo"
-        },
-        {
-          "id": "medi1250",
-          "value": "latino medievale"
-        },
-        {
-          "id": "anci1244",
-          "value": "ebraico antico"
-        },
-        {
-          "id": "hebr1245",
-          "value": "ebraico moderno"
-        },
-        {
-          "id": "oldp1256",
-          "value": "polacco antico"
-        },
-        {
-          "id": "poli1260",
-          "value": "polacco"
-        },
-        {
-          "id": "nuc11643",
-          "value": "giapponese"
-        },
-        {
-          "id": "mand1415",
-          "value": "mandarino"
-        },
-        {
-          "id": "lite1248",
-          "value": "cinese classico"
-        },
-        {
-          "id": "arab1395",
-          "value": "arabo"
-        },
-        {
-          "id": "-",
-          "value": "---"
-        }
-      ]
-    },
-    {
-      "id": "grf-writing-languages@en",
-      "entries": [
-        {
-          "id": "ara",
-          "value": "arabo"
-        },
-        {
-          "id": "arm",
-          "value": "armeno"
-        },
-        {
-          "id": "chi",
-          "value": "cinese"
-        },
-        {
-          "id": "dut",
-          "value": "olandese"
-        },
-        {
-          "id": "ita",
-          "value": "italiano"
-        },
-        {
-          "id": "lat",
-          "value": "latino"
-        },
-        {
-          "id": "jpn",
-          "value": "giapponese"
-        },
-        {
-          "id": "ita",
-          "value": "italiano"
-        },
-        {
-          "id": "grc",
-          "value": "greco ant."
-        },
-        {
-          "id": "gre",
-          "value": "greco mod."
-        },
-        {
-          "id": "ger",
-          "value": "tedesco"
-        },
-        {
-          "id": "fre",
-          "value": "francese"
-        },
-        {
-          "id": "eng",
-          "value": "inglese"
-        },
-        {
-          "id": "art",
-          "value": "artificiale"
-        },
-        {
-          "id": "-",
-          "value": "---"
-        }
-      ]
-    },
-    {
-      "id": "grf-writing-letter-features@en",
-      "entries": [
-        {
-          "id": "monogram",
-          "value": "monogramma"
-        },
-        {
-          "id": "letter",
-          "value": "lettere singole"
-        },
-        {
-          "id": "letter-unclear",
-          "value": "lettere non interpretabili"
-        },
-        {
-          "id": "drawing-unclear",
-          "value": "disegno non interpretabile"
-        }
-      ]
-    },
-    {
-      "id": "grf-writing-metres@en",
-      "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
-        {
-          "id": "s7",
-          "value": "settenario"
-        },
-        {
-          "id": "s8",
-          "value": "ottonario"
-        }
-      ]
-    },
-    {
-      "id": "grf-writing-scripts@en",
-      "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
-        {
-          "id": "gothic",
-          "value": "gotica"
-        },
-        {
-          "id": "chancery",
-          "value": "cancelleresca"
-        }
-      ]
-    },
-    {
-      "id": "grf-writing-script-features@en",
-      "entries": [
-        {
-          "id": "upper",
-          "value": "maiuscolo prevalente"
-        },
-        {
-          "id": "lower",
-          "value": "minuscolo prevalente"
-        },
-        {
-          "id": "punctuation",
-          "value": "interpunzione"
-        },
-        {
-          "id": "ligature",
-          "value": "nessi e legamenti"
-        },
-        {
-          "id": "abbreviation",
-          "value": "abbreviazioni"
         }
       ]
     },
