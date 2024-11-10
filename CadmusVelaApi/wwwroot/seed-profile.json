@@ -33,7 +33,7 @@
           "sortKey": "c"
         },
         {
-          "typeId": "t.vedph.epigraphy.support",
+          "typeId": "it.vedph.epigraphy.support",
           "name": "supporto",
           "description": "Supporto materiale.",
           "isRequired": true,
