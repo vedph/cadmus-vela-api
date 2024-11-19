@@ -4,7 +4,7 @@ Cadmus editor for the [Venezia Libro Aperto project](https://projet.biblissima.f
 
 🐋 Quick Docker image build:
 
-    docker build . -t vedph2020/cadmus-vela-api:3.0.3 -t vedph2020/cadmus-vela-api:latest
+    docker build . -t vedph2020/cadmus-vela-api:4.0.0 -t vedph2020/cadmus-vela-api:latest
 
 (replace with the current version).
 
@@ -19,6 +19,9 @@ This API uses core components from the following Cadmus libraries:
 
 ## History
 
+### 4.0.0
+
+- 2024-11-19: ⚠️ upgraded to .NET 9.
 - 2024-11-10: fix to profile.
 - 2024-11-02: ⚠️ refactoring for new models.
 - 2024-10-29:
