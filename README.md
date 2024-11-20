@@ -19,6 +19,8 @@ This API uses core components from the following Cadmus libraries:
 
 ## History
 
+- 2024-11-20: changes in profile.
+
 ### 4.0.1
 
 - 2024-11-19: changed seed delay name in app settings.

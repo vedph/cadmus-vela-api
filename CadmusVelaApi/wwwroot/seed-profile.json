@@ -51,20 +51,19 @@
           "sortKey": "e"
         },
         {
-          "typeId": "it.vedph.categories",
-          "name": "lingua",
-          "roleId": "lng",
-          "description": "Lingue del testo.",
-          "colorKey": "F8961E",
+          "typeId": "it.vedph.physical-states",
+          "name": "stati",
+          "description": "Stati di conservazione.",
+          "colorKey": "F9844A",
           "groupKey": "sintesi",
           "sortKey": "f"
         },
         {
-          "typeId": "it.vedph.categories",
-          "name": "contenuto",
-          "roleId": "cnt",
-          "description": "Tipi di contenuto.",
-          "colorKey": "F94144",
+          "typeId": "it.vedph.note",
+          "name": "bozza",
+          "roleId": "txt",
+          "description": "Prima trascrizione del testo.",
+          "colorKey": "F9C74F",
           "groupKey": "sintesi",
           "sortKey": "g"
         },
@@ -77,11 +76,11 @@
           "sortKey": "h"
         },
         {
-          "typeId": "it.vedph.physical-states",
-          "name": "stati",
-          "description": "Stati di conservazione.",
-          "colorKey": "F9844A",
-          "groupKey": "sintesi",
+          "typeId": "it.vedph.epigraphy.writing",
+          "name": "scrittura",
+          "description": "Scrittura.",
+          "colorKey": "4D908E",
+          "groupKey": "dettagli",
           "sortKey": "i"
         },
         {
@@ -93,12 +92,22 @@
           "sortKey": "j"
         },
         {
-          "typeId": "it.vedph.epigraphy.writing",
-          "name": "scrittura",
-          "description": "Scrittura.",
-          "colorKey": "4D908E",
+          "typeId": "it.vedph.categories",
+          "name": "lingua",
+          "roleId": "lng",
+          "description": "Lingue del testo.",
+          "colorKey": "F8961E",
           "groupKey": "dettagli",
           "sortKey": "k"
+        },
+        {
+          "typeId": "it.vedph.categories",
+          "name": "contenuto",
+          "roleId": "cnt",
+          "description": "Tipi di contenuto.",
+          "colorKey": "F94144",
+          "groupKey": "sintesi",
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.categories",
@@ -107,15 +116,6 @@
           "description": "Apparato figurativo.",
           "colorKey": "F3722C",
           "groupKey": "dettagli",
-          "sortKey": "l"
-        },
-        {
-          "typeId": "it.vedph.note",
-          "name": "bozza",
-          "roleId": "txt",
-          "description": "Prima trascrizione del testo.",
-          "colorKey": "F9C74F",
-          "groupKey": "testo",
           "sortKey": "m"
         },
         {
