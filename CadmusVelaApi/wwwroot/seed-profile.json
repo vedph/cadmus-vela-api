@@ -1346,6 +1346,10 @@
           "value": "ceramica"
         },
         {
+          "id": "plaster",
+          "value": "intonaco"
+        },
+        {
           "id": "brick",
           "value": "laterizio"
         },
@@ -1355,7 +1359,7 @@
         },
         {
           "id": "stone",
-          "value": "materiale litico"
+          "value": "litico"
         },
         {
           "id": "metal",
@@ -1385,6 +1389,10 @@
         {
           "id": "castle",
           "value": "castello"
+        },
+        {
+          "id": "church",
+          "value": "chiesa"
         },
         {
           "id": "cloister",
