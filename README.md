@@ -19,7 +19,9 @@ This API uses core components from the following Cadmus libraries:
 
 ## History
 
-- 2024-11-20: changes in profile.
+- 2024-11-20:
+  - changes in profile.
+  - updated packages.
 
 ### 4.0.1
 
