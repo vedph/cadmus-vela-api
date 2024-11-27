@@ -236,27 +236,33 @@
     },
     {
       "id": 64,
-      "label": "urbana",
-      "description": "urbana",
+      "label": "vela",
+      "description": "vela",
       "colorKey": "8E4D2A"
     },
     {
       "id": 128,
-      "label": "monastica",
-      "description": "monastica",
+      "label": "urbana",
+      "description": "urbana",
       "colorKey": "06AED5"
     },
     {
       "id": 256,
-      "label": "ducale",
-      "description": "ducale",
+      "label": "monastica",
+      "description": "monastica",
       "colorKey": "1F487E"
     },
     {
       "id": 512,
+      "label": "ducale",
+      "description": "ducale",
+      "colorKey": "AC2741"
+    },
+    {
+      "id": 1024,
       "label": "IMAI",
       "description": "Inscriptiones Medii Aevi Italiae",
-      "colorKey": "AC2741"
+      "colorKey": "E2C290"
     }
   ],
   "index": {
