@@ -226,7 +226,8 @@
       "id": 16,
       "label": "convalidata",
       "description": "Convalidata",
-      "colorKey": "E0A3FA"
+      "colorKey": "E0A3FA",
+      "isAdmin": true
     },
     {
       "id": 32,

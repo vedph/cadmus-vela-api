@@ -10,16 +10,16 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Cadmus.Api.Config" Version="10.1.2" />
-		<PackageReference Include="Cadmus.Api.Controllers" Version="10.1.0" />
-		<PackageReference Include="Cadmus.Api.Models" Version="10.1.0" />
-		<PackageReference Include="Cadmus.Api.Services" Version="10.1.0" />
-		<PackageReference Include="Cadmus.Graph.Extras" Version="8.0.1" />
-		<PackageReference Include="Cadmus.Seed.Epigraphy.Parts" Version="5.0.1" />
-		<PackageReference Include="Cadmus.Seed.General.Parts" Version="7.0.0" />
-		<PackageReference Include="Cadmus.Seed.Geo.Parts" Version="4.0.0" />
-		<PackageReference Include="Cadmus.Seed.Philology.Parts" Version="9.0.0" />
-		<PackageReference Include="Cadmus.Vela.Services" Version="3.0.1" />
+		<PackageReference Include="Cadmus.Api.Config" Version="10.1.4" />
+		<PackageReference Include="Cadmus.Api.Controllers" Version="10.1.4" />
+		<PackageReference Include="Cadmus.Api.Models" Version="10.1.4" />
+		<PackageReference Include="Cadmus.Api.Services" Version="10.1.5" />
+		<PackageReference Include="Cadmus.Graph.Extras" Version="8.0.2" />
+		<PackageReference Include="Cadmus.Seed.Epigraphy.Parts" Version="5.0.2" />
+		<PackageReference Include="Cadmus.Seed.General.Parts" Version="7.0.1" />
+		<PackageReference Include="Cadmus.Seed.Geo.Parts" Version="4.0.1" />
+		<PackageReference Include="Cadmus.Seed.Philology.Parts" Version="9.0.1" />
+		<PackageReference Include="Cadmus.Vela.Services" Version="3.0.2" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="9.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
