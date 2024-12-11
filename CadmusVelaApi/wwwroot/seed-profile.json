@@ -1442,6 +1442,10 @@
           "value": "ospedale"
         },
         {
+          "id": "monument",
+          "value": "monumento"
+        },
+        {
           "id": "palace",
           "value": "palazzo"
         },
@@ -1480,7 +1484,7 @@
         {
           "id": "accommodation",
           "value": "struttura ricettiva"
-        },  
+        },
         {
           "id": "tower",
           "value": "torre"
@@ -1517,6 +1521,10 @@
         {
           "id": "sill",
           "value": "davanzale"
+        },
+        {
+          "id": "graffitied-inscription",
+          "value": "epigrafe (graffito su)"
         },
         {
           "id": "window",
@@ -1557,6 +1565,10 @@
         {
           "id": "well",
           "value": "pozzo"
+        },
+        {
+          "id": "statue",
+          "value": "statua"
         },
         {
           "id": "jamb",
