@@ -19,6 +19,7 @@ This API uses core components from the following Cadmus libraries:
 
 ## History
 
+- 2025-01-01: updated packages.
 - 2024-12-24: updated packages.
 - 2024-12-20: updated packages.
 - 2024-12-11: added thesauri entries.
