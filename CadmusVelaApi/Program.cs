@@ -23,6 +23,7 @@ using Microsoft.AspNetCore.Builder;
 using Cadmus.Api.Config.Services;
 using Cadmus.Api.Config;
 using Cadmus.Vela.Services;
+using Cadmus.Api.Controllers.Import;
 
 namespace CadmusVelaApi;
 
@@ -147,6 +148,7 @@ public static class Program
             // controllers from Cadmus.Api.Controllers
             builder.Services.AddControllers()
                 .AddApplicationPart(typeof(ItemController).Assembly)
+                .AddApplicationPart(typeof(ThesaurusImportController).Assembly)
                 .AddControllersAsServices();
 
             WebApplication app = builder.Build();
