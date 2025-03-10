@@ -7,7 +7,7 @@ Cadmus editor for the [Venezia Libro Aperto project](https://projet.biblissima.f
 ```bash
 docker buildx create --use
 
-docker buildx build . --platform linux/amd64,linux/arm64 -t vedph2020/cadmus-vela-api:4.0.1 -t vedph2020/cadmus-vela-api:latest --push
+docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64,windows/arm64 -t vedph2020/cadmus-vela-api:4.0.1 -t vedph2020/cadmus-vela-api:latest --push
 ```
 
 (replace with the current version).
@@ -23,6 +23,7 @@ This API uses core components from the following Cadmus libraries:
 
 ## History
 
+- 2025-03-10: updated packages.
 - 2025-01-28: updated packages.
 - 2025-01-01: updated packages.
 - 2024-12-24: updated packages.
