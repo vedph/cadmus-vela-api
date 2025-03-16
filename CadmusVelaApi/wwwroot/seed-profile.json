@@ -1378,8 +1378,8 @@
         },
         {
           "id": "-",
-          "value": "-"
-        }  
+          "value": "altro"
+        }
       ]
     },
     {
@@ -1430,6 +1430,10 @@
           "value": "monastero"
         },
         {
+          "id": "monument",
+          "value": "monumento"
+        },
+        {
           "id": "museum",
           "value": "museo"
         },
@@ -1440,10 +1444,6 @@
         {
           "id": "hospital",
           "value": "ospedale"
-        },
-        {
-          "id": "monument",
-          "value": "monumento"
         },
         {
           "id": "palace",
@@ -1495,7 +1495,7 @@
         },
         {
           "id": "-",
-          "value": "n.d."
+          "value": "altro"
         }
       ]
     },
@@ -1537,6 +1537,10 @@
         {
           "id": "tombstone",
           "value": "lapide (graffito su)"
+        },
+        {
+          "id": "slab",
+          "value": "lastra"
         },
         {
           "id": "wall",
@@ -1581,6 +1585,10 @@
         {
           "id": "vault",
           "value": "volta"
+        },
+        {
+          "id": "-",
+          "value": "altro"
         }
       ]
     },
@@ -1601,7 +1609,7 @@
         },
         {
           "id": "-",
-          "value": "n.d."
+          "value": "altro"
         }
       ]
     },
@@ -1706,12 +1714,8 @@
           "value": "visigotica"
         },
         {
-          "id": "other",
-          "value": "altro"
-        },
-        {
           "id": "-",
-          "value": "-"
+          "value": "altro"
         }
       ]
     },
@@ -1818,7 +1822,7 @@
         {
           "id": "drill",
           "value": "trapano"
-        },  
+        },
         {
           "id": "paint",
           "value": "vernice"
@@ -1932,8 +1936,8 @@
         },
         {
           "id": "-",
-          "value": "-"
-        }  
+          "value": "altro"
+        }
       ]
     },
     {
