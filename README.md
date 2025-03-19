@@ -7,7 +7,7 @@ Cadmus editor for the [Venezia Libro Aperto project](https://projet.biblissima.f
 ```bash
 docker buildx create --use
 
-docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64,windows/arm64 -t vedph2020/cadmus-vela-api:4.0.1 -t vedph2020/cadmus-vela-api:latest --push
+docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64,windows/arm64 -t vedph2020/cadmus-vela-api:4.0.2 -t vedph2020/cadmus-vela-api:latest --push
 ```
 
 (replace with the current version).
@@ -22,6 +22,8 @@ This API uses core components from the following Cadmus libraries:
 - [geography](https://github.com/vedph/cadmus-geo)
 
 ## History
+
+### 4.0.2
 
 - 2025-03-16: updated thesauri.
 - 2025-03-14: updated packages.
